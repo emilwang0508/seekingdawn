@@ -36,3 +36,31 @@ $input-color-placeholder: lighten($text-color, 30%);
 
 // Panels
 $panel-default-heading-bg: #fff;
+
+// custom
+$title-margin-top: 130px;
+.clear-fix{
+  clear: both;
+}
+.text-center{
+  text-align: center;
+}
+%col-padding-top{
+  padding-top: 1px;
+}
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}
+.container-fluid{
+  width: 100%;
+}
+@font-face {
+  font-family: 'Title';
+  src: url('/fonts/HATTEN.eot');
+  src: url('/fonts/HATTEN.eot?#iefix') format('embedded-opentype'),
+  url('/fonts/HATTEN.woff') format('woff'),
+  url('/fonts/HATTEN.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,0 +1,73 @@
+@import "variables";
+.screenshot{
+  @extend %col-padding-top;
+  height: 1080px;
+  background:#282828 url("/images/screenshot_bg.jpg") no-repeat center;
+}
+.screenshot-list{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  height: 675px;
+  transition: all 1.5s;
+  background: #000000;
+  margin-top: 100px;
+}
+.screenshot-list.active>li{
+  opacity: 0.3;
+  transition: all 1.5s;
+  z-index: 9;
+}
+.screenshot-list.active>li.active{
+  opacity: 1;
+  z-index: 10;
+  transform: scale(1.4);
+  transition: all 1s;
+}
+/*.screenshot .shadow{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 8;
+  top:0;
+  left: 0;
+  background: rgba(0,0,0,0.4);
+}*/
+.screenshot-list>li{
+  list-style:none;
+  width: 25%;
+  float: left;
+  height: 225px;
+
+}
+/*.screenshot-list>li.active>img{
+  opacity: 1;
+}*/
+.screenshot-list>li>img{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  transition: all 0.6s;
+}
+/*.screenshot-list>li>img:hover{
+  transform: scale(1.4);
+  opacity: 1;
+  z-index: 100;
+}*/
+.screenshot-list>li:nth-of-type(5),.screenshot-list>li:nth-of-type(9){
+  width: 12.25%;
+}
+.red{
+  background: red;
+}
+.blue{
+  background: blue;
+}
+.yellow{
+  background: yellow;
+}
+.orange{
+  background: orange;
+}

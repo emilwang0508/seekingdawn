@@ -1,0 +1,29 @@
+// Variables
+@import "variables";
+.footer, footer{
+  background: url("/images/sd_footer_bg.png") no-repeat center;
+  height: 935px;
+  color: #ffffff;
+  text-align:center;
+  padding-top: 1px;
+  @extend %col-padding-top;
+  .media-link{
+    margin-top: 760px;
+    font-size: 32px;
+  }
+  .media-link>*,.partner>*{
+    margin: 0 17px;
+    width: 32px;
+    text-align: center;
+  }
+  .copyright{
+    font-size: 16px;
+  }
+  a,a:link,a:visited{
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .partner{
+    font-size: 32px;
+  }
+}

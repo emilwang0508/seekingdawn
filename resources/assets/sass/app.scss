@@ -1,9 +1,169 @@
 
 // Fonts
-@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+//@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
 
 // Variables
 @import "variables";
+// normalize
+@import "normalize";
+// navbar
+@import "navbar";
+// footer
+@import "footer";
+// art components
+@import "art";
+// press compoents
+@import "press";
+// title
+@import "title";
+// screenshot
+@import "screenshot";
+// dev
+@import "dev";
+// press
+@import "press";
+body{
+  font-family: "MicrosoftYaHei";
+  background-color: #212121;
+}
+p{
+  font-size: 14px;
+  font-family: "MicrosoftYaHei";
+}
+.input-group{
+  text-align: center;
+  margin: 0 auto;
+  text-align: center;
+  margin: 40px 0;
+  input{
+    border:1px solid #000000;
+    -webkit-appearance: none;
+    padding: 0 5px;
+    width: 500px;
+    height: 45px;
+    line-height: 45px;
+  }
+  button.subscribe{
+    font-size: 18px;
+    background: #000000;
+    -webkit-appearance: none;
+    color: #ffffff;
+    border:none;
+    border-radius: 3px;
+    text-align: center;
+    padding: 0 40px;
+    height: 45px;
+    line-height: 45px;
+  }
+}
+.icon{
+  width: 1em; height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+.content-col{
+  width: 700px;
+  margin: 0 auto;
+}
+.banner {
+  position: relative;
+  height: 975px;
+  top: 0;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.play_btn{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, 30%);
+  transform: translate(-50%, 30%);
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-top: 55px solid transparent;
+  border-bottom: 55px solid transparent;
+  border-left: 93px solid #ecebe7;
+  cursor: pointer;
+}
+.play_btn::before{
+  content: " ";
+  position: absolute;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-top: 40px solid transparent;
+  border-bottom: 40px solid transparent;
+  border-left: 73px solid #e71f19;
+  bottom: -40px;
+  right: 12px;
+}
+.banner_logo{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -100%);
+  transform: translate(-50%, -100%);
+}
 
-// Bootstrap
-@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+/*intro*/
+.intro{
+  height: 350px;
+  background-color: #ffffff;
+  //text-align: center;
+  padding-top: 1px;
+  .content{
+    width: 715px;
+    margin: 0 auto;
+    text-align: left;
+    text-indent: 20px;
+  }
+}
+.title.default{
+  display: table;
+  width: 480px;
+  line-height: 32px;
+  margin: 0 auto;
+  background-color: #fff;
+  white-space: nowrap;
+  border-spacing: 10px 0;
+  font-size: 50px;
+  font-family: "title";
+  margin-top: $title-margin-top;
+  margin-bottom: 29px;
+  letter-spacing: 5px;
+}
+.title.default:before, .title.default:after{
+  display: table-cell;
+  content: '';
+  width: 50%;
+  background: -webkit-linear-gradient(#000,#000) repeat-x left center;
+  background: linear-gradient(#000,#000) repeat-x left center;
+  background-size: 1px 1px;
+}
+.title.white{
+  display: table;
+  width: 480px;
+  line-height: 32px;
+  margin: 0 auto;
+  background-color: rgba(0,0,0,0);
+  color: #ffffff;
+  white-space: nowrap;
+  border-spacing: 10px 0;
+  font-size: 50px;
+  font-family: "title";
+  margin-top: $title-margin-top;
+  margin-bottom: 29px;
+  letter-spacing: 5px;
+}
+.title.white:before, .title.white:after{
+  display: table-cell;
+  content: '';
+  width: 50%;
+  background: -webkit-linear-gradient(#fff,#fff) repeat-x left center;
+  background: linear-gradient(#fff,#fff) repeat-x left center;
+  background-size: 1px 1px;
+}

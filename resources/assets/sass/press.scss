@@ -1,0 +1,8 @@
+// Variables
+@import "variables";
+.press{
+  text-align: center;
+  background-color: #ffffff;
+  @extend %col-padding-top;
+  padding-bottom: 80px;
+}
