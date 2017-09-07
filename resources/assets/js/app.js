@@ -21,8 +21,12 @@ Vue.use(VueLazyload)
  * the page. Then, you may begin adding components to this application
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
+// Vue.component('loading', require('./components/Loading.vue'));//loading 组件
+/*
+* pages
+* */
+Vue.component('Index', require('./pages/Index.vue'));//navbar 组件
 Vue.component('navbar', require('./components/Navbar.vue'));//navbar 组件
-Vue.component('loading', require('./components/Loading.vue'));//navbar 组件
 Vue.component('banner', require('./components/Banner.vue'));//banner 组件
 Vue.component('art', require('./components/Art.vue'));//Art 组件
 Vue.component('press', require('./components/Press.vue'));//Art 组件

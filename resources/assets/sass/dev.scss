@@ -1,7 +1,7 @@
 // Variables
 @import "variables";
 .dev-blog{
-  height: 1360px;
+  height: 1050px;
   background-color: #ffffff;
   @extend %col-padding-top;
   .subtitle{
@@ -78,7 +78,5 @@
       }
     }
   }
-  .subscribe-area{
-    margin-top: 60px;
-  }
+
 }

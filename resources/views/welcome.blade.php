@@ -1,12 +1,4 @@
 @extends('layouts.app')
 @section('content')
-    <loading></loading>
-    <navBar></navBar>
-    <banner></banner>
-    <intro></intro>
-    <art></art>
-    <press></press>
-    <screenshot></screenshot>
-    <dev-blog></dev-blog>
-    <footer-bar></footer-bar>
+    <Index></Index>
 @endsection

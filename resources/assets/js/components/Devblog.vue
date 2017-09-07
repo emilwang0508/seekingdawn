@@ -1,11 +1,11 @@
 <template>
-    <div class="dev-blog container-fluid">
+    <div class="dev-blog container-fluid hidden">
         <title-bar msg='THE DEVELOPERS BLOG' came='default'></title-bar>
         <div class="subtitle">
             <p>Every week we plan to release a new developer blog highlighting that weeks development for Seeking Dawn!</p>
             <p>We encourage you to follow our journey through these blogs and let us know your thoughts. </p>
         </div>
-        <ul class="blog-list container">
+        <ul class="blog-list container ">
             <li v-for="(item, index) in blogData">
                 <div class="top">
                     <img v-lazy="item.thumb" :alt="item.thumb_title" class="thumb">
@@ -20,17 +20,8 @@
                 </div>
             </li>
         </ul>
-        <form action="#" method="post" class="subscribe-area">
-            <p class="text-center">consider joining our newsletter to get updates, sneek peaks & more!</p>
-            <div class="input-group input">
-                <label for="email"></label>
-                <input type="email" placeholder="your email" name="email" class="email" id="email">
-            </div>
-            <div class="input-group input">
-                <button type="submit" class="subscribe">Subscribe</button>
-            </div>
-        </form>
     </div>
+
 </template>
 
 <script>

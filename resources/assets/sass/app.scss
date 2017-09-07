@@ -20,8 +20,12 @@
 @import "screenshot";
 // dev
 @import "dev";
+// subscribe
+@import "subscribe";
 // press
 @import "press";
+// poppage
+@import "poppage";
 body{
   font-family: "MicrosoftYaHei";
   background-color: #212121;
@@ -30,11 +34,14 @@ p{
   font-size: 14px;
   font-family: "MicrosoftYaHei";
 }
+.hidden{
+  display: none;
+}
 .input-group{
   text-align: center;
   margin: 0 auto;
   text-align: center;
-  margin: 40px 0;
+  margin: 40px 0 0;
   input{
     border:1px solid #000000;
     -webkit-appearance: none;

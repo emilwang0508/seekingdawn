@@ -566,6 +566,8 @@ footer,
   text-align: center;
   cursor: pointer;
   padding: 12.5px 12px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .nav-bar .nav-icon {
@@ -585,6 +587,8 @@ footer,
   left: 0;
   z-index: 9;
   padding: 12.5px 12px;
+  -webkit-transition: all 0s;
+  transition: all 0s;
 }
 
 .nav-bar.active .nav-link {
@@ -602,6 +606,10 @@ footer,
   text-decoration: none;
   font-size: 20px;
   display: block;
+}
+
+.nav-bar.active .nav-link a:hover {
+  color: #9a9a9a;
 }
 
 .clear-fix {
@@ -944,7 +952,7 @@ footer,
 }
 
 .dev-blog {
-  height: 1360px;
+  height: 1050px;
   background-color: #ffffff;
 }
 
@@ -1035,8 +1043,9 @@ footer,
   border-radius: 5px;
 }
 
-.dev-blog .subscribe-area {
-  margin-top: 60px;
+.subscribe-area {
+  padding: 50px 0;
+  background-color: #fff;
 }
 
 .clear-fix {
@@ -1078,6 +1087,37 @@ footer,
   padding-bottom: 80px;
 }
 
+.pop-page {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.pop-page .fa-close {
+  color: #fff;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.pop-page iframe.video {
+  position: fixed;
+  display: block;
+  width: 900px;
+  height: 600px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
 body {
   font-family: "MicrosoftYaHei";
   background-color: #212121;
@@ -1088,11 +1128,15 @@ p {
   font-family: "MicrosoftYaHei";
 }
 
+.hidden {
+  display: none;
+}
+
 .input-group {
   text-align: center;
   margin: 0 auto;
   text-align: center;
-  margin: 40px 0;
+  margin: 40px 0 0;
 }
 
 .input-group input {
