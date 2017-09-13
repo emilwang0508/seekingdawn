@@ -1,7 +1,7 @@
 <template>
     <div class="pop-page" v-if="isShow">
         <i class="fa fa-close fa-2x" @click="hidePopPage()"></i>
-        <iframe id="video-frame" class="video" src="https://www.youtube.com/embed/EJAihYOcSGo" frameborder="0" allowfullscreen></iframe>
+        <iframe id="video-frame" class="video" src="https://www.youtube.com/embed/MgEUGNsFIPA" frameborder="0" allowfullscreen></iframe>
     </div>
 </template>
 
