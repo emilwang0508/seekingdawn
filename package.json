@@ -24,6 +24,7 @@
         "animate.css": "^3.5.2",
         "font-awesome": "^4.7.0",
         "loading-svg": "^1.0.0",
+        "vee-validate": "^2.0.0-rc.14",
         "vue-lazyload": "^1.1.3"
     }
 }

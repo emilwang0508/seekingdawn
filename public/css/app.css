@@ -833,32 +833,41 @@ footer,
 }
 
 .screenshot-list {
+  position: relative;
   width: 100%;
   margin: 0;
   padding: 0;
   position: relative;
   height: 675px;
-  -webkit-transition: all 1.5s;
-  transition: all 1.5s;
+  -webkit-transition: all 1s;
+  transition: all 1s;
   background: #000000;
   margin-top: 100px;
 }
 
+/*.screenshot-list.active .shadow,.screenshot-list:hover .shadow{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  opacity: 0.5;
+  z-index: 10;
+}*/
+
 .screenshot-list.active > li {
-  opacity: 0.3;
-  -webkit-transition: all 1.5s;
-  transition: all 1.5s;
+  -webkit-transition: all 1s;
+  transition: all 1s;
   z-index: 9;
 }
 
-.screenshot-list.active > li.active {
-  opacity: 1;
+/*.screenshot-list.active>li.active{
+  //opacity: 1;
   z-index: 10;
-  -webkit-transform: scale(1.4);
-          transform: scale(1.4);
-  -webkit-transition: all 1s;
+  transform: scale(1.4);
   transition: all 1s;
-}
+}*/
 
 /*.screenshot .shadow{
   position: absolute;
@@ -877,11 +886,31 @@ footer,
   height: 225px;
 }
 
-/*.screenshot-list>li.active>img{
+.screenshot-list > li {
   opacity: 1;
-}*/
+}
+
+.screenshot-list:hover > li,
+.screenshot-list.active > li {
+  opacity: 0.5;
+}
+
+.screenshot-list:hover > li.active,
+.screenshot-list.active > li.active {
+  opacity: 1 !important;
+  z-index: 10;
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.screenshot-list.active > li > img {
+  opacity: 1;
+}
 
 .screenshot-list > li > img {
+  opacity: 1;
   width: 100%;
   height: 100%;
   overflow: hidden;
@@ -1146,9 +1175,10 @@ p {
   width: 500px;
   height: 45px;
   line-height: 45px;
+  text-indent: 5px;
 }
 
-.input-group button.subscribe {
+.input-group .subscribe {
   font-size: 18px;
   background: #000000;
   -webkit-appearance: none;
@@ -1158,7 +1188,9 @@ p {
   text-align: center;
   padding: 0 40px;
   height: 45px;
+  display: inline-block;
   line-height: 45px;
+  cursor: pointer;
 }
 
 .icon {

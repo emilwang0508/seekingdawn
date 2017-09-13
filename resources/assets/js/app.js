@@ -9,7 +9,9 @@ require('./bootstrap');
 
 window.Vue = require('vue');
 import VueLazyload from 'vue-lazyload'
+import VeeValidate from 'vee-validate';
 Vue.use(VueLazyload)
+Vue.use(VeeValidate)
 /*Vue.use(VueLazyload, {
     preLoad: 1.3,
     error: 'dist/error.png',

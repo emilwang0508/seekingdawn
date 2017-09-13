@@ -9,7 +9,7 @@
         <p class="copyright">
             <a href="#">Terms of Service</a>
             <a href="#">Privacy Policy</a>
-            <a href="#">Copyright © Multiverse Enterta</a>
+            <a href="#">Copyright © Multiverse Entertainment LLC</a>
         </p>
         <div class="partner">
             <a href="#">
