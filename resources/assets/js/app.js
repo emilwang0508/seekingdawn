@@ -34,7 +34,6 @@ Vue.component('art', require('./components/Art.vue'));//Art 组件
 Vue.component('press', require('./components/Press.vue'));//Art 组件
 Vue.component('screenshot', require('./components/screenshot.vue'));//screenshot 组件
 Vue.component('intro', require('./components/Intro.vue'));//Intro 组件
-// Vue.component('example', require('./components/Example.vue'));
 Vue.component('devBlog', require('./components/Devblog.vue'));//devbog 组件
 Vue.component('footerBar', require('./components/FooterBar.vue'));//Art 组件
 

@@ -1,10 +1,10 @@
 // Variables
 @import "variables";
 .art{
-  background: url(/images/art_bg.png) no-repeat center;
   padding-top: 1px;
   height: 625px;
   background-size: cover;
+  position: relative;
   .art-list{
     list-style: none;
     height: 400px;
@@ -13,7 +13,11 @@
       float: left;
       width: 240px;
       height: 400px;
+      //display: none;
     }
+    /*li.active{
+      display: inline-block!important;
+    }*/
     img{
       transition: all 0.6s;
       width: 100%;
@@ -22,6 +26,19 @@
     }
     img:hover{
       transform: scale(1.2);
+      box-shadow: 0px 9px 24.03px 2.97px rgba(0, 0, 0, 0.25);
     }
   }
+  .fa-chevron-left,.fa-chevron-right{
+    position: absolute;
+    top: 75%;
+    cursor: pointer;
+  }
+  .fa-chevron-left{
+    left: 10px;
+  }
+  .fa-chevron-right{
+    right: 10px;
+  }
 }
+

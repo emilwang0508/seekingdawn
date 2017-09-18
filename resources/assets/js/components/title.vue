@@ -1,5 +1,6 @@
 <template>
     <p class="title" v-bind:class="came">{{ msg }}</p>
+
 </template>
 
 <script>

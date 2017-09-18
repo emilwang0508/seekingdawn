@@ -7,7 +7,7 @@
             <a href="https://www.instagram.com/vrmultiverse/"><i class="fa fa-instagram "></i></a>
         </div>
         <p class="copyright">
-            <a href="https://www.multiverseinc.com/legal/tos">Terms of Service</a>
+            <a href="https://www.multiverseinc.com/legal/tos">Terms of Service</a> |
             <a href="https://www.multiverseinc.com/legal/privacy">Privacy Policy</a>
             <a href="https://www.multiverseinc.com">Copyright © Multiverse Entertainment LLC</a>
         </p>

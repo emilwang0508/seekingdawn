@@ -26,10 +26,9 @@
 @import "press";
 // poppage
 @import "poppage";
-body{
-  font-family: "MicrosoftYaHei";
-  background-color: #212121;
-}
+// image-carousel
+@import "image-carousel";
+body,html{font-family:'Microsoft YaHei','Hiragino Sans GB',Helvetica,Arial,'Lucida Grande',sans-serif;}
 p{
   font-size: 14px;
   font-family: "MicrosoftYaHei";
@@ -88,9 +87,7 @@ p{
 .play_btn{
   position: absolute;
   left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%, 30%);
-  transform: translate(-50%, 30%);
+  top: 55%;
   display: inline-block;
   width: 0;
   height: 0;
@@ -98,6 +95,24 @@ p{
   border-bottom: 55px solid transparent;
   border-left: 93px solid #ecebe7;
   cursor: pointer;
+  transition: all 1s;
+  z-index: 9;
+}
+.play_btn:hover{
+  animation: shake 1.5s;
+}
+@keyframes shake {
+  from, to {
+    transform: translate3d(0, 0, 0);
+  }
+
+  10%, 30%, 50%, 70%, 90% {
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  20%, 40%, 60%, 80% {
+    transform: translate3d(10px, 0, 0);
+  }
 }
 .play_btn::before{
   content: " ";
@@ -111,12 +126,14 @@ p{
   bottom: -40px;
   right: 12px;
 }
+
 .banner_logo{
   position: absolute;
   left: 50%;
   top: 50%;
   -webkit-transform: translate(-50%, -100%);
   transform: translate(-50%, -100%);
+  z-index: 9;
 }
 
 /*intro*/
@@ -176,4 +193,21 @@ p{
   background: -webkit-linear-gradient(#fff,#fff) repeat-x left center;
   background: linear-gradient(#fff,#fff) repeat-x left center;
   background-size: 1px 1px;
+}
+.mask{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: inherit;
+  height: inherit;
+  background-color: #000000;
+  opacity: 0.5;
+  z-index: 2;
+}
+.des{
+  width: 480px;
+  margin: 0 auto;
+}
+.white{
+  color: #fff;
 }

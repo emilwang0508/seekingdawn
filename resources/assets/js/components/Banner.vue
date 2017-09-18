@@ -1,7 +1,10 @@
 <template>
     <div class="banner container-fluid"  v-lazy:background-image="bannerBg">
         <img v-lazy="logoSrc" alt="seeking dawn" class="banner_logo">
-        <div class="play_btn" v-on:click="playVideo()"></div>
+        <div class="play_btn" v-on:click="playVideo()">
+
+        </div>
+        <div class="mask"></div>
     </div>
 </template>
 
@@ -14,6 +17,7 @@
             return {
                 bannerBg: 'images/index_banner.jpg',
                 logoSrc: 'images/seekingdawn_logo.png',
+                animate: true
             }
         },
         methods:{
