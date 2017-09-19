@@ -78,27 +78,68 @@ p{
 }
 .banner {
   position: relative;
-  height: 975px;
+  //height: 975px;
+  height: 900px;
   top: 0;
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  .monster{
+    position: absolute;
+    top: 160px;
+    left: 0;
+  }
+  .banner_logo{
+    position: absolute;
+    left: 960px;
+    top: 45%;
+    z-index: 9;
+  }
+  .btn_group{
+    position: absolute;
+    left: 986px;
+    top: 70%;
+    line-height: 58px;
+    color: #fff;
+    font-size: 20px;
+    z-index: 9;
+    a{
+      line-height: 55px;
+      display: table;
+      float: left;
+      margin-left: 50px;
+      cursor: pointer;
+      color: #ffffff;
+      text-decoration: none;
+      img{
+        vertical-align: middle;
+      }
+      span{
+        margin-top: 0px;
+        line-height: 58px;
+        display: table-cell;
+        height: 58px;
+        vertical-align: middle;
+        padding-left: 10px;
+      }
+    }
+  }
 }
 .play_btn{
   position: absolute;
-  left: 50%;
-  top: 55%;
   display: inline-block;
   width: 0;
   height: 0;
-  border-top: 55px solid transparent;
-  border-bottom: 55px solid transparent;
-  border-left: 93px solid #ecebe7;
+  border-top: 29px solid transparent;
+  border-bottom: 29px solid transparent;
+  border-left: 50px solid #ecebe7;
   cursor: pointer;
   transition: all 1s;
   z-index: 9;
+  margin-right: 80px;
 }
+
 .play_btn:hover{
   animation: shake 1.5s;
 }
@@ -121,21 +162,14 @@ p{
   display: inline-block;
   width: 0;
   height: 0;
-  border-top: 40px solid transparent;
-  border-bottom: 40px solid transparent;
-  border-left: 73px solid #e71f19;
-  bottom: -40px;
-  right: 12px;
+  border-top: 18px solid transparent;
+  border-bottom: 18px solid transparent;
+  border-left: 30px solid #e71f19;
+  bottom: -18px;
+  right: 13px;
 }
 
-.banner_logo{
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -100%);
-  transform: translate(-50%, -100%);
-  z-index: 9;
-}
+
 
 /*intro*/
 .intro{

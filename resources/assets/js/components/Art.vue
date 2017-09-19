@@ -1,6 +1,6 @@
 <template>
     <div class="art container-fluid"  v-lazy:background-image="artBg" >
-        <title-bar msg='Art gallery' came='white'></title-bar>
+        <title-bar msg='ART GALLERY' came='white'></title-bar>
         <p class="des white">
             Seeking Dawn is a large scale survival-exploration FPS/RPG VR game from Multiverse. It puts the player into an immersive alien "death world" full of interesting creatures.
         </p>
