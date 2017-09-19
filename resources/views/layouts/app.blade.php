@@ -9,6 +9,7 @@
     <title>SeekingDawn</title>
 
     <!-- Styles -->
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" media="screen" />
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/loading.css') }}" rel="stylesheet">
     <link href="{{ asset('font-awesome/css/font-awesome.min.css') }}" rel="stylesheet">
