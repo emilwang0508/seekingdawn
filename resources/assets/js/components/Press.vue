@@ -7,7 +7,7 @@
             <p>Plenty of news came out of Unity’s  Vision Summit keynote talk yesterday, including a look at a hugely </p>
             <p>ambitious new first-person shooter (FPS) for VR headsets, Seeking Dawn......</p>
         </div>
-
+        <a href="https://uploadvr.com/seeking-dawn-looks-like-hugely-ambitious-vr-shooter/" class="readMore" target="_blank">Read</a>
     </div>
 </template>
 
