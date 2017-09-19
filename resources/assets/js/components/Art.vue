@@ -4,11 +4,11 @@
         <p class="des white">
             Seeking Dawn is a large scale survival-exploration FPS/RPG VR game from Multiverse. It puts the player into an immersive alien "death world" full of interesting creatures.
         </p>
-        <i class="fa fa-chevron-left white fa-2x" @click="leftChangeShowList()"></i>
+        <i class="fa fa-angle-left white fa-2x" @click="leftChangeShowList()"></i>
         <ul class="art-list container">
             <li v-for="(item, index) in artList"  v-show="isActive(index)"><img v-lazy="item.src" :alt="item.alt" ></li>
         </ul>
-        <i class="fa fa-chevron-right white fa-2x" @click="rightChangeShowList()"></i>
+        <i class="fa fa-angle-right white fa-2x" @click="rightChangeShowList()"></i>
     </div>
 </template>
 

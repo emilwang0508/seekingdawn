@@ -13,12 +13,14 @@
   height: 675px;
   background: #000000;
   margin-top: 100px;
+  transition: all 0.5s;
 }
 .screenshot-list>li{
   list-style:none;
   width: 25%;
   float: left;
   height: 225px;
+  transition: all 0.5s;
 }
 .screenshot-list:hover{
   opacity: 0.6;

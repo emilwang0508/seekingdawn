@@ -29,15 +29,15 @@
       box-shadow: 0px 9px 24.03px 2.97px rgba(0, 0, 0, 0.25);
     }
   }
-  .fa-chevron-left,.fa-chevron-right{
+  .fa-angle-left,.fa-angle-right{
     position: absolute;
     top: 75%;
     cursor: pointer;
   }
-  .fa-chevron-left{
+  .fa-angle-left{
     left: 10px;
   }
-  .fa-chevron-right{
+  .fa-angle-right{
     right: 10px;
   }
 }

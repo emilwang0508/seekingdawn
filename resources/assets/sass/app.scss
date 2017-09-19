@@ -31,7 +31,8 @@
 body,html{font-family:'Microsoft YaHei','Hiragino Sans GB',Helvetica,Arial,'Lucida Grande',sans-serif;}
 p{
   font-size: 14px;
-  font-family: "MicrosoftYaHei";
+  font-family: 'Microsoft YaHei','Hiragino Sans GB',Helvetica,Arial,'Lucida Grande',sans-serif;
+  line-height: 24px;
 }
 .hidden{
   display: none;
@@ -138,15 +139,17 @@ p{
 
 /*intro*/
 .intro{
-  height: 350px;
+  height: 190px;
   background-color: #ffffff;
-  //text-align: center;
   padding-top: 1px;
+  padding: 100px 0;
+  .title{
+    margin-top: 0px!important;
+  }
   .content{
     width: 715px;
     margin: 0 auto;
-    text-align: left;
-    text-indent: 20px;
+    text-align: center;
   }
 }
 .title.default{
@@ -205,8 +208,9 @@ p{
   z-index: 2;
 }
 .des{
-  width: 480px;
+  width: 715px;
   margin: 0 auto;
+  text-align: center;
 }
 .white{
   color: #fff;

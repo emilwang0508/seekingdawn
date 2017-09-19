@@ -4,7 +4,7 @@
         <div class="play_btn" v-on:click="playVideo()">
 
         </div>
-        <div class="mask"></div>
+        <div class="mask" style="opacity: 0.2;"></div>
     </div>
 </template>
 
