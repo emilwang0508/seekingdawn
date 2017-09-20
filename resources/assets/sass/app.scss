@@ -37,6 +37,15 @@ p{
 .hidden{
   display: none;
 }
+body{
+  min-width: 1900px;
+}
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+
 .input-group{
   text-align: center;
   margin: 0 auto;
@@ -80,6 +89,7 @@ p{
   position: relative;
   //height: 975px;
   height: 900px;
+  min-width: 1900px;
   top: 0;
   text-align: center;
   background-size: cover;

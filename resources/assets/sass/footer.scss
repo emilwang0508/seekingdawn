@@ -6,19 +6,37 @@
   color: #ffffff;
   text-align:center;
   padding-top: 1px;
+  min-width: 1900px;
+  background-size: cover;
   @extend %col-padding-top;
   .media-link{
-    margin-top: 760px;
     font-size: 32px;
+    margin: 10px 0;
   }
-  .media-link>*,.partner>*{
+ .partner>*{
     margin: 0 17px;
+    width: 32px;
+    text-align: center;
+  }
+  .media-link>*{
+    margin: 0px 20px;
     width: 32px;
     text-align: center;
   }
   .copyright{
     font-size: 16px;
   }
+  .left,.right{
+    width: 50%;
+    float: left;
+    margin-top: 760px;
+  }
+  .left{
+    text-align: left;
+  }
+  .right{
+    text-align: right;
+   }
   a,a:link,a:visited{
     color: #ffffff;
     text-decoration: none;

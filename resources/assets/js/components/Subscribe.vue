@@ -1,7 +1,7 @@
 <template>
     <div class="subscribe-area container-fluid">
         <!--<form method="post" class="subscribe-area">-->
-            <p class="text-center">consider joining our newsletter to get updates, sneek peaks & more!</p>
+            <p class="text-center">Consider joining our newsletter for exclusive sneak peeks, updates, and more!</p>
             <div class="input-group input">
                 <label for="email"></label>
                 <input type="text" placeholder="your email" name="email" class="email" id="email" v-model="email" v-validate="'required|email'">

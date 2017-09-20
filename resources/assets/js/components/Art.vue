@@ -2,7 +2,7 @@
     <div class="art container-fluid"  v-lazy:background-image="artBg" >
         <title-bar msg='ART GALLERY' came='white'></title-bar>
         <p class="des white">
-            Seeking Dawn is a large scale survival-exploration FPS/RPG VR game from Multiverse. It puts the player into an immersive alien "death world" full of interesting creatures.
+            An extensive sci-fi adventure offering dozens of hours of gameplay, Seeking Dawn combines rich storytelling with gritty combat in both solo and cooperative modes, as well as additional challenge modes for even better loot. Scavenge, craft, build, explore, fight, and most importantly, find a way home.
         </p>
         <i class="fa fa-angle-left white fa-2x" @click="leftChangeShowList()"></i>
         <ul class="art-list container">
@@ -47,16 +47,14 @@
         },
         methods: {
             leftChangeShowList(){
-                let e = Array.from(this.showList, x=>{
-                    if( x<=4){
-                        return x = x;
-                    }else {
+                if(this.showList.indexOf(4)===4){
+                    return this.showList
+                }else {
+                    let e = Array.from(this.showList, x=>{
                         return x = x - 1
-
-                    }
-                })
-                this.showList = e
-                console.log(this.showList)
+                    })
+                    this.showList = e
+                }
             },
             rightChangeShowList(){
                 const _length = this.artList.length
@@ -71,7 +69,6 @@
                     e = [_length-5,_length-4,_length-3,_length-2,_length-1]
                 }
                 this.showList = e
-                console.log(this.showList)
             },
             isActive(index){
                 let res= this.showList.indexOf(index)
