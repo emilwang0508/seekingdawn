@@ -3,8 +3,8 @@
         <div class="container">
             <div class="social-link fl">
                 <p>Join our community !</p>
-                <a href="https://www.facebook.com/MultiverseVR" class="fa fa-facebook"></a>
-                <a href="https://twitter.com/VRmultiverse" class="fa fa-twitter"></a>
+                <a href="https://www.facebook.com/groups/seekingdawnna/" class="fa fa-facebook"></a>
+                <a href="https://twitter.com/VRmultiverse" class="fa fa-users"></a>
             </div>
             <div class="fl">
                 <p class="text-center">Consider joining our newsletter for exclusive sneak peeks, updates, and more!</p>
