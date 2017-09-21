@@ -1,15 +1,21 @@
 <template>
     <div class="subscribe-area container-fluid">
-        <!--<form method="post" class="subscribe-area">-->
-            <p class="text-center">Consider joining our newsletter for exclusive sneak peeks, updates, and more!</p>
-            <div class="input-group input">
-                <label for="email"></label>
-                <input type="text" placeholder="your email" name="email" class="email" id="email" v-model="email" v-validate="'required|email'">
+        <div class="container">
+            <div class="social-link fl">
+                <p>Join our community !</p>
+                <a href="https://www.facebook.com/MultiverseVR" class="fa fa-facebook"></a>
+                <a href="https://twitter.com/VRmultiverse" class="fa fa-twitter"></a>
             </div>
-            <div class="input-group input">
-                <button type="submit" class="subscribe" v-on:click="formData()" value="Subscribe">Subscribe</button>
+            <div class="fl">
+                <p class="text-center">Consider joining our newsletter for exclusive sneak peeks, updates, and more!</p>
+                <div class="input-group input">
+                    <label for="email"></label>
+                    <input type="text" placeholder="your email" name="email" class="email" id="email" v-model="email" v-validate="'required|email'">
+                    <button type="submit" class="subscribe" v-on:click="formData()" value="Subscribe">Subscribe</button>
+                </div>
             </div>
-        <!--</form>-->
+        </div>
+        <div class="clear-fix"></div>
     </div>
 </template>
 
