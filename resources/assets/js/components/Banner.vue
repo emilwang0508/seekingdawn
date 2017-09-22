@@ -8,7 +8,7 @@
         <div class="btn_group">
             <div style="float: left;font-size: 33px"><i class="play_btn" v-on:click="playVideo()"></i>
             <span style="padding-left: 70px;">Play Trailer</span></div>
-            <a href="#">
+            <a href="http://user.multiverseinc.com/ambassador">
                 <img v-lazy="socialSrc" alt="" class="social">
                 <span>Ambassador</span>
             </a>
