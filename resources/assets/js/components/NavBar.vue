@@ -18,7 +18,7 @@
             </svg>
         </div>
         <div class="nav-link">
-            <a href="#" class="">Ambassador</a>
+            <a href="http://user.multiverseinc.com/ambassador" class="">Ambassador</a>
             <a href="https://1drv.ms/f/s!App17wPCu9sFni5qj1FG8EYqh88l" class="">Presskit Download</a>
             <a href="https://www.multiverseinc.com" class="">Multiverse</a>
         </div>
