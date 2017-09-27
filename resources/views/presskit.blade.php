@@ -40,17 +40,17 @@
                     <div class="col-md-3 hidden-xs hidden-sm">
                         <h1>Seeking Dawn<br /><small>Press Kit</small></h1>
                         <ul class="no_disc">
-                            <li><a href="#basic">Overview</a></li>
-                            <li><a href="#intro">Game Introduction</a></li>
-                            <li><a href="#feature">Game Feature</a></li>
-                            <li><a href="#video">Gameplay Footage</a></li>
-                            <li><a href="#image">Game Art</a></li>
-                            <li><a href="#logoicon">Logo & Icon</a></li>
-                            <li><a href="#award">Awards</a></li>
-                            <li><a href="#report">News</a></li>
-                            <li><a href="#links">Relevant Link</a></li>
+                            <li><a href="#basic">FACTSHEET</a></li>
+                            <li><a href="#intro">INTRO</a></li>
+                            <li><a href="#feature">FEATURES</a></li>
+                            <li><a href="#video">VIDEO</a></li>
+                            <li><a href="#image">ART</a></li>
+                            <li><a href="#logoicon">LOGO & ICON</a></li>
+                            <li><a href="#award">AWARDS</a></li>
+                            <li><a href="#report">NEWS</a></li>
                             <li><a href="#team">Development Team</a></li>
-                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="#contact">ABOUT MULTIVERSE</a></li>
+                            <li><a href="#contact">CONTACT</a></li>
                         </ul>
                     </div>
                     <div class="col-xs-12 col-ms-12 col-md-9">
@@ -60,36 +60,43 @@
                             <div class="col-xs-12 col-ms-12 col-sm-4 col-md-3">
                                 <h3>Overview</h3>
                                 <ul class="no_disc vertical_space">
-                                    <li><strong>Official Website：</strong><br /><a href="http://seekingdawnvr.com" target="_blank">www.seekingvr.com</a></li>
-                                    <li><strong>Development Team：</strong><br /><a href="https://www.multiverseinc.com">Multiverse Entertainment</a></li>
+                                    <li><strong>Developer：</strong><br /><a href="https://www.multiverseinc.com">Multiverse</a></li>
+                                    <li>Based in Los Angeles, CA<br /></li>
+                                    <li><strong>Release Date：</strong><br />November 2017</li>
                                     <li><strong>Latest Version：</strong><br />Alpha</li>
                                     <li><strong>Category：</strong><br />Sandbox Survival</li>
                                     <li><strong>Feature：</strong><br />Science Fiction RPG</li>
                                     <li><strong>Platform：</strong><br />
-                                        PSVR/HTC VIVE/Oculus                                                                            /                                         Mac                                                                             /                                         PS4                                                                        </li>
-                                    <li><strong>Publication Date：</strong><br />Unconfirmed</li>
+                                    Steam for PC/HTC VIVE/Oculus/Windows MR</li>
+                                    <li><strong>Regular：</strong><br />TBD</li>
                                     <li><strong>Rate of Progress：</strong><br />60%</li>
+                                    <li><strong>Website：</strong><br /><a href="http://seekingdawnvr.com" target="_blank">www.seekingvr.com</a></li>
+
                                 </ul>
                             </div>
                             <div class="col-xs-12 col-ms-12 col-sm-8 col-md-9">
                                 <a name="intro"></a>
                                 <article class="game-intro">
-                                    <h3>Introduction</h3>
+                                    <h3>INTRO</h3>
                                     <p>
                                         <em>
-                                            Seeking Dawn is a science fiction sandbox survival VR game, set in future world. On an alien planet, players try best to collect and use limited resource for survival, explore and get to know the planet step by step.
+                                            Seeking Dawn is an expansive VR game of action and survival set on a sprawling planet of dangerous creatures and alien mysteries. Stranded with limited resources, you must venture out to scavenge for supplies, craft weapons and equipment for protection, and decipher strange discoveries as you traverse the planet.
                                         </em>
                                     </p>
                                     <p>
-                                        In this game, players will build an entire base from nothing. At the very beginning, each action needs to be considered carefully since there are very limited resource available. Meanwhile, players can also play will friends in PvP mode, building base and fighting for survival together, but the more people you have, the more resource are demanded. The challenge of this game is how you allocate and utilize resource effectively.
+                                        An extensive sci-fi adventure offering dozens of hours of gameplay, Seeking Dawn combines rich storytelling with gritty combat in both solo and cooperative modes, as well as additional challenge modes for even better loot. Scavenge, craft, build, explore, fight, and most importantly, find a way home.
                                     </p>                                                                    <a name="feature"></a>
                                     <hr>
                                     <h3>Features</h3>
                                     <ul>
-                                        <li>It defines future war with various weapons. Players can switch weapons based on their strong points.</li>
-                                        <li>Players should collect resources, and build or upgrade base in order to increase the possibility of survival.</li>
-                                        <li>Calling your friends, you can build your base home and fight for survival together.</li>
-                                        <li>High-degree of freedom, no matter survival or fighting, building or explosion, players will face different ending regarding to the way they walk.</li>
+                                        <li>FPS combat meets gritty survival meets story-driven RPG in VR.</li>
+                                        <li>Solo and cooperative play with a full, story-rich campaign.</li>
+                                        <li>Build an automated and dynamic base and install defenses to keep your squad safe.</li>
+                                        <li>Extensive character development with intricate skill trees.</li>
+                                        <li>Deep crafting system with 50+ tools for combat and survival.</li>
+                                        <li>Explore with full movement including climbing and swimming.</li>
+                                        <li>Unique bullet hell gameplay mechanic.</li>
+                                        <li>PvP gameplay for up to 20 players.</li>
                                     </ul>
                                 </article>
                             </div>
@@ -377,7 +384,7 @@
 
                             <a name="award"></a>
                             <hr>
-                            <h3>Awards</h3>
+                            <h3>AWARDS</h3>
                             <ul>
                                 <li>
                                     <a href="#" target="_blank">
@@ -412,16 +419,6 @@
                             </ul>
 
 
-
-                            <a name="links"></a>
-                            <hr>
-                            <h3>Relevant Link</h3>
-                            <ul>
-                                <li>
-                                    <a href="#" target="_blank"></a>
-                                </li>
-                            </ul>
-
                             <hr>
                             <div class="row clearfix">
                                 <a name="contact"></a>
@@ -430,7 +427,7 @@
                                     <ul class="no_disc vertical_space">
                                         <li>
                                             <strong>Multiverse</strong><br />
-                                            <a href="Chenjun.li@multiverseinc.com" target="_blank">邮件联系</a>
+                                            <a href="Chenjun.li@multiverseinc.com" target="_blank">Chenjun.li@multiverseinc.com</a>
 
                                         </li>
                                     </ul>
@@ -488,7 +485,12 @@
 
             </div>
     </section><!-- #content end -->
+    <footer class="container text-center">
+        <p>SEEKINGDAWN@MULTIVERSEINC.COM</p>
 
+        <p>Copyright © Multiverse Entertainment LLC,All rights reserved.</p>
+
+    </footer>
 </div><!-- #wrapper end -->
 
 <!-- Go To Top ============================================= -->
