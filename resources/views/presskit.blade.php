@@ -20,7 +20,7 @@
 
     <!-- External JavaScripts
     ============================================= -->
-    <script type="text/javascript" src="/js/jquery.js"></script>
+    <script type="text/javascript" src="/js/app.js"></script>
     <!-- Document Title ============================================= -->
     <title>寻找黎明 SeekingDawn Press Kit</title>
     <meta name="description" content="寻找黎明 SeekingDawn by Multiverse VR邮箱" />
