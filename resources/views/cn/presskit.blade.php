@@ -21,8 +21,7 @@
 
     <!-- External JavaScripts
     ============================================= -->
-    <script type="text/javascript" src="/js/jquery.js"></script>
-    <script type="text/javascript" src="/js/plugins.js?v=2017-08-10"></script>
+    <script type="text/javascript" src="/js/app.js"></script>
 
     <!-- Document Title ============================================= -->
     <title>寻找黎明 SeekingDawn Press Kit</title>
@@ -482,9 +481,7 @@
             </div>
 
 
-            <div class="hidden">
-                <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1000033182'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s22.cnzz.com/z_stat.php%3Fid%3D1000033182%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>
-            </div>            </div>
+           </div>
     </section><!-- #content end -->
 
 </div><!-- #wrapper end -->
@@ -493,7 +490,5 @@
 <div id="gotoTop" class="icon-angle-up"></div>
 
 <!-- Footer Scripts ============================================= -->
-<script type="text/javascript" src="/assets/js/functions.js"></script>
-<script type="text/javascript" src="/assets/js/main1608.js"></script>
 </body>
 </html>
