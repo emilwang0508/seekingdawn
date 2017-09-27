@@ -8,10 +8,9 @@
     <link rel="stylesheet" href="/css/googlefonts.css" type="text/css" />
     <link rel="stylesheet" href="/css/tiny.css?v=2017-08-10" type="text/css" />
 
-    <link rel="stylesheet" href="/css/indienova-style.css?v=2017-08-10" type="text/css" />
+    <link rel="stylesheet" href="/css/masonry.css?v=2017-08-10" type="text/css" />
 
-    <link rel="shortcut icon" href="/images/indienova_thumb.png" />
-
+    <link rel="shortcut icon" href="/favicon.ico" />
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -25,12 +24,12 @@
     <script type="text/javascript" src="/js/plugins.js?v=2017-08-10"></script>
 
     <!-- Document Title ============================================= -->
-    <title>拯救世界特别小队 Press Kit</title>
+    <title>寻找黎明 SeekingDawn Press Kit</title>
     <meta name="description" content="寻找黎明 SeekingDawn by Multiverse VR邮箱" />
     <meta name="keywords" content="寻找黎明 SeekingDawn RPG 游戏 VR" />
     <meta name="author" content="seekingdawnvr.com" />
 </head>
-<body class="stretched no-transition">
+<body class="stretched no-transition" style="background: #eee">
 
 <!-- Document Wrapper ============================================= -->
 <div id="wrapper" class="clearfix">
@@ -41,55 +40,58 @@
             <div class="container" id="presskit">
                 <div class="row">
                     <div class="col-md-3 hidden-xs hidden-sm">
-                        <h1>寻找黎明<br /><small>Press Kit</small></h1>
+                        <h1>Seeking Dawn<br /><small>Press Kit</small></h1>
                         <ul class="no_disc">
-                            <li><a href="#basic">基本信息</a></li>
-                            <li><a href="#intro">游戏介绍</a></li>
-                            <li><a href="#feature">游戏特性</a></li>
-                            <li><a href="#video">游戏视频</a></li>
-                            <li><a href="#image">游戏图片</a></li>
+                            <li><a href="#basic">Overview</a></li>
+                            <li><a href="#intro">Game Introduction</a></li>
+                            <li><a href="#feature">Game Feature</a></li>
+                            <li><a href="#video">Gameplay Footage</a></li>
+                            <li><a href="#image">Game Art</a></li>
                             <li><a href="#logoicon">Logo & Icon</a></li>
-                            <li><a href="#award">获奖情况</a></li>
-                            <li><a href="#report">媒体报道</a></li>
-                            <li><a href="#links">相关链接</a></li>
-                            <li><a href="#team">团队成员</a></li>
-                            <li><a href="#contact">联系方式</a></li>
-                            {{--<li><a href="http://steamcommunity.com/sharedfiles/filedetails/?id=727120769" target="_blank">Steam Greenlight</a></li>--}}
+                            <li><a href="#award">Awards</a></li>
+                            <li><a href="#report">News</a></li>
+                            <li><a href="#links">Relevant Link</a></li>
+                            <li><a href="#team">Development Team</a></li>
+                            <li><a href="#contact">Contact</a></li>
                         </ul>
                     </div>
                     <div class="col-xs-12 col-ms-12 col-md-9">
-                        <img src="https://indienova.com/farm/gameimg/0/signal-decay_logo_800.jpg" class="img-rounded" width="100%">
+                        <img src="/images/presskit/logo.jpg" class="img-rounded" width="100%">
                         <div class="row topmargin-sm">
                             <a name="basic"></a>
                             <div class="col-xs-12 col-ms-12 col-sm-4 col-md-3">
-                                <h3>基本信息</h3>
+                                <h3>Overview</h3>
                                 <ul class="no_disc vertical_space">
-                                    <li><strong>官方网站：</strong><br /><a href="http://seekingdawnvr.com" target="_blank">官方网站</a></li>
-                                    <li><strong>开发团队：</strong><br /><a href="https://www.multiverseinc.com">Multiverse Entertainment</a></li>
-                                    <li><strong>当前版本：</strong><br />Alpha</li>
-                                    <li><strong>主要类型：</strong><br />沙盒生存</li>
-                                    <li><strong>次要类型：</strong><br />科幻RPG</li>
-                                    <li><strong>支持平台：</strong><br />
+                                    <li><strong>Official Website：</strong><br /><a href="http://seekingdawnvr.com" target="_blank">www.seekingvr.com</a></li>
+                                    <li><strong>Development Team：</strong><br /><a href="https://www.multiverseinc.com">Multiverse Entertainment</a></li>
+                                    <li><strong>Latest Version：</strong><br />Alpha</li>
+                                    <li><strong>Category：</strong><br />Sandbox Survival</li>
+                                    <li><strong>Feature：</strong><br />Science Fiction RPG</li>
+                                    <li><strong>Platform：</strong><br />
                                         PSVR/HTC VIVE/Oculus                                                                            /                                         Mac                                                                             /                                         PS4                                                                        </li>
-                                    <li><strong>发行日期：</strong><br />尚未确定</li>
-                                    <li><strong>完成进度：</strong><br />60%</li>
+                                    <li><strong>Publication Date：</strong><br />Unconfirmed</li>
+                                    <li><strong>Rate of Progress：</strong><br />60%</li>
                                 </ul>
                             </div>
                             <div class="col-xs-12 col-ms-12 col-sm-8 col-md-9">
                                 <a name="intro"></a>
                                 <article class="game-intro">
-                                    <h3>详细介绍</h3>
-                                    <p><em>寻找黎明 (Seeking Dawn) 是一个以未来世界为背景的 沙盒生存类的科幻VR游戏。在一个异星球上，利用仅有的资源进行艰难的求生之旅，通过在星球上的一系列步骤，彻底揭开星球的面纱。</p>
+                                    <h3>Introduction</h3>
                                     <p>
-                                        这是一款关于考验玩家如何生存的游戏。在游戏中，玩家将要从最开始的一穷二白到逐渐建设有起色。在宝贵的初期，每个行动都要仔细斟酌审核，完整的利用好在手上的每一个资源去生存。同时游戏还具有多人模式，与朋友战友一同建设基地，共同为生存一起奋斗。只不过人越多，需要消耗的资源也将越多。如何利用仅限的资源在这个穷困的环境生存，才是最考验玩家的地方。
+                                        <em>
+                                            Seeking Dawn is a science fiction sandbox survival VR game, set in future world. On an alien planet, players try best to collect and use limited resource for survival, explore and get to know the planet step by step.
+                                        </em>
+                                    </p>
+                                    <p>
+                                        In this game, players will build an entire base from nothing. At the very beginning, each action needs to be considered carefully since there are very limited resource available. Meanwhile, players can also play will friends in PvP mode, building base and fighting for survival together, but the more people you have, the more resource are demanded. The challenge of this game is how you allocate and utilize resource effectively.
                                     </p>                                                                    <a name="feature"></a>
                                     <hr>
-                                    <h3>游戏特性</h3>
+                                    <h3>Features</h3>
                                     <ul>
-                                        <li>丰富的武器定义未来战争。每个武器都有独特的优缺点，利用好武器切换系统灵活的扬长避短。</li>
-                                        <li>资源收集和建筑系统，精心收集全面资源升级建筑，让建筑来提高自己的生存度。</li>
-                                        <li>多人协作生存，带上朋友一同进行生存。在困惑与挣扎中并肩前行，一同缔造最完美的家园。</li>
-                                        <li>自由的沙盘模式，是生存还是战斗，是建设家园还是一路冒险，多样道路自由抉择，不同的选择缔造不一样的结局。</li>
+                                        <li>It defines future war with various weapons. Players can switch weapons based on their strong points.</li>
+                                        <li>Players should collect resources, and build or upgrade base in order to increase the possibility of survival.</li>
+                                        <li>Calling your friends, you can build your base home and fight for survival together.</li>
+                                        <li>High-degree of freedom, no matter survival or fighting, building or explosion, players will face different ending regarding to the way they walk.</li>
                                     </ul>
                                 </article>
                             </div>
@@ -97,90 +99,296 @@
 
                             <a name="video"></a>
                             <hr>
-                            <h3>游戏视频</h3>
-                            <div class="embed-responsive embed-responsive-16by9 topmargin-sm">
-                                <iframe src="https://player.youku.com/embed/XMTY0OTQ0NTM1Mg==" class="embed-responsive-item" frameborder="0"></iframe>
-                            </div>
+                            <h3>Game Video</h3>
+                            <iframe width="900" height="600" src="https://www.youtube.com/embed/MgEUGNsFIPA" frameborder="0" allowfullscreen></iframe>
                             <small>
-                                <a href="http://v.youku.com/v_show/id_XMTY0OTQ0NTM1Mg==.html" target="_blank">http://v.youku.com/v_show/id_XMTY0OTQ0NTM1Mg==.html</a>
+                                <a href=https://www.youtube.com/embed/MgEUGNsFIPA" target="_blank">Seeking Dawn E3 Co-op Gameplay</a>
                             </small>
 
                             <a name="image"></a>
                             <hr>
-                            <h3>游戏图片</h3>
-                            <div class="row clearfix" data-lightbox="gallery">
-                                <div class="col-xs-12 col-ms-6 col-sm-4 bottommargin-sm">
-                                    <a href="https://static.indienova.com/farm/gameimg/2017/04/48-1492006222.png" data-lightbox="gallery-item">
-                                        <img src="https://static.indienova.com/farm/gameimg/2017/04/48-1492006222_640.jpg">
+                            <h3>Game Art</h3>
+                            <div class="masonry">
+                                <div class="item">
+                                    <a href="/images/presskit/材料&设备/Da‘asa宝箱.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/材料&设备/Da‘asa宝箱.jpg">
                                     </a>
-
                                 </div>
-                                <div class="col-xs-12 col-ms-6 col-sm-4 bottommargin-sm">
-                                    <a href="https://static.indienova.com/farm/gameimg/2017/04/48-1492006223.png" data-lightbox="gallery-item">
-                                        <img src="https://static.indienova.com/farm/gameimg/2017/04/48-1492006223_640.jpg">
+                                <div class="item">
+                                    <a href="/images/presskit/材料&设备/K'erhalen宝箱.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/材料&设备/K'erhalen宝箱.jpg">
                                     </a>
-
                                 </div>
-                                <div class="col-xs-12 col-ms-6 col-sm-4 bottommargin-sm">
-                                    <a href="https://static.indienova.com/farm/gameimg/2017/04/48-1492006224.png" data-lightbox="gallery-item">
-                                        <img src="https://static.indienova.com/farm/gameimg/2017/04/48-1492006224_640.jpg">
+                                <div class="item">
+                                    <a href="/images/presskit/材料&设备/可掉落果实.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/材料&设备/可掉落果实.jpg">
                                     </a>
-
                                 </div>
-                                <div class="col-xs-12 col-ms-6 col-sm-4 bottommargin-sm">
-                                    <a href="https://static.indienova.com/farm/gameimg/2017/04/48-1492006257.png" data-lightbox="gallery-item">
-                                        <img src="https://static.indienova.com/farm/gameimg/2017/04/48-1492006257_640.jpg">
+                                <div class="item">
+                                    <a href="/images/presskit/材料&设备/植物合成操作台.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/材料&设备/植物合成操作台.jpg">
                                     </a>
-
                                 </div>
-                                <div class="col-xs-12 col-ms-6 col-sm-4 bottommargin-sm">
-                                    <a href="https://static.indienova.com/farm/gameimg/2017/04/48-1492006258.png" data-lightbox="gallery-item">
-                                        <img src="https://static.indienova.com/farm/gameimg/2017/04/48-1492006258_640.jpg">
+                                <div class="item">
+                                    <a href="/images/presskit/材料&设备/储物柜.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/材料&设备/储物柜.jpg">
                                     </a>
-
                                 </div>
-                                <div class="col-xs-12 col-ms-6 col-sm-4 bottommargin-sm">
-                                    <a href="https://static.indienova.com/farm/gameimg/2017/04/48-1492006259.png" data-lightbox="gallery-item">
-                                        <img src="https://static.indienova.com/farm/gameimg/2017/04/48-1492006259_640.jpg">
+                                <div class="item">
+                                    <a href="/images/presskit/材料&设备/矿石.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/材料&设备/矿石.jpg">
                                     </a>
-
                                 </div>
-                                <div class="col-xs-12 col-ms-6 col-sm-4 bottommargin-sm">
-                                    <a href="https://static.indienova.com/farm/gameimg/2017/04/48-1492006273.png" data-lightbox="gallery-item">
-                                        <img src="https://static.indienova.com/farm/gameimg/2017/04/48-1492006273_640.jpg">
+                                <div class="item">
+                                    <a href="/images/presskit/材料&设备/可采集植物.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/材料&设备/可采集植物.jpg">
                                     </a>
-
+                                </div>
+                                <div class="item">
+                                    <a href="/images/presskit/材料&设备/基地升级操作台.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/材料&设备/基地升级操作台.jpg">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="/images/presskit/材料&设备/树木.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/材料&设备/树木.jpg">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="/images/presskit/材料&设备/烹饪后食物.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/材料&设备/烹饪后食物.jpg">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="/images/presskit/材料&设备/食物合成柜.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/材料&设备/食物合成柜.jpg">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="/images/presskit/场景&建筑/废墟.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/场景&建筑/废墟.jpg">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="/images/presskit/场景&建筑/基地.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/场景&建筑/基地.jpg">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="/images/presskit/场景&建筑/建筑1.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/场景&建筑/建筑1.jpg">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="/images/presskit/场景&建筑/建筑2.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/场景&建筑/建筑2.jpg">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="/images/presskit/场景&建筑/矿山.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/场景&建筑/矿山.jpg">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="/images/presskit/场景&建筑/沙漠.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/场景&建筑/沙漠.jpg">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="/images/presskit/场景&建筑/玩家飞船.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/场景&建筑/玩家飞船.jpg">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="/images/presskit/场景&建筑/运输机.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/场景&建筑/运输机.jpg">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="/images/presskit/场景&建筑/DawnSeeker天体.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/场景&建筑/DawnSeeker天体.jpg">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="/images/presskit/人物&怪兽/二号男主角(Hero_2).jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/人物&怪兽/二号男主角(Hero_2).jpg">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="/images/presskit/人物&怪兽/飞虫.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/场景&建筑/飞虫.jpg">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="/images/presskit/人物&怪兽/人物图.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/人物&怪兽/人物图.jpg">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="/images/presskit/人物&怪兽/外星人Da’asa.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/人物&怪兽/外星人Da’asa.jpg">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="/images/presskit/人物&怪兽/小飞虫.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/人物&怪兽/小飞虫.jpg">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="/images/presskit/人物&怪兽/烟雾怪.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/人物&怪兽/烟雾怪.jpg">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="/images/presskit/人物&怪兽/异星臭鼬(AlienSkunk).jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/人物&怪兽/异星臭鼬(AlienSkunk).jpg">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="/images/presskit/人物&怪兽/主角.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/人物&怪兽/主角.jpg">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="/images/presskit/手持工具&武器/冲锋枪.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/手持工具&武器/冲锋枪.jpg">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="/images/presskit/手持工具&武器/传送门枪.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/手持工具&武器/传送门枪.jpg">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="/images/presskit/手持工具&武器/传送器.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/手持工具&武器/传送器.jpg">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="/images/presskit/手持工具&武器/飞盘枪.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/手持工具&武器/飞盘枪.jpg">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="/images/presskit/手持工具&武器/激光剑.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/手持工具&武器/激光剑.jpg">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="/images/presskit/手持工具&武器/激光弩.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/手持工具&武器/激光弩.jpg">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="/images/presskit/手持工具&武器/激光碎裂枪.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/手持工具&武器/激光碎裂枪.jpg">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="/images/presskit/手持工具&武器/矿石采集器.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/手持工具&武器/矿石采集器.jpg">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="/images/presskit/手持工具&武器/拳头枪.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/手持工具&武器/拳头枪.jpg">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="/images/presskit/手持工具&武器/霰弹枪.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/手持工具&武器/霰弹枪.jpg">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="/images/presskit/手持工具&武器/神秘武器.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/手持工具&武器/神秘武器.jpg">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="/images/presskit/手持工具&武器/手持能量盾.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/手持工具&武器/手持能量盾.jpg">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="/images/presskit/手持工具&武器/手枪.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/手持工具&武器/手枪.jpg">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="/images/presskit/手持工具&武器/手电筒.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/手持工具&武器/手电筒.jpg">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="/images/presskit/手持工具&武器/酸液枪.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/手持工具&武器/酸液枪.jpg">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="/images/presskit/手持工具&武器/遥控榴弹枪.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/手持工具&武器/遥控榴弹枪.jpg">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="/images/presskit/手持工具&武器/液体采集器.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/手持工具&武器/液体采集器.jpg">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="/images/presskit/手持工具&武器/自动步枪.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/手持工具&武器/自动步枪.jpg">
+                                    </a>
                                 </div>
                             </div>
 
                             <a name="logoicon"></a>
                             <hr>
-                            <h3>游戏 Logo & Icon</h3>
-                            <div class="clearfix" data-lightbox="gallery">
-                                <div class="col-xs-12 col-ms-6 col-sm-6 col-md-6 col-lg-4 bottommargin-sm">
-                                    <a href="https://static.indienova.com/farm/gameimg/0/48-1458695332.png" data-lightbox="gallery-item">
-                                        <img src="https://static.indienova.com/farm/gameimg/0/48-1458695332.png" class="img-responsive">
+                            <h3>Logo & Icon</h3>
+                            <div class="masonry">
+                                <div class="item">
+                                    <a href="/images/presskit/logo/logo02.png" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/logo/logo02.png" class="img-responsive">
                                     </a>
                                 </div>
-                                <div class="col-xs-12 col-ms-6 col-sm-6 col-md-6 col-lg-4 bottommargin-sm">
-                                    <a href="https://static.indienova.com/farm/gameimg/0/48-1469312447.png" data-lightbox="gallery-item">
-                                        <img src="https://static.indienova.com/farm/gameimg/0/48-1469312447.png" class="img-responsive">
+                                <div class="item">
+                                    <a href="/images/presskit/logo/logo01.png" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/logo/logo01.png" class="img-responsive">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="/images/presskit/logo/LOGO.png" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/logo/LOGO.png" class="img-responsive">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="/images/presskit/logo/logo04.png" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/logo/logo04.png" class="img-responsive">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="/images/presskit/logo/LOGO黑.png" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/logo/LOGO黑.png" class="img-responsive">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="/images/presskit/logo/multiverse_logo_04172017.png" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/logo/multiverse_logo_04172017.png" class="img-responsive">
                                     </a>
                                 </div>
                             </div>
 
                             <a name="award"></a>
                             <hr>
-                            <h3>获奖情况</h3>
+                            <h3>Awards</h3>
                             <ul>
                                 <li>
                                     <a href="#" target="_blank">
-                                        游戏陀螺年度金陀螺奖最受期待VR游戏（2017）<span class="text-date">（2015）</span>                                            </a>
+                                        Youxituoluo.com - the Most Expected VR Game Award 2017<span class="text-date">（2017）</span>                                            </a>
                                 </li>
 
                                 <li>
                                     <a href="#" target="_blank">
-                                        腾讯GAD&HTC VIVE 最佳画面奖（2017）<span class="text-date">（2016）</span>                                            </a>
+                                        Tencent GAD&HTC VIVE the Best Vision Award 2017<span class="text-date">（2017）</span>                                            </a>
                                 </li>
 
 
@@ -189,7 +397,7 @@
 
                             <a name="report"></a>
                             <hr>
-                            <h3>媒体报道</h3>
+                            <h3>News</h3>
                             <ul>
                                 <li>
                                     <strong>VrFocus：</strong><a href="https://www.vrfocus.com/2017/06/one-of-the-largest-vr-action-survival-games-seeking-dawn/" target="_blank">One Of The Largest VR Action Survival Games: Seeking Dawn</a>
@@ -209,19 +417,21 @@
 
                             <a name="links"></a>
                             <hr>
-                            <h3>相关链接</h3>
+                            <h3>Relevant Link</h3>
                             <ul>
-                                <li><a href="http://steamcommunity.com/sharedfiles/filedetails/?id=727120769" target="_blank">Steam 绿光</a></li>
+                                <li>
+                                    <a href="#" target="_blank"></a>
+                                </li>
                             </ul>
 
                             <hr>
                             <div class="row clearfix">
                                 <a name="contact"></a>
                                 <div class="col-ms-12 col-sm-6">
-                                    <h3>联系方式</h3>
+                                    <h3>Contact</h3>
                                     <ul class="no_disc vertical_space">
                                         <li>
-                                            <strong>深圳摩登世纪科技</strong><br />
+                                            <strong>Multiverse</strong><br />
                                             <a href="Chenjun.li@multiverseinc.com" target="_blank">邮件联系</a>
 
                                         </li>
@@ -229,43 +439,43 @@
                                 </div>
                                 <a name="team"></a>
                                 <div class="col-ms-12 col-sm-6">
-                                    <h3>团队成员</h3>
+                                    <h3>Development Team</h3>
                                     <ul class="no_disc vertical_space">
                                         <li>
                                             <strong>
-                                                <a href="https://www.multiverseinc.com" target="_blank">范威洋</a>
+                                                <a href="https://www.multiverseinc.com" target="_blank">Freeman Fan</a>
 
                                             </strong>CEO
                                         </li>
                                         <li>
                                             <strong>
-                                                <a href="https://www.multiverseinc.com" target="_blank">陈琛文</a>
+                                                <a href="https://www.multiverseinc.com" target="_blank">Chenwen Chen</a>
 
-                                            </strong>ART
+                                            </strong>Art team leader
                                         </li>
                                         <li>
                                             <strong>
-                                                <a href="https://www.multiverseinc.com" target="_blank">Jiwon</a>
+                                                <a href="https://www.multiverseinc.com" target="_blank">Jiwon Kang</a>
 
-                                            </strong>ART
+                                            </strong>Senior artist
                                         </li>
                                         <li>
                                             <strong>
-                                                <a href="https://www.multiverseinc.com" target="_blank">程功</a>
+                                                <a href="https://www.multiverseinc.com" target="_blank">Gong Cheng</a>
 
-                                            </strong>制作人
+                                            </strong>Producer
                                         </li>
                                         <li>
                                             <strong>
-                                                <a href="https://www.multiverseinc.com" target="_blank">Yohan博士</a>
+                                                <a href="https://www.multiverseinc.com" target="_blank">Dr. Yohan</a>
 
-                                            </strong>工程师
+                                            </strong>Senior Programmer
                                         </li>
                                         <li>
                                             <strong>
                                                 <a href="https://www.multiverseinc.com" target="_blank">Alex</a>
 
-                                            </strong>技术领队
+                                            </strong>Development team leader
                                         </li>
                                     </ul>
 
