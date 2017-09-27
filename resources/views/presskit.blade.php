@@ -421,6 +421,52 @@
 
                             <hr>
                             <div class="row clearfix">
+                                <a name="team"></a>
+                                <div class="col-ms-12 col-sm-12">
+                                    <h3>Development Team</h3>
+                                    <ul class="no_disc vertical_space">
+                                        <li><em>CEO </em>
+                                            <strong>
+                                                <a href="https://www.multiverseinc.com" target="_blank">Freeman Fan</a>
+
+                                            </strong>
+                                            graduated from Stanford University, 6th employee of WeVR, is in charge of VR game production, who is one of the developers of HTC VIVE pre-instaledl The Blu. Before founding Multiverse, he developed 3 indie games, and gained over 30 million downloads totally.
+                                        </li>
+                                        <li><em>Art team leader </em>
+                                            <strong>
+                                                <a href="https://www.multiverseinc.com" target="_blank">Chenwen Chen</a>
+
+                                            </strong>who has hundreds of thousands of subscribers on ZCOOL, served as art director in Fenglinhuoshan Game and Wanxiang Animation company. Projects he participated includes Bluey's dragon regiment, Dragon Nest: Warriors'dawn, Temple Run, Wings Of War and so on.
+                                        </li>
+                                        <li><em>Senior artist </em>
+                                            <strong>
+                                                <a href="https://www.multiverseinc.com" target="_blank">Jiwon Kang</a>
+
+                                            </strong>was graduated from Carnegie Mellon University, and has over 15 years 3D graphics experience. He was a team member of LOL project, Riot Games, the 3D art team leader in Disney Interactive. Moreover, he won several awards like ANSI and Moon Light.
+                                        </li>
+                                        <li><em>Producer </em>
+                                            <strong>
+                                                <a href="https://www.multiverseinc.com" target="_blank">Gong Cheng</a>
+
+                                            </strong>has 5 years game design experience, being designer in Forgame and Yinhan games, including project Time Crisis and Dark Hunter. After being published in Nov 2016, Dark Hunter’s daily income ranked 1 on Tencent QQApp.
+                                        </li>
+                                        <li><em>Senior Programmer </em>
+                                            <strong>
+                                                <a href="https://www.multiverseinc.com" target="_blank">Dr. Yohan</a>
+
+                                            </strong>was majoring in computer science in University of Toulouse, who took part in development of games like Truck Racer, and he is in charge of first floor game engine framework implement.
+                                        </li>
+                                        <li><em>Development team leader </em>
+                                            <strong>
+                                                <a href="https://www.multiverseinc.com" target="_blank">Alex</a>
+
+                                            </strong>was graduated from University of Toulouse with master degree, and he led teams to implement several popular iOS preschool education games.
+                                        </li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                            <div class="row clearfix">
                                 <a name="contact"></a>
                                 <div class="col-ms-12 col-sm-6">
                                     <h3>Contact</h3>
@@ -432,49 +478,7 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <a name="team"></a>
-                                <div class="col-ms-12 col-sm-6">
-                                    <h3>Development Team</h3>
-                                    <ul class="no_disc vertical_space">
-                                        <li>
-                                            <strong>
-                                                <a href="https://www.multiverseinc.com" target="_blank">Freeman Fan</a>
 
-                                            </strong>CEO
-                                        </li>
-                                        <li>
-                                            <strong>
-                                                <a href="https://www.multiverseinc.com" target="_blank">Chenwen Chen</a>
-
-                                            </strong>Art team leader
-                                        </li>
-                                        <li>
-                                            <strong>
-                                                <a href="https://www.multiverseinc.com" target="_blank">Jiwon Kang</a>
-
-                                            </strong>Senior artist
-                                        </li>
-                                        <li>
-                                            <strong>
-                                                <a href="https://www.multiverseinc.com" target="_blank">Gong Cheng</a>
-
-                                            </strong>Producer
-                                        </li>
-                                        <li>
-                                            <strong>
-                                                <a href="https://www.multiverseinc.com" target="_blank">Dr. Yohan</a>
-
-                                            </strong>Senior Programmer
-                                        </li>
-                                        <li>
-                                            <strong>
-                                                <a href="https://www.multiverseinc.com" target="_blank">Alex</a>
-
-                                            </strong>Development team leader
-                                        </li>
-                                    </ul>
-
-                                </div>
                             </div>
 
                             <hr>
