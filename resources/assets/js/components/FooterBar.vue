@@ -44,7 +44,7 @@
                     </a>
                     <a href="#">
                         <svg class="icon" aria-hidden="true">
-                            <use xlink:href="#icon-playstation"></use>
+                            <use xlink:href="#icon-xbox"></use>
                         </svg>
                     </a>
                 </div>
