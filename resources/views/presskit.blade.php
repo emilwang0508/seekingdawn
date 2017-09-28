@@ -48,8 +48,7 @@
                             <li><a href="#logoicon">LOGO & ICON</a></li>
                             <li><a href="#award">AWARDS</a></li>
                             <li><a href="#report">NEWS</a></li>
-                            <li><a href="#team">Development Team</a></li>
-                            <li><a href="#contact">ABOUT MULTIVERSE</a></li>
+                            <li><a href="#team">ABOUT MULTIVERSE</a></li>
                             <li><a href="#contact">CONTACT</a></li>
                         </ul>
                     </div>
@@ -385,14 +384,10 @@
                             <a name="award"></a>
                             <hr>
                             <h3>AWARDS</h3>
-                            <ul>
-                                <li>
-                                    <a href="#" target="_blank">
-                                        Youxituoluo.com - the Most Expected VR Game Award 2017<span class="text-date">（2017）</span>                                            </a>
-                                </li>
-
-                                <li>
-                                    <a href="#" target="_blank">
+                            <ul class="text-center">
+                                <img src="/images/presskit/awards.png" alt="" style="width: 50%;display: inline-block">
+                                <li class="text-center">
+                                    <a href="#" target="_blank" style="padding-top: 20px;">
                                         Tencent GAD&HTC VIVE the Best Vision Award 2017<span class="text-date">（2017）</span>                                            </a>
                                 </li>
 
@@ -405,6 +400,9 @@
                             <h3>News</h3>
                             <ul>
                                 <li>
+                                    <strong>UploadVR：</strong><a href="https://uploadvr.com/seeking-dawn-looks-like-hugely-ambitious-vr-shooter/" target="_blank">Seeking Dawn Looks Like A Hugely Ambitious VR Shooter</a>
+                                </li>
+                                <li>
                                     <strong>VrFocus：</strong><a href="https://www.vrfocus.com/2017/06/one-of-the-largest-vr-action-survival-games-seeking-dawn/" target="_blank">One Of The Largest VR Action Survival Games: Seeking Dawn</a>
                                 </li>
 
@@ -412,9 +410,6 @@
                                     <strong>UploadVR：</strong><a href="https://uploadvr.com/e3-2017-hands-sci-fi-shooter-seeking-dawn/" target="_blank">E3 2017: Hands-On With Ambitious Sci-Fi Shooter Seeking Dawn</a>
                                 </li>
 
-                                <li>
-                                    <strong>PlayStation：</strong><a href="http://www.playstationlifestyle.net/2017/06/20/seeking-dawn-vr-preview-e3-2017-rough-around-the-edges/" target="_blank">E3 2017 – Seeking Dawn Preview – Rough Around the Edges (PSVR)</a>
-                                </li>
 
                             </ul>
 
@@ -423,46 +418,9 @@
                             <div class="row clearfix">
                                 <a name="team"></a>
                                 <div class="col-ms-12 col-sm-12">
-                                    <h3>Development Team</h3>
-                                    <ul class="no_disc vertical_space">
-                                        <li><em>CEO </em>
-                                            <strong>
-                                                <a href="https://www.multiverseinc.com" target="_blank">Freeman Fan</a>
-
-                                            </strong>
-                                            graduated from Stanford University, 6th employee of WeVR, is in charge of VR game production, who is one of the developers of HTC VIVE pre-instaledl The Blu. Before founding Multiverse, he developed 3 indie games, and gained over 30 million downloads totally.
-                                        </li>
-                                        <li><em>Art team leader </em>
-                                            <strong>
-                                                <a href="https://www.multiverseinc.com" target="_blank">Chenwen Chen</a>
-
-                                            </strong>who has hundreds of thousands of subscribers on ZCOOL, served as art director in Fenglinhuoshan Game and Wanxiang Animation company. Projects he participated includes Bluey's dragon regiment, Dragon Nest: Warriors'dawn, Temple Run, Wings Of War and so on.
-                                        </li>
-                                        <li><em>Senior artist </em>
-                                            <strong>
-                                                <a href="https://www.multiverseinc.com" target="_blank">Jiwon Kang</a>
-
-                                            </strong>was graduated from Carnegie Mellon University, and has over 15 years 3D graphics experience. He was a team member of LOL project, Riot Games, the 3D art team leader in Disney Interactive. Moreover, he won several awards like ANSI and Moon Light.
-                                        </li>
-                                        <li><em>Producer </em>
-                                            <strong>
-                                                <a href="https://www.multiverseinc.com" target="_blank">Gong Cheng</a>
-
-                                            </strong>has 5 years game design experience, being designer in Forgame and Yinhan games, including project Time Crisis and Dark Hunter. After being published in Nov 2016, Dark Hunter’s daily income ranked 1 on Tencent QQApp.
-                                        </li>
-                                        <li><em>Senior Programmer </em>
-                                            <strong>
-                                                <a href="https://www.multiverseinc.com" target="_blank">Dr. Yohan</a>
-
-                                            </strong>was majoring in computer science in University of Toulouse, who took part in development of games like Truck Racer, and he is in charge of first floor game engine framework implement.
-                                        </li>
-                                        <li><em>Development team leader </em>
-                                            <strong>
-                                                <a href="https://www.multiverseinc.com" target="_blank">Alex</a>
-
-                                            </strong>was graduated from University of Toulouse with master degree, and he led teams to implement several popular iOS preschool education games.
-                                        </li>
-                                    </ul>
+                                    <h3>ABOUT MULTIVERSE</h3>
+                                    <p>Multiverse is a world-class VR studio founded by game industry veterans. Coming from places like Wevr, Disney, Riot, etc., our team is working tirelessly on creating industry-defining content and helping bring VR to the masses. We are working on Seeking Dawn, a sprawling Sci-Fi Survival RPG. Our previous game, Reveries: Dream Flight, is one of the highest-rated VR games worldwide and a top selling title on the Oculus Store.
+                                    </p>
 
                                 </div>
                             </div>
@@ -471,11 +429,10 @@
                                 <div class="col-ms-12 col-sm-6">
                                     <h3>Contact</h3>
                                     <ul class="no_disc vertical_space">
-                                        <li>
-                                            <strong>Multiverse</strong><br />
-                                            <a href="Chenjun.li@multiverseinc.com" target="_blank">Chenjun.li@multiverseinc.com</a>
-
-                                        </li>
+                                        <li>Facebook: <a href="https://www.facebook.com/MultiverseVR/" target="_blank">@multiverseVR</a></li>
+                                        <li>Twitter: <a href="https://twitter.com/vrmultiverse" target="_blank">@VRmultiverse</a></li>
+                                        <li>Business Development: <a href="mailto:chenjun.li@multiverseinc.com" target="_blank">chenjun.li@multiverseinc.com</a></li>
+                                        <li>Marketing / PR: <a href="@chenjun.li@multiverseinc.com" target="_blank">f.ferreira@multiverseinc.com</a></li>
                                     </ul>
                                 </div>
 
