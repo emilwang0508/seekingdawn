@@ -12,7 +12,7 @@
                 <img v-lazy="socialSrc" alt="" class="social">
                 <span>Ambassador</span>
             </a>
-            <a href="https://1drv.ms/f/s!App17wPCu9sFni5qj1FG8EYqh88l" target="_blank">
+            <a href="/presskit" target="_blank">
                 <img v-lazy="downloadSrc" alt="" class="social"><span>PressKit Download</span>
             </a>
         </div>

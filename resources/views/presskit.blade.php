@@ -60,16 +60,14 @@
                                 <h3>Overview</h3>
                                 <ul class="no_disc vertical_space">
                                     <li><strong>Developer：</strong><br /><a href="https://www.multiverseinc.com">Multiverse</a></li>
-                                    <li>Based in Los Angeles, CA<br /></li>
-                                    <li><strong>Release Date：</strong><br />November 2017</li>
+                                    <li><strong>Release Date：</strong><br />TBD</li>
                                     <li><strong>Latest Version：</strong><br />Alpha</li>
                                     <li><strong>Category：</strong><br />Sandbox Survival</li>
                                     <li><strong>Feature：</strong><br />Science Fiction RPG</li>
                                     <li><strong>Platform：</strong><br />
                                     Steam for PC/HTC VIVE/Oculus/Windows MR</li>
                                     <li><strong>Regular：</strong><br />TBD</li>
-                                    <li><strong>Rate of Progress：</strong><br />60%</li>
-                                    <li><strong>Website：</strong><br /><a href="http://seekingdawnvr.com" target="_blank">www.seekingvr.com</a></li>
+                                    <li><strong>Website：</strong><br /><a href="http://seekingdawnvr.com" target="_blank">www.seekingdawnvr.com</a></li>
 
                                 </ul>
                             </div>
@@ -268,7 +266,7 @@
 
                             <a name="logoicon"></a>
                             <hr>
-                            <h3>游戏 Logo & Icon</h3>
+                            <h3>Logo & Icon</h3>
                             <div class="masonry">
                                 <div class="item">
                                     <a href="/images/presskit/logo/logo02.png" data-lightbox="gallery-item">
@@ -291,7 +289,7 @@
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/logo/seekingdawn_logo.png" data-lightbox="gallery-item">
+                                    <a href="/images/presskit/logo/seekingdawn_banner_logo.png" data-lightbox="gallery-item">
                                         <img src="/images/presskit/logo/seekingdawn_logo.png" class="img-responsive">
                                     </a>
                                 </div>
@@ -303,7 +301,7 @@
                                 <img src="/images/presskit/awards.png" alt="" style="width: 50%;display: inline-block">
                                 <li class="text-center">
                                     <a href="#" target="_blank" style="padding-top: 20px;">
-                                        Tencent GAD&HTC VIVE the Best Vision Award 2017<span class="text-date">（2017）</span>                                            </a>
+                                        Tencent GAD&HTC VIVE the Best Vision Award 2017                                          </a>
                                 </li>
 
 
@@ -318,7 +316,7 @@
                                     <strong>UploadVR：</strong><a href="https://uploadvr.com/seeking-dawn-looks-like-hugely-ambitious-vr-shooter/" target="_blank">Seeking Dawn Looks Like A Hugely Ambitious VR Shooter</a>
                                 </li>
                                 <li>
-                                    <strong>VrFocus：</strong><a href="https://www.vrfocus.com/2017/06/one-of-the-largest-vr-action-survival-games-seeking-dawn/" target="_blank">One Of The Largest VR Action Survival Games: Seeking Dawn</a>
+                                    <strong>VRFocus：</strong><a href="https://www.vrfocus.com/2017/06/one-of-the-largest-vr-action-survival-games-seeking-dawn/" target="_blank">One Of The Largest VR Action Survival Games: Seeking Dawn</a>
                                 </li>
 
                                 <li>
@@ -362,8 +360,6 @@
             </div>
     </section><!-- #content end -->
     <footer class="container text-center">
-        <p>SEEKINGDAWN@MULTIVERSEINC.COM</p>
-
         <p>Copyright © Multiverse Entertainment LLC,All rights reserved.</p>
 
     </footer>
