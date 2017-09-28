@@ -114,240 +114,161 @@
                             <h3>Game Art</h3>
                             <div class="masonry">
                                 <div class="item">
-                                    <a href="/images/presskit/材料&设备/Da‘asa宝箱.jpg" data-lightbox="gallery-item">
-                                        <img src="/images/presskit/材料&设备/Da‘asa宝箱.jpg">
+                                    <a href="/images/presskit/ACC_SimianTrooper.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/ACC_SimianTrooper.jpg">
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/材料&设备/K'erhalen宝箱.jpg" data-lightbox="gallery-item">
-                                        <img src="/images/presskit/材料&设备/K'erhalen宝箱.jpg">
+                                    <a href="/images/presskit/acc-Dropship.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/acc-Dropship.jpg">
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/材料&设备/可掉落果实.jpg" data-lightbox="gallery-item">
-                                        <img src="/images/presskit/材料&设备/可掉落果实.jpg">
+                                    <a href="/images/presskit/ACC-Simian-Trooper.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/ACC-Simian-Trooper.jpg">
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/材料&设备/植物合成操作台.jpg" data-lightbox="gallery-item">
-                                        <img src="/images/presskit/材料&设备/植物合成操作台.jpg">
+                                    <a href="/images/presskit/Alien-flora.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/Alien-flora.jpg">
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/材料&设备/储物柜.jpg" data-lightbox="gallery-item">
-                                        <img src="/images/presskit/材料&设备/储物柜.jpg">
+                                    <a href="/images/presskit/Alien-Skunk.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/Alien-Skunk.jpg">
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/材料&设备/矿石.jpg" data-lightbox="gallery-item">
-                                        <img src="/images/presskit/材料&设备/矿石.jpg">
+                                    <a href="/images/presskit/Carbon-Harvester.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/Carbon-Harvester.jpg">
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/材料&设备/可采集植物.jpg" data-lightbox="gallery-item">
-                                        <img src="/images/presskit/材料&设备/可采集植物.jpg">
+                                    <a href="/images/presskit/Chalikar.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/Chalikar.jpg">
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/材料&设备/基地升级操作台.jpg" data-lightbox="gallery-item">
-                                        <img src="/images/presskit/材料&设备/基地升级操作台.jpg">
+                                    <a href="/images/presskit/Dawnseeker.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/Dawnseeker.jpg">
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/材料&设备/树木.jpg" data-lightbox="gallery-item">
-                                        <img src="/images/presskit/材料&设备/树木.jpg">
+                                    <a href="/images/presskit/FCR-Dropship.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/FCR-Dropship.jpg">
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/材料&设备/烹饪后食物.jpg" data-lightbox="gallery-item">
-                                        <img src="/images/presskit/材料&设备/烹饪后食物.jpg">
+                                    <a href="/images/presskit/Giles-Thane.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/Giles-Thane.jpg">
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/材料&设备/食物合成柜.jpg" data-lightbox="gallery-item">
-                                        <img src="/images/presskit/材料&设备/食物合成柜.jpg">
+                                    <a href="/images/presskit/Goanna.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/Goanna.jpg">
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/场景&建筑/废墟.jpg" data-lightbox="gallery-item">
-                                        <img src="/images/presskit/场景&建筑/废墟.jpg">
+                                    <a href="/images/presskit/Halicite.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/Halicite.jpg">
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/场景&建筑/基地.jpg" data-lightbox="gallery-item">
-                                        <img src="/images/presskit/场景&建筑/基地.jpg">
+                                    <a href="/images/presskit/hand.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/hand.jpg">
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/场景&建筑/建筑1.jpg" data-lightbox="gallery-item">
-                                        <img src="/images/presskit/场景&建筑/建筑1.jpg">
+                                    <a href="/images/presskit/huangjing1.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/huangjing1.jpg">
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/场景&建筑/建筑2.jpg" data-lightbox="gallery-item">
-                                        <img src="/images/presskit/场景&建筑/建筑2.jpg">
+                                    <a href="/images/presskit/huangjing2.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/huangjing2.jpg">
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/场景&建筑/矿山.jpg" data-lightbox="gallery-item">
-                                        <img src="/images/presskit/场景&建筑/矿山.jpg">
+                                    <a href="/images/presskit/huangjing3.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/huangjing3.jpg">
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/场景&建筑/沙漠.jpg" data-lightbox="gallery-item">
-                                        <img src="/images/presskit/场景&建筑/沙漠.jpg">
+                                    <a href="/images/presskit/K`erhalen-Savage.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/K`erhalen-Savage.jpg">
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/场景&建筑/玩家飞船.jpg" data-lightbox="gallery-item">
-                                        <img src="/images/presskit/场景&建筑/玩家飞船.jpg">
+                                    <a href="/images/presskit/Oanger.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/Oanger.jpg">
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/场景&建筑/运输机.jpg" data-lightbox="gallery-item">
-                                        <img src="/images/presskit/场景&建筑/运输机.jpg">
+                                    <a href="/images/presskit/pavise.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/pavise.jpg">
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/场景&建筑/DawnSeeker天体.jpg" data-lightbox="gallery-item">
-                                        <img src="/images/presskit/场景&建筑/DawnSeeker天体.jpg">
+                                    <a href="/images/presskit/Rcs-Condor.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/Rcs-Condor.jpg">
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/人物&怪兽/二号男主角(Hero_2).jpg" data-lightbox="gallery-item">
-                                        <img src="/images/presskit/人物&怪兽/二号男主角(Hero_2).jpg">
+                                    <a href="/images/presskit/Recall-Device.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/Recall-Device.jpg">
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/人物&怪兽/飞虫.jpg" data-lightbox="gallery-item">
-                                        <img src="/images/presskit/场景&建筑/飞虫.jpg">
+                                    <a href="/images/presskit/Sarissa.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/Sarissa.jpg">
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/人物&怪兽/人物图.jpg" data-lightbox="gallery-item">
-                                        <img src="/images/presskit/人物&怪兽/人物图.jpg">
+                                    <a href="/images/presskit/Smogbeast.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/Smogbeast.jpg">
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/人物&怪兽/外星人Da’asa.jpg" data-lightbox="gallery-item">
-                                        <img src="/images/presskit/人物&怪兽/外星人Da’asa.jpg">
+                                    <a href="/images/presskit/Stove.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/Stove.jpg">
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/人物&怪兽/小飞虫.jpg" data-lightbox="gallery-item">
-                                        <img src="/images/presskit/人物&怪兽/小飞虫.jpg">
+                                    <a href="/images/presskit/Tasty-Skewers.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/Tasty-Skewers.jpg">
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/人物&怪兽/烟雾怪.jpg" data-lightbox="gallery-item">
-                                        <img src="/images/presskit/人物&怪兽/烟雾怪.jpg">
+                                    <a href="/images/presskit/Tasty-Stews.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/Tasty-Stews.jpg">
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/人物&怪兽/异星臭鼬(AlienSkunk).jpg" data-lightbox="gallery-item">
-                                        <img src="/images/presskit/人物&怪兽/异星臭鼬(AlienSkunk).jpg">
+                                    <a href="/images/presskit/tree_1.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/tree_1.jpg">
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/人物&怪兽/主角.jpg" data-lightbox="gallery-item">
-                                        <img src="/images/presskit/人物&怪兽/主角.jpg">
+                                    <a href="/images/presskit/tree_2.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/tree_2.jpg">
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/手持工具&武器/冲锋枪.jpg" data-lightbox="gallery-item">
-                                        <img src="/images/presskit/手持工具&武器/冲锋枪.jpg">
+                                    <a href="/images/presskit/weapon.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/weapon.jpg">
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/手持工具&武器/传送门枪.jpg" data-lightbox="gallery-item">
-                                        <img src="/images/presskit/手持工具&武器/传送门枪.jpg">
+                                    <a href="/images/presskit/yanwuguai.jpg" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/yanwuguai.jpg">
                                     </a>
                                 </div>
-                                <div class="item">
-                                    <a href="/images/presskit/手持工具&武器/传送器.jpg" data-lightbox="gallery-item">
-                                        <img src="/images/presskit/手持工具&武器/传送器.jpg">
-                                    </a>
-                                </div>
-                                <div class="item">
-                                    <a href="/images/presskit/手持工具&武器/飞盘枪.jpg" data-lightbox="gallery-item">
-                                        <img src="/images/presskit/手持工具&武器/飞盘枪.jpg">
-                                    </a>
-                                </div>
-                                <div class="item">
-                                    <a href="/images/presskit/手持工具&武器/激光剑.jpg" data-lightbox="gallery-item">
-                                        <img src="/images/presskit/手持工具&武器/激光剑.jpg">
-                                    </a>
-                                </div>
-                                <div class="item">
-                                    <a href="/images/presskit/手持工具&武器/激光弩.jpg" data-lightbox="gallery-item">
-                                        <img src="/images/presskit/手持工具&武器/激光弩.jpg">
-                                    </a>
-                                </div>
-                                <div class="item">
-                                    <a href="/images/presskit/手持工具&武器/激光碎裂枪.jpg" data-lightbox="gallery-item">
-                                        <img src="/images/presskit/手持工具&武器/激光碎裂枪.jpg">
-                                    </a>
-                                </div>
-                                <div class="item">
-                                    <a href="/images/presskit/手持工具&武器/矿石采集器.jpg" data-lightbox="gallery-item">
-                                        <img src="/images/presskit/手持工具&武器/矿石采集器.jpg">
-                                    </a>
-                                </div>
-                                <div class="item">
-                                    <a href="/images/presskit/手持工具&武器/拳头枪.jpg" data-lightbox="gallery-item">
-                                        <img src="/images/presskit/手持工具&武器/拳头枪.jpg">
-                                    </a>
-                                </div>
-                                <div class="item">
-                                    <a href="/images/presskit/手持工具&武器/霰弹枪.jpg" data-lightbox="gallery-item">
-                                        <img src="/images/presskit/手持工具&武器/霰弹枪.jpg">
-                                    </a>
-                                </div>
-                                <div class="item">
-                                    <a href="/images/presskit/手持工具&武器/神秘武器.jpg" data-lightbox="gallery-item">
-                                        <img src="/images/presskit/手持工具&武器/神秘武器.jpg">
-                                    </a>
-                                </div>
-                                <div class="item">
-                                    <a href="/images/presskit/手持工具&武器/手持能量盾.jpg" data-lightbox="gallery-item">
-                                        <img src="/images/presskit/手持工具&武器/手持能量盾.jpg">
-                                    </a>
-                                </div>
-                                <div class="item">
-                                    <a href="/images/presskit/手持工具&武器/手枪.jpg" data-lightbox="gallery-item">
-                                        <img src="/images/presskit/手持工具&武器/手枪.jpg">
-                                    </a>
-                                </div>
-                                <div class="item">
-                                    <a href="/images/presskit/手持工具&武器/手电筒.jpg" data-lightbox="gallery-item">
-                                        <img src="/images/presskit/手持工具&武器/手电筒.jpg">
-                                    </a>
-                                </div>
-                                <div class="item">
-                                    <a href="/images/presskit/手持工具&武器/酸液枪.jpg" data-lightbox="gallery-item">
-                                        <img src="/images/presskit/手持工具&武器/酸液枪.jpg">
-                                    </a>
-                                </div>
-                                <div class="item">
-                                    <a href="/images/presskit/手持工具&武器/遥控榴弹枪.jpg" data-lightbox="gallery-item">
-                                        <img src="/images/presskit/手持工具&武器/遥控榴弹枪.jpg">
-                                    </a>
-                                </div>
-                                <div class="item">
-                                    <a href="/images/presskit/手持工具&武器/液体采集器.jpg" data-lightbox="gallery-item">
-                                        <img src="/images/presskit/手持工具&武器/液体采集器.jpg">
-                                    </a>
-                                </div>
-                                <div class="item">
-                                    <a href="/images/presskit/手持工具&武器/自动步枪.jpg" data-lightbox="gallery-item">
-                                        <img src="/images/presskit/手持工具&武器/自动步枪.jpg">
-                                    </a>
-                                </div>
+
                             </div>
 
                             <a name="logoicon"></a>
                             <hr>
-                            <h3>Logo & Icon</h3>
+                            <h3>游戏 Logo & Icon</h3>
                             <div class="masonry">
                                 <div class="item">
                                     <a href="/images/presskit/logo/logo02.png" data-lightbox="gallery-item">
@@ -360,18 +281,8 @@
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/logo/LOGO.png" data-lightbox="gallery-item">
-                                        <img src="/images/presskit/logo/LOGO.png" class="img-responsive">
-                                    </a>
-                                </div>
-                                <div class="item">
                                     <a href="/images/presskit/logo/logo04.png" data-lightbox="gallery-item">
                                         <img src="/images/presskit/logo/logo04.png" class="img-responsive">
-                                    </a>
-                                </div>
-                                <div class="item">
-                                    <a href="/images/presskit/logo/LOGO黑.png" data-lightbox="gallery-item">
-                                        <img src="/images/presskit/logo/LOGO黑.png" class="img-responsive">
                                     </a>
                                 </div>
                                 <div class="item">
@@ -379,8 +290,12 @@
                                         <img src="/images/presskit/logo/multiverse_logo_04172017.png" class="img-responsive">
                                     </a>
                                 </div>
+                                <div class="item">
+                                    <a href="/images/presskit/logo/seekingdawn_logo.png" data-lightbox="gallery-item">
+                                        <img src="/images/presskit/logo/seekingdawn_logo.png" class="img-responsive">
+                                    </a>
+                                </div>
                             </div>
-
                             <a name="award"></a>
                             <hr>
                             <h3>AWARDS</h3>

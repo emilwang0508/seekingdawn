@@ -6,10 +6,10 @@ use Illuminate\Http\Request;
 class PostController extends Controller
 {
     public function show(){
-
+        return view('post');
     }
-    public function list()
+    public function _list()
     {
-
+        return view('posts');
     }
 }

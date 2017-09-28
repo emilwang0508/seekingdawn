@@ -4,6 +4,10 @@
 
 // Variables
 @import "variables";
+// Variables
+@import "mixins";
+// grid
+@import "grid";
 // normalize
 @import "normalize";
 // navbar
@@ -28,6 +32,11 @@
 @import "poppage";
 // image-carousel
 @import "image-carousel";
+// posts
+@import "posts";
+// post
+@import "post";
+
 body,html{font-family:'Microsoft YaHei','Hiragino Sans GB',Helvetica,Arial,'Lucida Grande',sans-serif;}
 p{
   font-size: 14px;

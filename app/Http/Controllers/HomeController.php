@@ -31,4 +31,14 @@ class HomeController extends Controller
         }
         return view('presskit');
     }
+    /* article list page*/
+    public function posts()
+    {
+        return view('posts');
+    }
+    /* article show page*/
+    public function post()
+    {
+
+    }
 }

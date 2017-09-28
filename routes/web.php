@@ -19,5 +19,5 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/presskit', 'HomeController@presskit')->name('presskit');
-Route::get('/posts', 'HomeController@posts')->name('posts');
-Route::get('/post', 'HomeController@post')->name('posts');
+Route::get('/post', 'PostController@show')->name('post');
+Route::get('/posts', 'PostController@_list')->name('posts');

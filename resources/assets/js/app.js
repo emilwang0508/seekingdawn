@@ -27,12 +27,14 @@ Vue.use(VeeValidate)
 /*
 * pages
 * */
-Vue.component('Index', require('./pages/Index.vue'));//navbar 组件
-Vue.component('navbar', require('./components/Navbar.vue'));//navbar 组件
+Vue.component('Index', require('./pages/Index.vue'));//Index 页面
+Vue.component('Posts', require('./pages/Posts.vue'));//posts 页面
+Vue.component('Show', require('./pages/Show.vue'));//posts 页面
+Vue.component('navbar', require('./components/NavBar.vue'));//navbar 组件
 Vue.component('banner', require('./components/Banner.vue'));//banner 组件
 Vue.component('art', require('./components/Art.vue'));//Art 组件
 Vue.component('press', require('./components/Press.vue'));//Art 组件
-Vue.component('screenshot', require('./components/screenshot.vue'));//screenshot 组件
+Vue.component('screenshot', require('./components/Screenshot.vue'));//screenshot 组件
 Vue.component('intro', require('./components/Intro.vue'));//Intro 组件
 Vue.component('devBlog', require('./components/Devblog.vue'));//devbog 组件
 Vue.component('footerBar', require('./components/FooterBar.vue'));//Art 组件

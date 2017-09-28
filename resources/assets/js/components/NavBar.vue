@@ -1,7 +1,5 @@
 <template>
     <div class="nav-bar" v-bind:class="{ active: isActive}" v-on:mouseenter="showMenu()" v-on:mouseleave="hideMenu()" v-on:click="Menu()">
-    <!--<div class="nav-bar" v-bind:class="{ active: isActive}" v-on:mouseenter="showMenu()"  v-on:click="Menu()">-->
-    <!--<div class="nav-bar active">-->
         <div class="menu-btn">
             <svg xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink"
