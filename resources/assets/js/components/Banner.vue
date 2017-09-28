@@ -28,7 +28,7 @@
         data() {
             return {
                 bannerBg: 'images/desert.png',
-                logoSrc: 'images/seekingdawn_logo.png',
+                logoSrc: 'images/seekingdawn_banner_logo.png',
                 monsterSrc: 'images/monster.png',
                 socialSrc: 'images/social_icon.png',
                 downloadSrc: 'images/download_icon.png',
