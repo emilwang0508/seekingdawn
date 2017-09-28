@@ -103,6 +103,7 @@
                             <hr>
                             <h3>Game Video</h3>
                             <iframe width="900" height="600" src="https://www.youtube.com/embed/MgEUGNsFIPA" frameborder="0" allowfullscreen></iframe>
+                            <iframe width="900" height="600" src="https://www.youtube.com/embed/yT-XezI6WMQ" frameborder="0" allowfullscreen></iframe>
                             <small>
                                 <a href=https://www.youtube.com/embed/MgEUGNsFIPA" target="_blank">Seeking Dawn E3 Co-op Gameplay</a>
                             </small>
