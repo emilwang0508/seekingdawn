@@ -290,7 +290,7 @@
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/logo/seekingdawn_banner_logo.png" data-lightbox="gallery-item">
+                                    <a href="/images/seekingdawn_banner_logo.png" data-lightbox="gallery-item">
                                         <img src="/images/presskit/logo/seekingdawn_logo.png" class="img-responsive">
                                     </a>
                                 </div>
