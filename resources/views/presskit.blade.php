@@ -62,8 +62,8 @@
                                     <li><strong>Developer：</strong><br /><a href="https://www.multiverseinc.com">Multiverse</a></li>
                                     <li><strong>Release Date：</strong><br />TBD</li>
                                     <li><strong>Latest Version：</strong><br />Alpha</li>
-                                    <li><strong>Category：</strong><br />Sandbox Survival</li>
-                                    <li><strong>Feature：</strong><br />Science Fiction RPG</li>
+                                    <li><strong>Feature：</strong><br />Sandbox Survival, crafting, building, exploration</li>
+                                    <li><strong>Genre：</strong><br />Survival, RPG, FPS</li>
                                     <li><strong>Platform：</strong><br />
                                     Steam for PC/HTC VIVE/Oculus/Windows MR</li>
                                     <li><strong>Regular：</strong><br />TBD</li>
@@ -81,19 +81,20 @@
                                         </em>
                                     </p>
                                     <p>
-                                        An extensive sci-fi adventure offering dozens of hours of gameplay, Seeking Dawn combines rich storytelling with gritty combat in both solo and cooperative modes, as well as additional challenge modes for even better loot. Scavenge, craft, build, explore, fight, and most importantly, find a way home.
-                                    </p>                                                                    <a name="feature"></a>
+                                        A sci-fi adventure offering dozens of hours of gameplay, Seeking Dawn combines rich storytelling with gritty combat in both solo and cooperative modes, as well as additional challenge modes for even better loot. Scavenge craft, build, explore, fight, and most importantly, find a way home.
+                                    </p>
+                                    <a name="feature"></a>
                                     <hr>
-                                    <h3>Features</h3>
+                                    <h3>FEATURES</h3>
                                     <ul>
-                                        <li>FPS combat meets gritty survival meets story-driven RPG in VR.</li>
-                                        <li>Solo and cooperative play with a full, story-rich campaign.</li>
-                                        <li>Build an automated and dynamic base and install defenses to keep your squad safe.</li>
-                                        <li>Extensive character development with intricate skill trees.</li>
-                                        <li>Deep crafting system with 50+ tools for combat and survival.</li>
-                                        <li>Explore with full movement including climbing and swimming.</li>
-                                        <li>Unique bullet hell gameplay mechanic.</li>
-                                        <li>PvP gameplay for up to 20 players.</li>
+                                        <li>-	FPS combat meets gritty survival and a story-driven RPG in VR.</li>
+                                        <li>-	Solo and cooperative play with a full, story-rich campaign.</li>
+                                        <li>-	Build an automated and dynamic base and install defenses to keep your squad safe.</li>
+                                        <li>-	Extensive character development with intricate skill trees.</li>
+                                        <li>-	Deep crafting system with 50+ tools for combat and survival.</li>
+                                        <li>-	Explore with full movement including climbing and swimming.</li>
+                                        <li>-	Unique bullet hell gameplay mechanic.</li>
+                                        <li>-	PvP gameplay for up to 20 players.</li>
                                     </ul>
                                 </article>
                             </div>
@@ -306,17 +307,17 @@
 
                             <a name="report"></a>
                             <hr>
-                            <h3>News</h3>
+                            <h3>NEWS</h3>
                             <ul>
                                 <li>
-                                    <strong>UploadVR：</strong><a href="https://uploadvr.com/seeking-dawn-looks-like-hugely-ambitious-vr-shooter/" target="_blank">Seeking Dawn Looks Like A Hugely Ambitious VR Shooter</a>
+                                    <strong>UploadVR：</strong><a href="https://uploadvr.com/seeking-dawn-looks-like-hugely-ambitious-vr-shooter/" target="_blank">"Seeking Dawn Looks Like A Hugely Ambitious VR Shooter"</a>
                                 </li>
                                 <li>
-                                    <strong>VRFocus：</strong><a href="https://www.vrfocus.com/2017/06/one-of-the-largest-vr-action-survival-games-seeking-dawn/" target="_blank">One Of The Largest VR Action Survival Games: Seeking Dawn</a>
+                                    <strong>VRFocus：</strong><a href="https://www.vrfocus.com/2017/06/one-of-the-largest-vr-action-survival-games-seeking-dawn/" target="_blank">"One Of The Largest VR Action Survival Games: Seeking Dawn"</a>
                                 </li>
 
                                 <li>
-                                    <strong>UploadVR：</strong><a href="https://uploadvr.com/e3-2017-hands-sci-fi-shooter-seeking-dawn/" target="_blank">E3 2017: Hands-On With Ambitious Sci-Fi Shooter Seeking Dawn</a>
+                                    <strong>UploadVR：</strong><a href="https://uploadvr.com/e3-2017-hands-sci-fi-shooter-seeking-dawn/" target="_blank">"E3 2017: Hands-On With Ambitious Sci-Fi Shooter Seeking Dawn"</a>
                                 </li>
 
 
@@ -328,7 +329,8 @@
                                 <a name="team"></a>
                                 <div class="col-ms-12 col-sm-12">
                                     <h3>ABOUT MULTIVERSE</h3>
-                                    <p>Multiverse is a world-class VR studio founded by game industry veterans. Coming from places like Wevr, Disney, Riot, etc., our team is working tirelessly on creating industry-defining content and helping bring VR to the masses. We are working on Seeking Dawn, a sprawling Sci-Fi Survival RPG. Our previous game, Reveries: Dream Flight, is one of the highest-rated VR games worldwide and a top selling title on the Oculus Store.
+                                    <p>
+                                        Multiverse is a world-class VR studio founded by game industry veterans. Coming from places like Wevr, Disney, Riot Games, and more; our team is working tirelessly on creating industry-defining content and helping bring VR to the masses. Our current project is “Seeking Dawn”, a sprawling Sci-Fi Survival RPG. Our previous game, “Reveries: Dream Flight” is one of the highest-rated VR games worldwide and a top selling title on the Oculus Store.
                                     </p>
 
                                 </div>
