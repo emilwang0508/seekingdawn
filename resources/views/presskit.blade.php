@@ -114,147 +114,147 @@
                             <h3>Game Art</h3>
                             <div class="masonry">
                                 <div class="item">
-                                    <a href="/images/presskit/ACC_SimianTrooper.jpg" data-lightbox="gallery-item">
+                                    <a href="/images/presskit/ACC_SimianTrooper.jpg" data-lightbox="gallery-item" target="_blank">
                                         <img src="/images/presskit/ACC_SimianTrooper.jpg">
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/acc-Dropship.jpg" data-lightbox="gallery-item">
+                                    <a href="/images/presskit/acc-Dropship.jpg" data-lightbox="gallery-item" target="_blank">
                                         <img src="/images/presskit/acc-Dropship.jpg">
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/ACC-Simian-Trooper.jpg" data-lightbox="gallery-item">
+                                    <a href="/images/presskit/ACC-Simian-Trooper.jpg" data-lightbox="gallery-item" target="_blank">
                                         <img src="/images/presskit/ACC-Simian-Trooper.jpg">
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/Alien-flora.jpg" data-lightbox="gallery-item">
+                                    <a href="/images/presskit/Alien-flora.jpg" data-lightbox="gallery-item" target="_blank">
                                         <img src="/images/presskit/Alien-flora.jpg">
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/Alien-Skunk.jpg" data-lightbox="gallery-item">
+                                    <a href="/images/presskit/Alien-Skunk.jpg" data-lightbox="gallery-item" target="_blank">
                                         <img src="/images/presskit/Alien-Skunk.jpg">
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/Carbon-Harvester.jpg" data-lightbox="gallery-item">
+                                    <a href="/images/presskit/Carbon-Harvester.jpg" data-lightbox="gallery-item" target="_blank">
                                         <img src="/images/presskit/Carbon-Harvester.jpg">
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/Chalikar.jpg" data-lightbox="gallery-item">
+                                    <a href="/images/presskit/Chalikar.jpg" data-lightbox="gallery-item" target="_blank">
                                         <img src="/images/presskit/Chalikar.jpg">
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/Dawnseeker.jpg" data-lightbox="gallery-item">
+                                    <a href="/images/presskit/Dawnseeker.jpg" data-lightbox="gallery-item" target="_blank">
                                         <img src="/images/presskit/Dawnseeker.jpg">
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/FCR-Dropship.jpg" data-lightbox="gallery-item">
+                                    <a href="/images/presskit/FCR-Dropship.jpg" data-lightbox="gallery-item" target="_blank">
                                         <img src="/images/presskit/FCR-Dropship.jpg">
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/Giles-Thane.jpg" data-lightbox="gallery-item">
+                                    <a href="/images/presskit/Giles-Thane.jpg" data-lightbox="gallery-item" target="_blank">
                                         <img src="/images/presskit/Giles-Thane.jpg">
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/Goanna.jpg" data-lightbox="gallery-item">
+                                    <a href="/images/presskit/Goanna.jpg" data-lightbox="gallery-item" target="_blank">
                                         <img src="/images/presskit/Goanna.jpg">
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/Halicite.jpg" data-lightbox="gallery-item">
+                                    <a href="/images/presskit/Halicite.jpg" data-lightbox="gallery-item" target="_blank">
                                         <img src="/images/presskit/Halicite.jpg">
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/hand.jpg" data-lightbox="gallery-item">
+                                    <a href="/images/presskit/hand.jpg" data-lightbox="gallery-item" target="_blank">
                                         <img src="/images/presskit/hand.jpg">
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/huangjing1.jpg" data-lightbox="gallery-item">
+                                    <a href="/images/presskit/huangjing1.jpg" data-lightbox="gallery-item" target="_blank">
                                         <img src="/images/presskit/huangjing1.jpg">
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/huangjing2.jpg" data-lightbox="gallery-item">
+                                    <a href="/images/presskit/huangjing2.jpg" data-lightbox="gallery-item" target="_blank">
                                         <img src="/images/presskit/huangjing2.jpg">
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/huangjing3.jpg" data-lightbox="gallery-item">
+                                    <a href="/images/presskit/huangjing3.jpg" data-lightbox="gallery-item" target="_blank">
                                         <img src="/images/presskit/huangjing3.jpg">
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/K`erhalen-Savage.jpg" data-lightbox="gallery-item">
+                                    <a href="/images/presskit/K`erhalen-Savage.jpg" data-lightbox="gallery-item" target="_blank">
                                         <img src="/images/presskit/K`erhalen-Savage.jpg">
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/Oanger.jpg" data-lightbox="gallery-item">
+                                    <a href="/images/presskit/Oanger.jpg" data-lightbox="gallery-item" target="_blank">
                                         <img src="/images/presskit/Oanger.jpg">
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/pavise.jpg" data-lightbox="gallery-item">
+                                    <a href="/images/presskit/pavise.jpg" data-lightbox="gallery-item" target="_blank">
                                         <img src="/images/presskit/pavise.jpg">
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/Rcs-Condor.jpg" data-lightbox="gallery-item">
+                                    <a href="/images/presskit/Rcs-Condor.jpg" data-lightbox="gallery-item" target="_blank">
                                         <img src="/images/presskit/Rcs-Condor.jpg">
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/Recall-Device.jpg" data-lightbox="gallery-item">
+                                    <a href="/images/presskit/Recall-Device.jpg" data-lightbox="gallery-item" target="_blank">
                                         <img src="/images/presskit/Recall-Device.jpg">
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/Sarissa.jpg" data-lightbox="gallery-item">
+                                    <a href="/images/presskit/Sarissa.jpg" data-lightbox="gallery-item" target="_blank">
                                         <img src="/images/presskit/Sarissa.jpg">
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/Stove.jpg" data-lightbox="gallery-item">
+                                    <a href="/images/presskit/Stove.jpg" data-lightbox="gallery-item" target="_blank">
                                         <img src="/images/presskit/Stove.jpg">
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/Tasty-Skewers.jpg" data-lightbox="gallery-item">
+                                    <a href="/images/presskit/Tasty-Skewers.jpg" data-lightbox="gallery-item" target="_blank">
                                         <img src="/images/presskit/Tasty-Skewers.jpg">
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/Tasty-Stews.jpg" data-lightbox="gallery-item">
+                                    <a href="/images/presskit/Tasty-Stews.jpg" data-lightbox="gallery-item" target="_blank">
                                         <img src="/images/presskit/Tasty-Stews.jpg">
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/tree_1.jpg" data-lightbox="gallery-item">
+                                    <a href="/images/presskit/tree_1.jpg" data-lightbox="gallery-item" target="_blank">
                                         <img src="/images/presskit/tree_1.jpg">
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/tree_2.jpg" data-lightbox="gallery-item">
+                                    <a href="/images/presskit/tree_2.jpg" data-lightbox="gallery-item" target="_blank">
                                         <img src="/images/presskit/tree_2.jpg">
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/weapon.jpg" data-lightbox="gallery-item">
+                                    <a href="/images/presskit/weapon.jpg" data-lightbox="gallery-item" target="_blank">
                                         <img src="/images/presskit/weapon.jpg">
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/yanwuguai.jpg" data-lightbox="gallery-item">
+                                    <a href="/images/presskit/yanwuguai.jpg" data-lightbox="gallery-item" target="_blank">
                                         <img src="/images/presskit/yanwuguai.jpg">
                                     </a>
                                 </div>
@@ -266,27 +266,27 @@
                             <h3>Logo & Icon</h3>
                             <div class="masonry">
                                 <div class="item">
-                                    <a href="/images/presskit/logo/logo02.png" data-lightbox="gallery-item">
+                                    <a href="/images/presskit/logo/logo02.png" data-lightbox="gallery-item" target="_blank">
                                         <img src="/images/presskit/logo/logo02.png" class="img-responsive">
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/logo/logo01.png" data-lightbox="gallery-item">
+                                    <a href="/images/presskit/logo/logo01.png" data-lightbox="gallery-item" target="_blank">
                                         <img src="/images/presskit/logo/logo01.png" class="img-responsive">
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/logo/logo04.png" data-lightbox="gallery-item">
+                                    <a href="/images/presskit/logo/logo04.png" data-lightbox="gallery-item" target="_blank">
                                         <img src="/images/presskit/logo/logo04.png" class="img-responsive">
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/presskit/logo/multiverse_logo_04172017.png" data-lightbox="gallery-item">
+                                    <a href="/images/presskit/logo/multiverse_logo_04172017.png" data-lightbox="gallery-item" target="_blank">
                                         <img src="/images/presskit/logo/multiverse_logo_04172017.png" class="img-responsive">
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="/images/seekingdawn_banner_logo.png" data-lightbox="gallery-item">
+                                    <a href="/images/seekingdawn_banner_logo.png" data-lightbox="gallery-item" target="_blank">
                                         <img src="/images/presskit/logo/seekingdawn_logo.png" class="img-responsive">
                                     </a>
                                 </div>
