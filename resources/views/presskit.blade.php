@@ -22,9 +22,9 @@
     ============================================= -->
     <script type="text/javascript" src="/js/app.js"></script>
     <!-- Document Title ============================================= -->
-    <title>寻找黎明 SeekingDawn Press Kit</title>
-    <meta name="description" content="寻找黎明 SeekingDawn by Multiverse VR邮箱" />
-    <meta name="keywords" content="寻找黎明 SeekingDawn RPG 游戏 VR" />
+    <title>SeekingDawn VR Press Kit</title>
+    <meta name="description" content="SeekingDawn by Multiverse VR" />
+    <meta name="keywords" content=" SeekingDawn RPG VR" />
     <meta name="author" content="seekingdawnvr.com" />
 </head>
 <body class="stretched no-transition" style="background: #eee">
@@ -220,11 +220,6 @@
                                 <div class="item">
                                     <a href="/images/presskit/Sarissa.jpg" data-lightbox="gallery-item">
                                         <img src="/images/presskit/Sarissa.jpg">
-                                    </a>
-                                </div>
-                                <div class="item">
-                                    <a href="/images/presskit/Smogbeast.jpg" data-lightbox="gallery-item">
-                                        <img src="/images/presskit/Smogbeast.jpg">
                                     </a>
                                 </div>
                                 <div class="item">
