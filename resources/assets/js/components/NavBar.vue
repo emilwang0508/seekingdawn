@@ -17,7 +17,7 @@
         </div>
         <div class="nav-link">
             <a href="http://user.multiverseinc.com/ambassador" class="">Ambassador</a>
-            <a href="https://1drv.ms/f/s!App17wPCu9sFni5qj1FG8EYqh88l" class="">Presskit Download</a>
+            <a href="//seekingdawnvr.com/presskit" class="">Presskit Download</a>
             <a href="https://www.multiverseinc.com" class="">Multiverse</a>
         </div>
     </div>
