@@ -15,7 +15,7 @@
         @else
         <link href="{{ mix('css/app.css') }}" rel="stylesheet">
     @endif
-    <link href="{{ asset('css/loading.css') }}" rel="stylesheet">
+    <link href="//{{ env('RESOURCE_PATH') }}{{ asset('css/loading.css') }}" rel="stylesheet">
     <link href="{{ asset('font-awesome/css/font-awesome.min.css') }}" rel="stylesheet">
     <link rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
@@ -51,7 +51,7 @@
     @if(env('APP_DEBUG')==false)
         <script src="//{{ env('RESOURCE_PATH') }}{{ mix('js/app.js') }}"></script>
         @else
-        <script src="{{ mix('js/app.js') }}"></script>
+        <script src="//{{ env('RESOURCE_PATH') }}{{ mix('js/app.js') }}"></script>
     @endif
     <script src="/fonts/iconfont/iconfont.js"></script>
     <script>

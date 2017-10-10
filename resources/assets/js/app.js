@@ -40,5 +40,5 @@ Vue.component('devBlog', require('./components/Devblog.vue'));//devbog 组件
 Vue.component('footerBar', require('./components/FooterBar.vue'));//Art 组件
 
 const app = new Vue({
-    el: '#app'
+    el: '#app',
 });
