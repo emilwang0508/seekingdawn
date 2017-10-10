@@ -61,7 +61,7 @@
         },
         data() {
             return {
-                footerBg: 'images/sd_footer_bg.png',
+                footerBg: '/images/sd_footer_bg.png',
                 email: ''
             }
         },

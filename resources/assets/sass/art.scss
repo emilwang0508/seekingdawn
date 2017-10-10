@@ -6,6 +6,7 @@
   background-size: cover;
   position: relative;
   .art-list{
+    position: relative;
     list-style: none;
     height: 400px;
     margin: 60px auto 0 !important;
@@ -31,14 +32,14 @@
   }
   .fa-angle-left,.fa-angle-right{
     position: absolute;
-    top: 75%;
+    top: 50%;
     cursor: pointer;
   }
   .fa-angle-left{
-    left: 10px;
+    left: -40px;
   }
   .fa-angle-right{
-    right: 10px;
+    right: -40px;
   }
 }
 

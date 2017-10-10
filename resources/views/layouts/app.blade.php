@@ -10,7 +10,11 @@
 
     <!-- Styles -->
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" media="screen" />
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    @if(env('APP_DEBUG')==false)
+        <link href="//{{ env('RESOURCE_PATH') }}{{ mix('css/app.css') }}" rel="stylesheet">
+        @else
+        <link href="{{ mix('css/app.css') }}" rel="stylesheet">
+    @endif
     <link href="{{ asset('css/loading.css') }}" rel="stylesheet">
     <link href="{{ asset('font-awesome/css/font-awesome.min.css') }}" rel="stylesheet">
     <link rel="stylesheet"
@@ -44,7 +48,11 @@
         @yield('content')
     </div>
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}"></script>
+    @if(env('APP_DEBUG')==false)
+        <script src="//{{ env('RESOURCE_PATH') }}{{ mix('js/app.js') }}"></script>
+        @else
+        <script src="{{ mix('js/app.js') }}"></script>
+    @endif
     <script src="/fonts/iconfont/iconfont.js"></script>
     <script>
         window.onload=function(){

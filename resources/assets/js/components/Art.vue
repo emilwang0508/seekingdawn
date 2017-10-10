@@ -4,11 +4,13 @@
         <p class="des white">
             An extensive sci-fi adventure offering dozens of hours of gameplay, Seeking Dawn combines rich storytelling with gritty combat in both solo and cooperative modes, as well as additional challenge modes for even better loot. Scavenge, craft, build, explore, fight, and most importantly, find a way home.
         </p>
-        <i class="fa fa-angle-left white fa-2x" @click="leftChangeShowList()"></i>
+
         <ul class="art-list container">
+            <i class="fa fa-angle-left white fa-2x" @click="leftChangeShowList()"></i>
             <li v-for="(item, index) in artList"  v-show="isActive(index)"><img v-lazy="item.src" :alt="item.alt" ></li>
+            <i class="fa fa-angle-right white fa-2x" @click="rightChangeShowList()"></i>
         </ul>
-        <i class="fa fa-angle-right white fa-2x" @click="rightChangeShowList()"></i>
+
     </div>
 </template>
 
