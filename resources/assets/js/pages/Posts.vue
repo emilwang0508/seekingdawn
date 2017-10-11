@@ -11,59 +11,15 @@
         </div>
         <div class="blog-area">
             <div class="container">
-                <div class="col-lg-4 col-md-4 col-xs-4 col-sm-12">
+                <div class="col-lg-4 col-md-4 col-xs-4 col-sm-12" v-for="post in posts">
                     <div class="blog">
                         <div class="cover"><img src="//cdn.multiverseinc.com/images/dev_default_cover.jpg" alt="dev_cover"></div>
-                        <div class="title"><p>title</p></div>
-                        <div class="create_at"><p>2017.08.01</p></div>
+                        <div class="title"><p>{{ post.title }}</p></div>
+                        <div class="create_at"><p>{{ post.update_at }}</p></div>
                     </div>
                     <div class="schema">
-                        <div class="des"><p>dessadsadsasdasadsa</p></div>
-                        <a href="/1" class="link-href">Read More</a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-xs-4 col-sm-12">
-                    <div class="blog">
-                        <div class="cover"><img src="//cdn.multiverseinc.com/images/dev_default_cover.jpg" alt="dev_cover"></div>
-                        <div class="title"><p>title</p></div>
-                        <div class="create_at"><p>2017.08.01</p></div>
-                    </div>
-                    <div class="schema">
-                        <div class="des"><p>des</p></div>
-                        <a href="/1" class="link-href">Read More</a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-xs-4 col-sm-12">
-                    <div class="blog">
-                        <div class="cover"><img src="//cdn.multiverseinc.com/images/dev_default_cover.jpg" alt="dev_cover"></div>
-                        <div class="title"><p>title</p></div>
-                        <div class="create_at"><p>2017.08.01</p></div>
-                    </div>
-                    <div class="schema">
-                        <div class="des"><p>des</p></div>
-                        <a href="/1" class="link-href">Read More</a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-xs-4 col-sm-12">
-                    <div class="blog">
-                        <div class="cover"><img src="//cdn.multiverseinc.com/images/dev_default_cover.jpg" alt="dev_cover"></div>
-                        <div class="title"><p>title</p></div>
-                        <div class="create_at"><p>2017.08.01</p></div>
-                    </div>
-                    <div class="schema">
-                        <div class="des"><p>des</p></div>
-                        <a href="" class="link-href">Read More</a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-xs-4 col-sm-12">
-                    <div class="blog">
-                        <div class="cover"><img src="//cdn.multiverseinc.com/images/dev_default_cover.jpg" alt="dev_cover"></div>
-                        <div class="title"><p>title</p></div>
-                        <div class="create_at"><p>2017.08.01</p></div>
-                    </div>
-                    <div class="schema">
-                        <div class="des"><p>des</p></div>
-                        <a href="/1" class="link-href">Read More</a>
+                        <div class="des"><p>{{ post.description }}</p></div>
+                        <a href="/post/" class="link-href">Read More</a>
                     </div>
                 </div>
             </div>
@@ -85,13 +41,31 @@
     import popPage from '../components/PopPage'
     export default {
         mounted() {
-            console.log('Component mounted.')
+            console.log('Posts page mounted.')
+        },
+        created() {
+            var self = this;
+            console.log('hello');
+            axios.post('http://www.multiverseinc.com/posts', {
+                from: 'seekingdawnvr',
+                param: '192.168.1.1'
+            })
+            .then(function (response) {
+                console.log(response);
+                self.posts = response.data
+                console.log(self.posts)
+            })
+            .catch(function (error) {
+                console.log(error);
+            });
         },
         components: {
             navBar, footerBar
         },
         data(){
             return {
+                posts: '',
+                number: '1',
             }
         },
         methods:{

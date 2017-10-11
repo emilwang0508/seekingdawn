@@ -11,7 +11,7 @@
     import titleBar from "./title"
     export default {
         mounted() {
-            console.log('Component mounted.')
+            console.log('Intro Component mounted.')
         },
         components: {
             titleBar

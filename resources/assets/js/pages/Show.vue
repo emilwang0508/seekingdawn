@@ -34,7 +34,7 @@
     import popPage from '../components/PopPage'
     export default {
         mounted() {
-            console.log('Component mounted.')
+            console.log('Show page mounted.')
         },
         components: {
             footerBar,

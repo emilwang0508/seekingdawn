@@ -11,7 +11,7 @@
           console.log(this.$parent.isShowPopPage)
         },
         mounted() {
-            console.log('Component mounted.')
+            console.log('PopPage Component mounted.')
         },
         data(){
             return {

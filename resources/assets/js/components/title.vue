@@ -7,7 +7,7 @@
 
     export default {
         mounted() {
-            console.log('Component mounted.')
+            console.log('TitleComponent mounted.')
         },
         props: ['msg','came'],
         created() {

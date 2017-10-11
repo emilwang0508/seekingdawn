@@ -26,7 +26,7 @@
     import popPage from '../components/PopPage'
     export default {
         mounted() {
-            console.log('Component mounted.')
+            console.log('Index page mounted.')
         },
         components: {
             navBar, banner, intro, art, press, screenShot, devBlog, footerBar, popPage, subscribe

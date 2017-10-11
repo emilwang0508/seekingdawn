@@ -57,7 +57,7 @@
 <script>
     export default {
         mounted() {
-            console.log('Component mounted.')
+            console.log('FooterBar Component mounted.')
         },
         data() {
             return {

@@ -26,7 +26,7 @@
     import titleBar from "./title"
     export default {
         mounted() {
-            console.log('Component mounted.')
+            console.log('Subscribe Component mounted.')
         },
         data(){
             return{

@@ -13,6 +13,7 @@
 <script>
     export default {
         mounted() {
+            console.log('ImageCarousel Component mounted.')
             let i = this.index
             i >=0 ? this.imgSrc = this.list[i].bigSrc : this.imgSrc = this.list[0].bigSrc
 

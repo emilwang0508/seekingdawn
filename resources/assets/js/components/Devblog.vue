@@ -28,7 +28,7 @@
     import titleBar from "./title"
     export default {
         mounted() {
-            console.log('Component mounted.')
+            console.log('Dev Component mounted.')
         },
         data() {
             return {

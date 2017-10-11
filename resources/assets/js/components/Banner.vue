@@ -23,7 +23,7 @@
 <script>
     export default {
         mounted() {
-            console.log('Component mounted.')
+            console.log('Banner Component mounted.')
         },
         data() {
             return {
