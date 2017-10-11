@@ -19,7 +19,7 @@
                     </div>
                     <div class="schema">
                         <div class="des"><p>{{ post.description }}</p></div>
-                        <a href="/post/" class="link-href">Read More</a>
+                        <a :href="'/post/' + post.id" class="link-href">Read More</a>
                     </div>
                 </div>
             </div>
@@ -44,6 +44,7 @@
             console.log('Posts page mounted.')
         },
         created() {
+
             var self = this;
             console.log('hello');
             axios.post('http://www.multiverseinc.com/posts', {
