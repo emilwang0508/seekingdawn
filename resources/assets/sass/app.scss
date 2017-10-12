@@ -47,7 +47,8 @@ p{
   display: none;
 }
 body{
-  min-width: 1900px;
+  //min-width: 1400px;
+  width: 100%;
 }
 .container{
   width: 1200px;
@@ -96,11 +97,15 @@ body{
   width: 700px;
   margin: 0 auto;
 }
+.container-fluid{
+  padding: 0;
+}
 .banner {
   position: relative;
   //height: 975px;
   height: 900px;
-  min-width: 1900px;
+  min-width: 1600px;
+  width: 100%;
   top: 0;
   text-align: center;
   background-size: cover;
