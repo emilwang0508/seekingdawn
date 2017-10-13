@@ -3,14 +3,14 @@
         <!--<img v-lazy="logoSrc" alt="seeking dawn" class="banner_logo" src="/images/mobile/header_logo.png">-->
         <div style="margin-top: 60px;"><img alt="seeking dawn" class="banner_logo" src="/images/mobile/header_logo.png"></div>
         <div class="btn_group">
-            <i class="play_btn fl" v-on:click="playVideo()"></i>
-            <a href="http://user.multiverseinc.com/ambassador" class="fl"  style="float: left;display: inline-block;">
+            <p><i class="play_btn fl" v-on:click="playVideo()"></i></p>
+            <p><a href="http://user.multiverseinc.com/ambassador" class="fl"  style="float: left;display: inline-block;">
                 <img v-lazy="socialSrc" alt="" class="social">
                 <span>Ambassador</span>
-            </a>
-            <a href="/presskit" target="_blank " class="fl">
+            </a></p>
+            <p><a href="/presskit" target="_blank " class="fl">
                 <img v-lazy="downloadSrc" alt="" class="social"><span>PressKit Download</span>
-            </a>
+            </a></p>
         </div>
         <img v-lazy="monsterSrc" alt="monster" class="monster">
         <!--<img v-lazy="monsterSrc" alt="monster" class="monster">

@@ -1,7 +1,7 @@
 <template>
     <div class="footer container-fluid " v-lazy:background-image="footerBg">
         <div class="container" style="z-index: 9">
-            <p class="text-center" style="font-size: 16px;color: #000">
+            <p class="text-center" style="font-size: 16px;color: #000;margin: 0 4px;">
                 {{title}}
             </p>
             <form method="post" v-on:submit.prevent="formData()">

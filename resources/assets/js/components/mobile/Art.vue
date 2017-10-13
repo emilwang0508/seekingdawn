@@ -48,7 +48,7 @@
                     {src:"/images/model/19.jpg",alt:"激光弩Assegai",isActive: false},
                     {src:"/images/model/FrisbeeGun.jpg",alt:"飞盘枪FrisbeeGun",isActive: false},
                 ],
-                artBg: '/images/art_bg.png',
+                artBg: '/images/mobile/art_bg.png',
                 showList: [0,1,2],
                 msg:'ART GALLERY',
                 content:'An extensive sci-fi adventure offering dozens of hours of gameplay, Seeking Dawn combines rich storytelling with gritty combat in both solo and cooperative modes, as well as additional challenge modes for even better loot. Scavenge, craft, build, explore, fight, and most importantly, find a way home.',
