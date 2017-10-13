@@ -9,7 +9,7 @@
                 <span>Ambassador</span>
             </a></p>
             <p><a href="/presskit" target="_blank " class="fl">
-                <img v-lazy="downloadSrc" alt="" class="social"><span>PressKit Download</span>
+                <img v-lazy="downloadSrc" alt="" class="social"><span>{{pressName}}</span>
             </a></p>
         </div>
         <img v-lazy="monsterSrc" alt="monster" class="monster">
@@ -24,6 +24,8 @@
             let lang = window.localStorage.getItem('LANGUAGE')
             if (lang=='zh_cn'){
                 this.isShow = false
+                this.playName = '预告片播放'
+                this.pressName = '新闻资料袋'
             }
         },
         data() {
@@ -34,7 +36,10 @@
                 socialSrc: '/images/social_icon.png',
                 downloadSrc: '/images/download_icon.png',
                 animate: true,
-                isShow:true
+                isShow:true,
+                ambassdor_btn:'ambassador',
+                playName: 'Play Trailer',
+                pressName: 'PressKit Download'
             }
         },
         methods:{

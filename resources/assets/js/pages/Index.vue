@@ -38,7 +38,7 @@
         data(){
             return {
                 isShowPopPage: false,
-                isShow: false
+                isShow: true
             }
         },
         methods:{

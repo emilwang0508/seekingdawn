@@ -1,6 +1,6 @@
 <template>
     <div class="screenshot container-fluid"  v-lazy:background-image="screenshotBg">
-        <title-bar came="white" msg="SCREENSHOTS"></title-bar>
+        <title-bar came="white" :msg="msg"></title-bar>
         <ul class="m-screenshot-list"  v-on:mouseenter="showShadow()" v-bind:class="{active:isActive}" v-on:mouseleave="hideShadow()">
             <li v-for="(item,index) in screenLists"
                 class="col-xs-6 col-md-6 col-sm-6"
@@ -22,6 +22,10 @@
     export default {
         mounted() {
             console.log('Screenshot Component mounted.')
+            let lang = window.localStorage.getItem('LANGUAGE')
+            if (lang=='zh_cn'){
+                this.msg = '场景'
+            }
         },
         components: {
             titleBar, carousel
@@ -46,7 +50,8 @@
                 isActive: false,
                 screenshotBg: '/images/screenshot_bg.jpg',
                 showBigPicIndex:'',
-                isShowBigPic: false
+                isShowBigPic: false,
+                msg: "SCREENSHOT",
             }
 
         },
