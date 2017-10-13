@@ -7,7 +7,7 @@
         <press></press>
         <screen-shot></screen-shot>
         <dev-blog></dev-blog>
-        <subscribe></subscribe>
+        <subscribe v-if="isShow"></subscribe>
         <footer-bar></footer-bar>
         <pop-page v-if="isShowPopPage"></pop-page>
     </div>
@@ -25,7 +25,7 @@
     import footerBar from '../components/FooterBar'
     import popPage from '../components/PopPage'
     export default {
-        mounted() {
+        created() {
             console.log('Index page mounted.')
             let lang = window.localStorage.getItem('LANGUAGE')
             if (lang=='zh_cn'){
@@ -38,7 +38,7 @@
         data(){
             return {
                 isShowPopPage: false,
-                isShow: true
+                isShow: false
             }
         },
         methods:{

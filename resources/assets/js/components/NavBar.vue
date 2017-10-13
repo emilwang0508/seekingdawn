@@ -16,9 +16,11 @@
             </svg>
         </div>
         <div class="nav-link">
-            <a href="http://user.multiverseinc.com/ambassador" class="">Ambassador</a>
+            <a href="http://user.multiverseinc.com/ambassador" class="" v-if="isShow">Ambassador</a>
             <a href="//seekingdawnvr.com/presskit" class="">Presskit Download</a>
             <a href="https://www.multiverseinc.com" class="">Multiverse</a>
+            <a href="/en/" class="" v-if="!isShow">EN</a>
+            <a href="/zh_cn/" class="" v-if="isShow">中文</a>
         </div>
     </div>
 </template>
@@ -27,10 +29,15 @@
     export default {
         mounted() {
             console.log('NavBar Component mounted.')
+            let lang = window.localStorage.getItem('LANGUAGE')
+            if (lang=='zh_cn'){
+                this.isShow = false
+            }
         },
         data() {
             return {
-                isActive: false
+                isActive: false,
+                isShow:true
             }
         },
         methods:{

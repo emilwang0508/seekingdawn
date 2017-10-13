@@ -1732,6 +1732,12 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony default export */ __webpack_exports__["default"] = ({
     mounted: function mounted() {
         console.log('Banner Component mounted.');
+        var lang = window.localStorage.getItem('LANGUAGE');
+        if (lang == 'zh_cn') {
+            this.isShow = false;
+            this.playName = '预告片播放';
+            this.pressName = '新闻资料袋';
+        }
     },
     data: function data() {
         return {
@@ -1740,7 +1746,11 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             monsterSrc: '/images/monster.png',
             socialSrc: '/images/social_icon.png',
             downloadSrc: '/images/download_icon.png',
-            animate: true
+            animate: true,
+            isShow: true,
+            ambassdor_btn: 'ambassador',
+            playName: 'Play Trailer',
+            pressName: 'PressKit Download'
         };
     },
 
@@ -1988,14 +1998,21 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
     mounted: function mounted() {
         console.log('NavBar Component mounted.');
+        var lang = window.localStorage.getItem('LANGUAGE');
+        if (lang == 'zh_cn') {
+            this.isShow = false;
+        }
     },
     data: function data() {
         return {
-            isActive: false
+            isActive: false,
+            isShow: true
         };
     },
 
@@ -2405,26 +2422,14 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
     mounted: function mounted() {
         console.log('Mobile Banner Component mounted.');
+        var lang = window.localStorage.getItem('LANGUAGE');
+        if (lang == 'zh_cn') {
+            this.isShow = false;
+        }
     },
     data: function data() {
         return {
@@ -2433,7 +2438,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             monsterSrc: '/images/mobile/monster.png',
             socialSrc: '/images/social_icon.png',
             downloadSrc: '/images/download_icon.png',
-            animate: true
+            animate: true,
+            isShow: true
         };
     },
 
@@ -2652,14 +2658,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -2769,7 +2767,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-    mounted: function mounted() {
+    created: function created() {
         console.log('Index page mounted.');
         var lang = window.localStorage.getItem('LANGUAGE');
         if (lang == 'zh_cn') {
@@ -2783,7 +2781,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
     data: function data() {
         return {
             isShowPopPage: false,
-            isShow: true
+            isShow: false
         };
     },
 
@@ -40090,30 +40088,32 @@ var render = function() {
           }),
           _vm._v(" "),
           _c("span", { staticStyle: { "padding-left": "70px" } }, [
-            _vm._v("Play Trailer")
+            _vm._v(_vm._s(_vm.playName))
           ])
         ]),
         _vm._v(" "),
-        _c(
-          "a",
-          { attrs: { href: "http://user.multiverseinc.com/ambassador" } },
-          [
-            _c("img", {
-              directives: [
-                {
-                  name: "lazy",
-                  rawName: "v-lazy",
-                  value: _vm.socialSrc,
-                  expression: "socialSrc"
-                }
-              ],
-              staticClass: "social",
-              attrs: { alt: "" }
-            }),
-            _vm._v(" "),
-            _c("span", [_vm._v("Ambassador")])
-          ]
-        ),
+        _vm.isShow
+          ? _c(
+              "a",
+              { attrs: { href: "http://user.multiverseinc.com/ambassador" } },
+              [
+                _c("img", {
+                  directives: [
+                    {
+                      name: "lazy",
+                      rawName: "v-lazy",
+                      value: _vm.socialSrc,
+                      expression: "socialSrc"
+                    }
+                  ],
+                  staticClass: "social",
+                  attrs: { alt: "" }
+                }),
+                _vm._v(" "),
+                _c("span", [_vm._v("Ambassador")])
+              ]
+            )
+          : _vm._e(),
         _vm._v(" "),
         _c("a", { attrs: { href: "/presskit", target: "_blank" } }, [
           _c("img", {
@@ -40128,7 +40128,7 @@ var render = function() {
             staticClass: "social",
             attrs: { alt: "" }
           }),
-          _c("span", [_vm._v("PressKit Download")])
+          _c("span", [_vm._v(_vm._s(_vm.pressName))])
         ])
       ]),
       _vm._v(" "),
@@ -41011,7 +41011,7 @@ var render = function() {
       _vm._v(" "),
       _c("dev-blog"),
       _vm._v(" "),
-      _c("subscribe"),
+      _vm.isShow ? _c("subscribe") : _vm._e(),
       _vm._v(" "),
       _c("footer-bar"),
       _vm._v(" "),
@@ -41380,32 +41380,34 @@ var render = function() {
           })
         ]),
         _vm._v(" "),
-        _c("p", [
-          _c(
-            "a",
-            {
-              staticClass: "fl",
-              staticStyle: { float: "left", display: "inline-block" },
-              attrs: { href: "http://user.multiverseinc.com/ambassador" }
-            },
-            [
-              _c("img", {
-                directives: [
-                  {
-                    name: "lazy",
-                    rawName: "v-lazy",
-                    value: _vm.socialSrc,
-                    expression: "socialSrc"
-                  }
-                ],
-                staticClass: "social",
-                attrs: { alt: "" }
-              }),
-              _vm._v(" "),
-              _c("span", [_vm._v("Ambassador")])
-            ]
-          )
-        ]),
+        _vm.isShow
+          ? _c("p", [
+              _c(
+                "a",
+                {
+                  staticClass: "fl",
+                  staticStyle: { float: "left", display: "inline-block" },
+                  attrs: { href: "http://user.multiverseinc.com/ambassador" }
+                },
+                [
+                  _c("img", {
+                    directives: [
+                      {
+                        name: "lazy",
+                        rawName: "v-lazy",
+                        value: _vm.socialSrc,
+                        expression: "socialSrc"
+                      }
+                    ],
+                    staticClass: "social",
+                    attrs: { alt: "" }
+                  }),
+                  _vm._v(" "),
+                  _c("span", [_vm._v("Ambassador")])
+                ]
+              )
+            ])
+          : _vm._e(),
         _vm._v(" "),
         _c("p", [
           _c(
@@ -41637,30 +41639,35 @@ var render = function() {
         )
       ]),
       _vm._v(" "),
-      _vm._m(0)
+      _c("div", { staticClass: "nav-link" }, [
+        _vm.isShow
+          ? _c(
+              "a",
+              { attrs: { href: "http://user.multiverseinc.com/ambassador" } },
+              [_vm._v("Ambassador")]
+            )
+          : _vm._e(),
+        _vm._v(" "),
+        _c("a", { attrs: { href: "//seekingdawnvr.com/presskit" } }, [
+          _vm._v("Presskit Download")
+        ]),
+        _vm._v(" "),
+        _c("a", { attrs: { href: "https://www.multiverseinc.com" } }, [
+          _vm._v("Multiverse")
+        ]),
+        _vm._v(" "),
+        !_vm.isShow
+          ? _c("a", { attrs: { href: "/en/" } }, [_vm._v("EN")])
+          : _vm._e(),
+        _vm._v(" "),
+        _vm.isShow
+          ? _c("a", { attrs: { href: "/zh_cn/" } }, [_vm._v("中文")])
+          : _vm._e()
+      ])
     ]
   )
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "nav-link" }, [
-      _c("a", { attrs: { href: "http://user.multiverseinc.com/ambassador" } }, [
-        _vm._v("Ambassador")
-      ]),
-      _vm._v(" "),
-      _c("a", { attrs: { href: "//seekingdawnvr.com/presskit" } }, [
-        _vm._v("Presskit Download")
-      ]),
-      _vm._v(" "),
-      _c("a", { attrs: { href: "https://www.multiverseinc.com" } }, [
-        _vm._v("Multiverse")
-      ])
-    ])
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {

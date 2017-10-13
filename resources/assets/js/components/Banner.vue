@@ -7,13 +7,13 @@
 
         <div class="btn_group">
             <div style="float: left;font-size: 33px"><i class="play_btn" v-on:click="playVideo()"></i>
-            <span style="padding-left: 70px;">Play Trailer</span></div>
-            <a href="http://user.multiverseinc.com/ambassador">
+            <span style="padding-left: 70px;">{{playName}}</span></div>
+            <a href="http://user.multiverseinc.com/ambassador" v-if="isShow">
                 <img v-lazy="socialSrc" alt="" class="social">
                 <span>Ambassador</span>
             </a>
             <a href="/presskit" target="_blank">
-                <img v-lazy="downloadSrc" alt="" class="social"><span>PressKit Download</span>
+                <img v-lazy="downloadSrc" alt="" class="social"><span>{{ pressName}}</span>
             </a>
         </div>
         <div class="mask" style="opacity: 0.2;"></div>
@@ -24,6 +24,12 @@
     export default {
         mounted() {
             console.log('Banner Component mounted.')
+            let lang = window.localStorage.getItem('LANGUAGE')
+            if (lang=='zh_cn'){
+                this.isShow = false
+                this.playName = '预告片播放'
+                this.pressName = '新闻资料袋'
+            }
         },
         data() {
             return {
@@ -32,7 +38,11 @@
                 monsterSrc: '/images/monster.png',
                 socialSrc: '/images/social_icon.png',
                 downloadSrc: '/images/download_icon.png',
-                animate: true
+                animate: true,
+                isShow:true,
+                ambassdor_btn:'ambassador',
+                playName: 'Play Trailer',
+                pressName: 'PressKit Download'
             }
         },
         methods:{
