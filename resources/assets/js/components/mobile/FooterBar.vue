@@ -1,7 +1,7 @@
 <template>
     <div class="footer container-fluid " v-lazy:background-image="footerBg">
-        <div class="container">
-            <p class="text-center" style="font-size: 20px;margin-top: 380px;">Consider joining our newsletter for exclusive sneak peeks, updates, and more!</p>
+        <div class="container" style="z-index: 9">
+            <p class="text-center" style="font-size: 16px;color: #000">Consider joining our newsletter for exclusive sneak peeks, updates, and more!</p>
             <form method="post" v-on:submit.prevent="formData()">
                 <div class="input-group input">
                     <label class="label" for="email"></label>
@@ -13,19 +13,19 @@
 
                 </div>
             </form>
-            <div class="copyright left">
+            <div class="media-link">
+                <a href="https://www.facebook.com/MultiverseVR"><i class="fa fa-facebook "></i></a>
+                <a href="https://twitter.com/VRmultiverse"><i class="fa fa-twitter "></i></a>
+                <a href="https://www.linkedin.com/company-beta/10691400"><i class="fa fa-linkedin "></i></a>
+                <a href="https://www.instagram.com/vrmultiverse/"><i class="fa fa-instagram "></i></a>
+            </div>
+            <div class="copyright">
                 <p><a href="https://www.multiverseinc.com/legal/tos">Terms of Service</a> |
                 <a href="https://www.multiverseinc.com/legal/privacy">Privacy Policy</a></p>
                 <p><a href="https://www.multiverseinc.com">Copyright © Multiverse Entertainment LLC</a>
                 </p>
             </div>
-            <div class="right">
-                <div class="media-link">
-                    <a href="https://www.facebook.com/MultiverseVR"><i class="fa fa-facebook "></i></a>
-                    <a href="https://twitter.com/VRmultiverse"><i class="fa fa-twitter "></i></a>
-                    <a href="https://www.linkedin.com/company-beta/10691400"><i class="fa fa-linkedin "></i></a>
-                    <a href="https://www.instagram.com/vrmultiverse/"><i class="fa fa-instagram "></i></a>
-                </div>
+
                 <div class="partner">
                     <a href="#">
                         <svg class="icon" aria-hidden="true">
@@ -49,9 +49,6 @@
                     </a>
                 </div>
             </div>
-
-        </div>
-
     </div>
 </template>
 
@@ -62,7 +59,7 @@
         },
         data() {
             return {
-                footerBg: '/images/sd_footer_bg.png',
+                footerBg: '/images/mobile/footer_bg.png',
                 email: ''
             }
         },

@@ -28,6 +28,7 @@ Vue.use(VeeValidate)
 * pages
 * */
 Vue.component('Index', require('./pages/Index.vue'));//Index 页面
+Vue.component('m-index', require('./pages/mobile/Index.vue'));//手机Index 页面
 Vue.component('Posts', require('./pages/Posts.vue'));//posts 页面
 Vue.component('Show', require('./pages/Show.vue'));//posts 页面
 Vue.component('navbar', require('./components/NavBar.vue'));//navbar 组件

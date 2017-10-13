@@ -4,7 +4,7 @@
   text-align: center;
   background-color: #ffffff;
   @extend %col-padding-top;
-  padding-bottom: 80px;
+  padding-bottom: 80px!important;
   .content{
     p{
       margin-bottom: 0px;

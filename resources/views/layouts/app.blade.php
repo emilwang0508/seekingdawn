@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>SeekingDawn</title>
@@ -12,17 +13,22 @@
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" media="screen" />
     @if(env('APP_DEBUG')==false)
         <link href="//{{ env('RESOURCE_PATH') }}{{ mix('css/app.css') }}" rel="stylesheet">
+        <link href="//{{ env('RESOURCE_PATH') }}/css/loading.css" rel="stylesheet">
         @else
         <link href="{{ mix('css/app.css') }}" rel="stylesheet">
+        <link href="/css/loading.css" rel="stylesheet">
     @endif
-    <link href="//{{ env('RESOURCE_PATH') }}/css/loading.css" rel="stylesheet">
+
     <link href="{{ asset('font-awesome/css/font-awesome.min.css') }}" rel="stylesheet">
-    {{--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">--}}
     <link rel="stylesheet" type="text/css" href="{{ asset('fonts/iconfont/iconfont.css') }}">
 </head>
 <body>
     <div class="loading" id="appLoad">
-        <div class="loading-animate">
+        @if ($agent->isMobile())
+            <div class="m-loading-animate">
+            @else
+            <div class="loading-animate">
+        @endif
             <div class="solar">
                 <i class="mercury"></i>
                 <i class="venus"></i>
@@ -35,13 +41,10 @@
                 <i class="neptune"></i>
             </div>
         </div>
-        <p class="title">Seeking Dawn
-           {{-- <i class="ball-beat">
-                <i></i>
-                <i></i>
-                <i></i>
-            </i>--}}
-        </p>
+        @if ($agent->isMobile())
+            @else
+            <p class="title">Seeking Dawn</p>
+        @endif
     </div>
     <div id="app">
         @yield('content')
@@ -57,7 +60,7 @@
         window.onload=function(){
             var load = document.getElementById('appLoad');
             setTimeout(function() {
-                load.style.display = "none";
+//                load.style.display = "none";
             }, 1000)
 
         }

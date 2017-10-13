@@ -36,7 +36,10 @@
 @import "posts";
 // post
 @import "post";
-
+// bootstrap
+@import "bootstrap";
+// mobile
+@import "mobile";
 body,html{font-family:'Microsoft YaHei','Hiragino Sans GB',Helvetica,Arial,'Lucida Grande',sans-serif;}
 p{
   font-size: 14px;
@@ -99,6 +102,8 @@ body{
 }
 .container-fluid{
   padding: 0;
+  min-width:1700px;
+  width: 100%;
 }
 .banner {
   position: relative;

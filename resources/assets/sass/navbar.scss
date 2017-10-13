@@ -3,10 +3,10 @@
 .nav-bar{
   position: fixed;
   display: table;
-  background: rgba(0,0,0,.7);
+  background: rgba(0,0,0,.9);
   height: 25px;
   width: 27px;
-  z-index: 9;
+  z-index: 10;
   top: 0;
   left: 0;
   color: #ffffff;
@@ -28,7 +28,7 @@
   width: 195px;
   top: 0;
   left: 0;
-  z-index: 9;
+  z-index: 10;
   padding: 12.5px 12px;
   transition: all 0s ;
   .nav-link {
