@@ -40,11 +40,11 @@
         },
         data() {
             return {
-                bannerBg: 'images/mobile/banner_bg.png',
-                logoSrc: 'images/mobile/header_logo.png',
-                monsterSrc: 'images/mobile/monster.png',
-                socialSrc: 'images/social_icon.png',
-                downloadSrc: 'images/download_icon.png',
+                bannerBg: '/images/mobile/banner_bg.png',
+                logoSrc: '/images/mobile/header_logo.png',
+                monsterSrc: '/images/mobile/monster.png',
+                socialSrc: '/images/social_icon.png',
+                downloadSrc: '/images/download_icon.png',
                 animate: true
             }
         },

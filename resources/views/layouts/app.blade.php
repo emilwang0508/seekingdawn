@@ -57,6 +57,9 @@
     @endif
     <script src="/fonts/iconfont/iconfont.js"></script>
     <script>
+        @if(isset($locale))
+        window.localStorage.setItem('LANGUAGE','{{ $locale }}')
+        @endif
         window.onload=function(){
             var load = document.getElementById('appLoad');
             setTimeout(function() {

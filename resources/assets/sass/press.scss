@@ -1,13 +1,19 @@
 // Variables
 @import "variables";
 .press{
+  .press-content{
+    margin: 20px 0;
+    .content{
+      height: 80px;
+      overflow: hidden;
+      p{
+        margin-bottom: 0px;
+      }
+    }
+  }
   text-align: center;
   background-color: #ffffff;
   @extend %col-padding-top;
   padding-bottom: 80px!important;
-  .content{
-    p{
-      margin-bottom: 0px;
-    }
-  }
+
 }

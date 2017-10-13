@@ -1,7 +1,7 @@
 <template>
     <div class="footer container-fluid " v-lazy:background-image="footerBg">
         <div class="container">
-            <p class="text-center" style="font-size: 20px;margin-top: 380px;">Consider joining our newsletter for exclusive sneak peeks, updates, and more!</p>
+            <p class="text-center" style="font-size: 20px;margin-top: 380px;">{{ title}}</p>
             <form method="post" v-on:submit.prevent="formData()">
                 <div class="input-group input">
                     <label class="label" for="email"></label>
@@ -59,11 +59,16 @@
     export default {
         mounted() {
             console.log('FooterBar Component mounted.')
+            let lang = window.localStorage.getItem('LANGUAGE')
+            if (lang=='zh_cn'){
+                this.title = '留下您的邮箱，独家获取我们最新的咨询与消息'
+            }
         },
         data() {
             return {
                 footerBg: '/images/sd_footer_bg.png',
-                email: ''
+                email: '',
+                title: 'Consider joining our newsletter for exclusive sneak peeks, updates, and more!'
             }
         },
         methods: {

@@ -16,7 +16,10 @@ Route::get('/', function () {
 });
 
 Auth::routes();
-
+Route::get('/{locale}', function ($locale) {
+    App::setLocale($locale);
+    return view('welcome',compact('locale'));
+});
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/presskit', 'HomeController@presskit')->name('presskit');
 Route::get('/post/{id}', 'PostController@show')->name('post');

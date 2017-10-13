@@ -44,7 +44,7 @@
 //                    {src:'/images/screenshot/thumb_21.png',bigSrc:'/images/screenshot/thumb_big_20g_21.png',alt:"ss_s",isActive:false},
                 ],
                 isActive: false,
-                screenshotBg: 'images/screenshot_bg.jpg',
+                screenshotBg: '/images/screenshot_bg.jpg',
                 showBigPicIndex:'',
                 isShowBigPic: false
             }

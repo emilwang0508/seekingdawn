@@ -1,13 +1,15 @@
 <template>
     <div class="footer container-fluid " v-lazy:background-image="footerBg">
         <div class="container" style="z-index: 9">
-            <p class="text-center" style="font-size: 16px;color: #000">Consider joining our newsletter for exclusive sneak peeks, updates, and more!</p>
+            <p class="text-center" style="font-size: 16px;color: #000">
+                {{title}}
+            </p>
             <form method="post" v-on:submit.prevent="formData()">
                 <div class="input-group input">
                     <label class="label" for="email"></label>
                     <p :class="{ 'control': true }">
                         <input v-validate="'required|email'" :class="{'input': true, 'is-danger': errors.has('email') }" name="email" type="text" placeholder="Email" v-model="email">
-                        <button type="submit" class="subscribe" v-on:click="formData()" value="Subscribe">Subscribe</button>
+                        <button type="submit" class="subscribe" v-on:click="formData()" value="Subscribe">{{btn_name}}</button>
                     </p>
                     <p v-show="errors.has('email')" class="help is-danger">{{ errors.first('email') }}</p>
 
@@ -56,11 +58,18 @@
     export default {
         mounted() {
             console.log('FooterBar Component mounted.')
+            let lang = window.localStorage.getItem('LANGUAGE')
+            if (lang=='zh_cn'){
+                this.title = '留下您的邮箱，独家获取我们最新的咨询与消息'
+                this.btn_name = "订阅"
+            }
         },
         data() {
             return {
                 footerBg: '/images/mobile/footer_bg.png',
-                email: ''
+                email: '',
+                title: 'Consider joining our newsletter for exclusive sneak peeks, updates, and more!',
+                btn_name: 'subscribe'
             }
         },
         methods: {

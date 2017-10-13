@@ -9,14 +9,6 @@
                     <img v-lazy='discordImg' alt="facebook">
                 </a></p>
             </div>
-            <!--<div class="fl">
-                <p class="text-center">Consider joining our newsletter for exclusive sneak peeks, updates, and more!</p>
-                <div class="input-group input">
-                    <label for="email"></label>
-                    <input type="text" placeholder="your email" name="email" class="email" id="email" v-model="email" v-validate="'required|email'">
-                    <button type="submit" class="subscribe" v-on:click="formData()" value="Subscribe">Subscribe</button>
-                </div>
-            </div>-->
         </div>
         <div class="clear-fix"></div>
     </div>

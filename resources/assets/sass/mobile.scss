@@ -3,6 +3,11 @@
   .container{
     width: 100%;
   }
+  .image-carousel .images img {
+    width: 100%;
+    height: auto;
+    margin-top: 65%;
+  }
   .play_btn {
     position: relative;
     display: inline-block;
