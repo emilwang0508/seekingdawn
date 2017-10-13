@@ -60,7 +60,7 @@
         window.onload=function(){
             var load = document.getElementById('appLoad');
             setTimeout(function() {
-//                load.style.display = "none";
+                load.style.display = "none";
             }, 1000)
 
         }
