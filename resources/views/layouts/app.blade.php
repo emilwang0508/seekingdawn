@@ -57,10 +57,11 @@
     @endif
     <script src="/fonts/iconfont/iconfont.js"></script>
     <script>
-        @if(isset($locale))
-        window.localStorage.setItem('LANGUAGE','{{ $locale }}')
-        @endif
+
         window.onload=function(){
+            @if(isset($locale))
+                window.localStorage.setItem('LANGUAGE','{{ $locale }}')
+            @endif
             var load = document.getElementById('appLoad');
             setTimeout(function() {
                 load.style.display = "none";
