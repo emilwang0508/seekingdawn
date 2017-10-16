@@ -7,13 +7,13 @@
 
         <div class="btn_group">
             <div style="float: left;font-size: 33px"><i class="play_btn" v-on:click="playVideo()"></i>
-            <span style="padding-left: 70px;">{{playName}}</span></div>
+            <span style="padding-left: 70px;">{{ $t("banner.playName") }}</span></div>
             <a href="http://user.multiverseinc.com/ambassador" v-if="isShow">
                 <img v-lazy="socialSrc" alt="" class="social">
                 <span>Ambassador</span>
             </a>
             <a href="/presskit" target="_blank">
-                <img v-lazy="downloadSrc" alt="" class="social"><span>{{ pressName}}</span>
+                <img v-lazy="downloadSrc" alt="" class="social"><span>{{ $t("banner.pressName") }}</span>
             </a>
         </div>
         <div class="mask" style="opacity: 0.2;"></div>
@@ -41,7 +41,7 @@
                 animate: true,
                 isShow:true,
                 ambassdor_btn:'ambassador',
-                playName: 'Play Trailer',
+                playName: '',
                 pressName: 'PressKit Download'
             }
         },

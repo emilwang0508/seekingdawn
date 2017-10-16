@@ -10,8 +10,19 @@ require('./bootstrap');
 window.Vue = require('vue');
 import VueLazyload from 'vue-lazyload'
 import VeeValidate from 'vee-validate';
+import Lang from 'vue-i18n';
+import  enUS from  './lang/en-US'
+import  zhCN from  './lang/zh_CN'
 Vue.use(VueLazyload)
 Vue.use(VeeValidate)
+Vue.use(Lang)
+const i18n = new Lang({
+    local: localStorage.getItem('language'),
+    messages: {
+        'zh-CN': zhCN, //中文语言包
+        'en-US': enUS, //英文语言包
+    }
+});
 /*Vue.use(VueLazyload, {
     preLoad: 1.3,
     error: 'dist/error.png',
@@ -27,6 +38,7 @@ Vue.use(VeeValidate)
 /*
 * pages
 * */
+//定义全局变量
 Vue.component('Index', require('./pages/Index.vue'));//Index 页面
 Vue.component('m-index', require('./pages/mobile/Index.vue'));//手机Index 页面
 Vue.component('Posts', require('./pages/Posts.vue'));//posts 页面
@@ -41,5 +53,6 @@ Vue.component('devBlog', require('./components/Devblog.vue'));//devbog 组件
 Vue.component('footerBar', require('./components/FooterBar.vue'));//Art 组件
 
 const app = new Vue({
-    el: '#app',
+    i18n,
+    el: '#app'
 });

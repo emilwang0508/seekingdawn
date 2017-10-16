@@ -19,7 +19,8 @@
     export default {
         mounted() {
             console.log('Art Component mounted.')
-            let lang = window.localStorage.getItem('LANGUAGE')
+            let lang = this.$parent.lang
+            alert(lang)
             if (lang=='zh_cn'){
                 this.msg = '艺术画廊'
                 this.content = '在游戏中提供了数十个小时的冒险时间，寻找黎明拥有丰富的故事剧情和痛快战斗的单人、合作模式，以及额外的挑战模式和掠夺。在游戏中你可以去冒险、制造、建设、探索、战斗，当然，最重要的就是找到回到故乡的路。'
@@ -56,7 +57,7 @@
         },
         methods: {
             leftChangeShowList(){
-                if(this.showList.indexOf(4)===4){
+                if(this.showList.indexOf(2)===2){
                     return this.showList
                 }else {
                     let e = Array.from(this.showList, x=>{
@@ -75,7 +76,7 @@
                     }
                 })
                 if (e.indexOf(false)>0){
-                    e = [_length-5,_length-4,_length-3,_length-2,_length-1]
+                    e = [_length-3,_length-2,_length-1]
                 }
                 this.showList = e
             },

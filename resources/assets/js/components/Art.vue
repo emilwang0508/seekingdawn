@@ -1,8 +1,8 @@
 <template>
     <div class="art container-fluid"  v-lazy:background-image="artBg" >
-        <title-bar :msg="msg" came='white'></title-bar>
+        <title-bar :msg='$t("art.title")' came='white'></title-bar>
         <p class="des white">
-            {{content}}
+            {{$t("art.content")}}
         </p>
 
         <ul class="art-list container">

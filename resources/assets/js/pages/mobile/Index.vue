@@ -26,25 +26,22 @@
     import popPage from '../../components/PopPage'
     export default {
         mounted() {
-            console.log('Index page mounted.')
-            let lang = window.localStorage.getItem('LANGUAGE')
-            if (lang=='zh_cn'){
-                this.isShow = false
-            }
+//            this.locale = this.$i18n.locale = localStorage.getItem('language') // 从 localStorage 中获取语言状态
+            console.log(this.$i18n.locale)
         },
         components: {
             navBar, banner, intro, art, press, screenShot, devBlog, footerBar, popPage, subscribe
         },
         data(){
             return {
+                locale: '',
                 isShowPopPage: false,
-                isShow: 'true'
+                isShow: 'true',
+                lang: 'en',
             }
         },
         methods:{
-            /*popPage(){
-                this.isShowPopPage = true
-            }*/
+
         }
     }
 </script>

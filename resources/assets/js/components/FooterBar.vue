@@ -1,7 +1,7 @@
 <template>
     <div class="footer container-fluid " v-lazy:background-image="footerBg">
         <div class="container">
-            <p class="text-center" style="font-size: 20px;margin-top: 380px;">{{ title}}</p>
+            <p class="text-center" style="font-size: 20px;margin-top: 380px;">{{ $t('footer.title')}}</p>
             <form method="post" v-on:submit.prevent="formData()">
                 <div class="input-group input">
                     <label class="label" for="email"></label>
@@ -59,10 +59,6 @@
     export default {
         mounted() {
             console.log('FooterBar Component mounted.')
-            let lang = window.localStorage.getItem('LANGUAGE')
-            if (lang=='zh_cn'){
-                this.title = '留下您的邮箱，独家获取我们最新的咨询与消息'
-            }
         },
         data() {
             return {

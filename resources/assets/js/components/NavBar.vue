@@ -19,8 +19,8 @@
             <a href="http://user.multiverseinc.com/ambassador" class="" v-if="isShow">Ambassador</a>
             <a href="//seekingdawnvr.com/presskit" class="">Presskit Download</a>
             <a href="https://www.multiverseinc.com" class="">Multiverse</a>
-            <a href="/en/" class="" v-if="!isShow">EN</a>
-            <a href="/zh_cn/" class="" v-if="isShow">中文</a>
+            <a v-on:click="switchLang('en_US')" class="" v-if="!isShow">EN</a>
+            <a v-on:click="switchLang('zh_CN')" class="" v-if="isShow">中文</a>
         </div>
     </div>
 </template>
@@ -29,15 +29,11 @@
     export default {
         mounted() {
             console.log('NavBar Component mounted.')
-            let lang = window.localStorage.getItem('LANGUAGE')
-            if (lang=='zh_cn'){
-                this.isShow = false
-            }
         },
         data() {
             return {
                 isActive: false,
-                isShow:true
+                isShow:this.$t('nav.isShow')
             }
         },
         methods:{
@@ -49,6 +45,17 @@
             },
             Menu(){
                 this.isActive ? this.isActive = false : this.isActive=true;
+            },
+            switchLang(e){
+                let lang = this.$parent.locale
+                if (e ==='en_US'){
+                    this.$parent.locale = this.$i18n.locale = 'en_US'
+                    localStorage.setItem('language', 'en_US')
+                }
+                if(e === 'zh_CN'){
+                    this.$parent.locale = this.$i18n.locale = 'zh_CN'
+                    localStorage.setItem('language', 'zh_CN')
+                }
             }
         }
     }

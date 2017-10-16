@@ -1,8 +1,8 @@
 <template>
     <div class="intro container-fluid">
-        <title-bar :msg="msg" came='default'></title-bar>
+        <title-bar :msg='$t("intro.title")' came='default'></title-bar>
         <p class="content">
-            {{ content}}
+            {{ $t("intro.content")}}
         </p>
     </div>
 </template>
@@ -26,8 +26,7 @@
         },
         data(){
             return{
-                msg: 'SEEKING DAWN',
-                content: 'Seeking Dawn is an expansive VR game of action and survival set on a sprawling planet of dangerous creatures and alien mysteries. Stranded with limited resources, you must venture out to scavenge for supplies, craft weapons and equipment for protection, and decipher strange discoveries as you traverse the planet.',
+
             }
         }
     }
