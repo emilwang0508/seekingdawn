@@ -1,8 +1,8 @@
 <template>
     <div class="art container-fluid"  v-lazy:background-image="artBg" >
-        <title-bar :msg='msg' came='white'></title-bar>
+        <title-bar :msg='$t("art.title")' came='white'></title-bar>
         <p class="des white">
-            {{content}}
+            {{$t("art.content")}}
         </p>
 
         <ul class="art-list">
@@ -19,12 +19,6 @@
     export default {
         mounted() {
             console.log('Art Component mounted.')
-            let lang = this.$parent.lang
-            alert(lang)
-            if (lang=='zh_cn'){
-                this.msg = '艺术画廊'
-                this.content = '在游戏中提供了数十个小时的冒险时间，寻找黎明拥有丰富的故事剧情和痛快战斗的单人、合作模式，以及额外的挑战模式和掠夺。在游戏中你可以去冒险、制造、建设、探索、战斗，当然，最重要的就是找到回到故乡的路。'
-            }
         },
         components: {
             titleBar

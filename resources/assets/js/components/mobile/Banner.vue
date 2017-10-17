@@ -4,12 +4,12 @@
         <div style="margin-top: 60px;"><img alt="seeking dawn" class="banner_logo" src="/images/mobile/header_logo.png"></div>
         <div class="btn_group">
             <p><i class="play_btn fl" v-on:click="playVideo()"></i></p>
-            <p v-if="isShow"><a href="http://user.multiverseinc.com/ambassador" class="fl"  style="float: left;display: inline-block;">
+            <p v-if='$t("banner.isShow")=="true"'><a href="http://user.multiverseinc.com/ambassador" class="fl"  style="float: left;display: inline-block;">
                 <img v-lazy="socialSrc" alt="" class="social">
                 <span>Ambassador</span>
             </a></p>
             <p><a href="/presskit" target="_blank " class="fl">
-                <img v-lazy="downloadSrc" alt="" class="social"><span>{{pressName}}</span>
+                <img v-lazy="downloadSrc" alt="" class="social"><span>{{ $t("banner.pressName") }}</span>
             </a></p>
         </div>
         <img v-lazy="monsterSrc" alt="monster" class="monster">
@@ -21,12 +21,6 @@
     export default {
         mounted() {
             console.log('Mobile Banner Component mounted.')
-            let lang = window.localStorage.getItem('LANGUAGE')
-            if (lang=='zh_cn'){
-                this.isShow = false
-                this.playName = '预告片播放'
-                this.pressName = '新闻资料袋'
-            }
         },
         data() {
             return {

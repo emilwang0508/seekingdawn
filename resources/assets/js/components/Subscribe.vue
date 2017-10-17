@@ -1,5 +1,5 @@
 <template>
-    <div class="subscribe-area container-fluid">
+    <div class="subscribe-area container-fluid" v-if="$t('nav.isShow')=='true'">
         <div class="container">
             <div class="social-link">
                 <title-bar msg='JOIN OUR COMMUNITY' came='default'></title-bar>

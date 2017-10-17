@@ -16,11 +16,11 @@
             </svg>
         </div>
         <div class="nav-link">
-            <a href="http://user.multiverseinc.com/ambassador" class="" v-if="isShow">Ambassador</a>
+            <a href="http://user.multiverseinc.com/ambassador" class="" v-if="$t('nav.isShow')=='true'">Ambassador</a>
             <a href="//seekingdawnvr.com/presskit" class="">Presskit Download</a>
             <a href="https://www.multiverseinc.com" class="">Multiverse</a>
-            <a v-on:click="switchLang('en_US')" class="" v-if="!isShow">EN</a>
-            <a v-on:click="switchLang('zh_CN')" class="" v-if="isShow">中文</a>
+            <a v-on:click="switchLang('en-US')" class="" v-if="lang==='zh-CN'">EN</a>
+            <a v-on:click="switchLang('zh-CN')" class="" v-if="lang==='en-US'">中文</a>
         </div>
     </div>
 </template>
@@ -29,11 +29,12 @@
     export default {
         mounted() {
             console.log('NavBar Component mounted.')
+            console.log(this.$i18n.locale)
         },
         data() {
             return {
                 isActive: false,
-                isShow:this.$t('nav.isShow')
+                lang: 'en-US'
             }
         },
         methods:{
@@ -48,13 +49,15 @@
             },
             switchLang(e){
                 let lang = this.$parent.locale
-                if (e ==='en_US'){
-                    this.$parent.locale = this.$i18n.locale = 'en_US'
-                    localStorage.setItem('language', 'en_US')
+                if (e ==='en-US'){
+                    this.$parent.locale = this.$i18n.locale = 'en-US'
+                    this.lang = 'en-US'
+                    localStorage.setItem('language', 'en-US')
                 }
-                if(e === 'zh_CN'){
-                    this.$parent.locale = this.$i18n.locale = 'zh_CN'
-                    localStorage.setItem('language', 'zh_CN')
+                if(e === 'zh-CN'){
+                    this.$parent.locale = this.$i18n.locale = 'zh-CN'
+                    localStorage.setItem('language', 'zh-CN')
+                    this.lang = 'zh-CN'
                 }
             }
         }

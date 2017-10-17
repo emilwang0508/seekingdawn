@@ -8,11 +8,11 @@
         <div class="btn_group">
             <div style="float: left;font-size: 33px"><i class="play_btn" v-on:click="playVideo()"></i>
             <span style="padding-left: 70px;">{{ $t("banner.playName") }}</span></div>
-            <a href="http://user.multiverseinc.com/ambassador" v-if="isShow">
+            <a href="http://user.multiverseinc.com/ambassador" v-if='$t("banner.isShow")=="true"'>
                 <img v-lazy="socialSrc" alt="" class="social">
                 <span>Ambassador</span>
             </a>
-            <a href="/presskit" target="_blank">
+            <a :href="$t('banner.presslink')" target="_blank">
                 <img v-lazy="downloadSrc" alt="" class="social"><span>{{ $t("banner.pressName") }}</span>
             </a>
         </div>

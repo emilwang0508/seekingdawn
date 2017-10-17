@@ -1,9 +1,10 @@
-export  default {
+export default {
     "test":"test",
     "banner": {
         "playName": "Play Trailer",
         "pressName": "PressKit Download",
-        "isShow": "true"
+        "isShow": "true",
+        'presslink': '/presskit'
     },
     "nav": {
         "isShow": "true"
@@ -21,9 +22,15 @@ export  default {
         "title": "SCREENSHOT",
     },
     "subscribe": {
-        "title": "JOIN OUR COMMUNITY"
+        "title": "JOIN OUR COMMUNITY",
+        "isShow": "false"
     },
     "footer":{
         "title": "Consider joining our newsletter for exclusive sneak peeks, updates, and more!"
-    }
+    },
+    "presslist":[
+        {id:'1',thumb:'/images/upload.png',des:"Seeking Dawn Looks Like A Hugely Ambitious VR Shooter",href:'https://uploadvr.com/seeking-dawn-looks-like-hugely-ambitious-vr-shooter/'},
+        {id:'2',thumb:'/images/upload.png',des:"One Of The Largest VR Action Survival Games: Seeking Dawn",href:"https://www.vrfocus.com/2017/06/one-of-the-largest-vr-action-survival-games-seeking-dawn/"},
+        {id:'3',thumb:'/images/upload.png',des:"E3 2017: Hands-On With Ambitious Sci-Fi Shooter Seeking Dawn",href:'https://uploadvr.com/e3-2017-hands-sci-fi-shooter-seeking-dawn/'},
+    ]
 };

@@ -11,33 +11,19 @@ window.Vue = require('vue');
 import VueLazyload from 'vue-lazyload'
 import VeeValidate from 'vee-validate';
 import Lang from 'vue-i18n';
-import  enUS from  './lang/en-US'
-import  zhCN from  './lang/zh_CN'
+import  enUS from  './lang/en_US.js'
+import  zhCN from  './lang/zh_CN.js'
 Vue.use(VueLazyload)
 Vue.use(VeeValidate)
 Vue.use(Lang)
 const i18n = new Lang({
     local: localStorage.getItem('language'),
     messages: {
-        'zh-CN': zhCN, //中文语言包
-        'en-US': enUS, //英文语言包
+        "zh-CN": zhCN, //中文语言包
+        "en-US": enUS, //英文语言包
     }
 });
-/*Vue.use(VueLazyload, {
-    preLoad: 1.3,
-    error: 'dist/error.png',
-    loading: 'dist/loading.gif',
-    attempt: 1
-})*/
-/**
- * Next, we will create a fresh Vue application instance and attach it to
- * the page. Then, you may begin adding components to this application
- * or customize the JavaScript scaffolding to fit your unique needs.
- */
-// Vue.component('loading', require('./components/Loading.vue'));//loading 组件
-/*
-* pages
-* */
+
 //定义全局变量
 Vue.component('Index', require('./pages/Index.vue'));//Index 页面
 Vue.component('m-index', require('./pages/mobile/Index.vue'));//手机Index 页面

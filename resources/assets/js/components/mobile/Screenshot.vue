@@ -1,6 +1,6 @@
 <template>
     <div class="screenshot container-fluid"  v-lazy:background-image="screenshotBg">
-        <title-bar came="white" :msg="msg"></title-bar>
+        <title-bar came="white" :msg="this.$t('screenshot.title')"></title-bar>
         <ul class="m-screenshot-list"  v-on:mouseenter="showShadow()" v-bind:class="{active:isActive}" v-on:mouseleave="hideShadow()">
             <li v-for="(item,index) in screenLists"
                 class="col-xs-6 col-md-6 col-sm-6"

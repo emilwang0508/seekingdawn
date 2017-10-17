@@ -27,7 +27,7 @@ class HomeController extends Controller
         return view('home');
     }
     public function presskit(Request $request){
-        if ($request->lang === 'zh_cn'){
+        if ($request->lang === 'zh_CN'){
             return view('cn.presskit');
         }
         return view('presskit');

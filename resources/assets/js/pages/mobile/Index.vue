@@ -7,7 +7,7 @@
         <press></press>
         <screen-shot></screen-shot>
         <dev-blog></dev-blog>
-        <subscribe v-if="isShow"></subscribe>
+        <subscribe v-if="$t('nav.isShow')=='true'"></subscribe>
         <footer-bar></footer-bar>
         <pop-page v-if="isShowPopPage"></pop-page>
     </div>
@@ -24,21 +24,21 @@
     import subscribe from '../../components/mobile/Subscribe'
     import footerBar from '../../components/mobile/FooterBar'
     import popPage from '../../components/PopPage'
+
     export default {
-        mounted() {
-//            this.locale = this.$i18n.locale = localStorage.getItem('language') // 从 localStorage 中获取语言状态
-            console.log(this.$i18n.locale)
-        },
-        components: {
-            navBar, banner, intro, art, press, screenShot, devBlog, footerBar, popPage, subscribe
+        created() {
+            console.log('index created')
+            this.locale = localStorage.getItem('language') // 从 localStorage 中获取语言状态
+            this.$i18n.locale = localStorage.getItem('language')
         },
         data(){
             return {
-                locale: '',
+                locale: window.localStorage.getItem('language'),
                 isShowPopPage: false,
-                isShow: 'true',
-                lang: 'en',
             }
+        },
+        components: {
+            navBar, banner, intro, art, press, screenShot, devBlog, footerBar, popPage, subscribe
         },
         methods:{
 

@@ -1,6 +1,6 @@
 <template>
     <div class="screenshot container-fluid"  v-lazy:background-image="screenshotBg">
-        <title-bar came="white" :msg="msg"></title-bar>
+        <title-bar came="white" :msg="this.$t('screenshot.title')"></title-bar>
         <ul class="screenshot-list"  v-on:mouseenter="showShadow()" v-bind:class="{active:isActive}" v-on:mouseleave="hideShadow()">
             <li v-for="(item,index) in screenLists" v-bind:class="{ active: item.isActive }" v-on:mouseenter="showPic(index)"  v-on:mouseleave="hidePic(index)" @click="showBigPic(index)">
                 <img v-lazy='item.src' :alt="item.alt" v-bind:class="{ active: item.isActive }" >

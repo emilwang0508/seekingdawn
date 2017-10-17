@@ -26,11 +26,8 @@
     import popPage from '../components/PopPage'
     export default {
         created() {
-            console.log('Index page mounted.')
-            let lang = window.localStorage.getItem('LANGUAGE')
-            if (lang=='zh_cn'){
-                this.isShow = false
-            }
+            this.locale = localStorage.getItem('language') // 从 localStorage 中获取语言状态
+            this.$i18n.locale = localStorage.getItem('language')
         },
         components: {
             navBar, banner, intro, art, press, screenShot, devBlog, footerBar, popPage, subscribe

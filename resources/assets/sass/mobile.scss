@@ -60,6 +60,12 @@
       width: 95%;
       height: 56px;
       margin: 0 auto;
+      p{
+        float:left;
+      }
+      .play_btn+span{
+        line-height: 55px;
+      }
       a{
         margin-left: 5px;
         span {
