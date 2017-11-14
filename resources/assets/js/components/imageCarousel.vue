@@ -7,10 +7,12 @@
         </div>
         <div class="carousel-mask"></div>
         <i class="fa fa-chevron-right fa-2x white" @click="nextBtn()"></i>
+        <alert align="alertAlign" :msg="alertMsg" v-if="alertIsShow"></alert>
     </div>
 </template>
 
 <script>
+    import Alert from "./Alert"
     export default {
         mounted() {
             console.log('ImageCarousel Component mounted.')
@@ -19,11 +21,17 @@
 
             console.log(i)
         },
+        components: {
+            Alert
+        },
         data(){
             return {
                 imgSrc: '',
                 imgIndex: 0,
-                isShow: this.$parent.isShowBigPic
+                isShow: this.$parent.isShowBigPic,
+                alertAlign: 'center',
+                alertMsg:'loading',
+                alertIsShow: false
             }
         },
         props:['list','index'],
@@ -43,13 +51,22 @@
             },
             preBtn(){
                 let e = this.imgIndex
+                this.alertIsShow = true
+                setTimeout(()=>{
+                    this.alertIsShow = false;
+                },2000)
                 e===0 ? e=0 : e--
                 this.imgSrc = this.list[e].bigSrc
                 this.imgIndex = e
+
             },
             nextBtn(){
                 let e = this.imgIndex
-                e===e.length-1 ? e=e.length-1 : e++
+                this.alertIsShow = true
+                setTimeout(()=>{
+                    this.alertIsShow = false;
+                },2000)
+                e===this.list.length-1 ? e=0 : e++
                 this.imgSrc = this.list[e].bigSrc
                 this.imgIndex = e
             },
