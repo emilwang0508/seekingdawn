@@ -49,7 +49,8 @@
             console.log('hello');
             axios.post('http://www.multiverseinc.com/posts', {
                 from: 'seekingdawnvr',
-                param: '192.168.1.1'
+                param: '192.168.1.1',
+                cate:'2',
             })
             .then(function (response) {
                 console.log(response);
