@@ -1,4 +1,4 @@
 @extends('layouts.app')
 @section('content')
-    <Show></Show>
+    <Show post="{{$post}}"></Show>
 @endsection

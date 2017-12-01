@@ -1,4 +1,4 @@
 @extends('layouts.app')
 @section('content')
-    <Posts></Posts>
+    <Posts posts="{{$posts}}"></Posts>
 @endsection

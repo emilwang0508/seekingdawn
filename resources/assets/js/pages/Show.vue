@@ -5,15 +5,15 @@
         </div>
         <div class="container-full content">
             <div class="container post-area">
-                <h1 class="title text-center ">{{ post.title }}</h1>
-                <p class="create_at text-center container">{{ post.created_at }}</p>
-                <div class="cover-area" v-if="post.thumb == null || post.thumb == ''">
+                <h1 class="title text-center ">{{ item.title }}</h1>
+                <p class="create_at text-center container">{{ item.created_at }}</p>
+                <div class="cover-area" v-if="item.thumb == null || item.thumb == ''">
                     <div class="cover"><img src="//cdn.multiverseinc.com/images/detail_cover.jpg" alt="cover"></div>
                 </div>
                 <div class="cover-area" v-else>
-                    <div class="cover"><img :src="post.thumb" alt="cover"></div>
+                    <div class="cover"><img :src="item.thumb" alt="cover"></div>
                 </div>
-                <div class="details" v-html="post.content">
+                <div class="details" v-html="item.content">
 
                 </div>
 
@@ -39,9 +39,10 @@
         mounted() {
 
             console.log('Show page mounted.')
+            console.log(this.post)
         },
         created() {
-            const reg = /[1-9][0-9]*/g;
+/*            const reg = /[1-9][0-9]*!/g;
             let pathname = window.location.pathname;
             let id = pathname.match(reg);
             let self = this;
@@ -55,14 +56,15 @@
             })
             .catch(function (error) {
                 console.log(error);
-            });
+            });*/
         },
         components: {
             footerBar,
         },
+        props:['post'],
         data(){
             return {
-                post:[]
+                item: eval('('+ this.post+')')
             }
         },
         methods:{

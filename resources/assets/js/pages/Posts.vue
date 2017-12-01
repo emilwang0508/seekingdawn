@@ -11,7 +11,7 @@
         </div>
         <div class="blog-area">
             <div class="container">
-                <div class="col-lg-4 col-md-4 col-xs-4 col-sm-12" v-for="post in posts">
+                <div class="col-lg-4 col-md-4 col-xs-4 col-sm-12" v-for="post in items">
                     <div class="blog">
                         <div class="cover"><img src="//cdn.multiverseinc.com/images/dev_default_cover.jpg" alt="dev_cover"></div>
                         <div class="title"><p>{{ post.title }}</p></div>
@@ -19,7 +19,7 @@
                     </div>
                     <div class="schema">
                         <div class="des"><p>{{ post.description }}</p></div>
-                        <a :href="'/post/' + post.id" class="link-href">Read More</a>
+                        <a :href="'/posts/' + post.id" class="link-href">Read More</a>
                     </div>
                 </div>
             </div>
@@ -42,10 +42,11 @@
     export default {
         mounted() {
             console.log('Posts page mounted.')
+            console.log(this.posts)
         },
         created() {
 
-            var self = this;
+/*            var self = this;
             console.log('hello');
             axios.post('http://www.multiverseinc.com/posts', {
                 from: 'seekingdawnvr',
@@ -59,14 +60,15 @@
             })
             .catch(function (error) {
                 console.log(error);
-            });
+            });*/
         },
         components: {
             navBar, footerBar
         },
+        props:['posts'],
         data(){
             return {
-                posts: '',
+                items: eval('('+this.posts+')'),
                 number: '1',
             }
         },
