@@ -17,7 +17,7 @@
         </div>
         <div class="nav-link">
             <a href="http://user.multiverseinc.com/ambassador" class="" v-if="$t('nav.isShow')=='true'">Ambassador</a>
-            <a href="//seekingdawnvr.com/psots/" class="" v-if="$t('nav.isShow')=='true'">DevBlog</a>
+            <a href="//seekingdawnvr.com/posts/" class="" v-if="$t('nav.isShow')=='true'">DevBlog</a>
             <a href="//seekingdawnvr.com/presskit" class="" v-if="$t('nav.isShow')=='true'">Presskit Download</a>
             <a href="//seekingdawnvr.com/presskit?lang=zh_CN" class="" v-if="$t('nav.isShow')=='false'">Presskit Download</a>
             <a href="https://www.multiverseinc.com" class="">Multiverse</a>
