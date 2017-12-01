@@ -7,16 +7,16 @@
             <div class="container post-area">
                 <h1 class="title text-center ">{{ item.title }}</h1>
                 <p class="create_at text-center container">{{ item.created_at }}</p>
-                <div class="cover-area" v-if="item.thumb == null || item.thumb == ''">
+              <!--  <div class="cover-area" v-if="item.thumb == null || item.thumb == ''">
                     <div class="cover"><img src="//cdn.multiverseinc.com/images/detail_cover.jpg" alt="cover"></div>
                 </div>
                 <div class="cover-area" v-else>
                     <div class="cover"><img :src="item.thumb" alt="cover"></div>
-                </div>
+                </div>-->
                 <div class="details" v-html="item.content">
 
                 </div>
-
+                <comment :index="index"></comment>
             </div>
             <footer-bar></footer-bar>
         </div>
@@ -35,36 +35,23 @@
     import subscribe from '../components/Subscribe'
     import footerBar from '../components/FooterBar'
     import popPage from '../components/PopPage'
+    import comment from '../components/Comment'
     export default {
         mounted() {
 
             console.log('Show page mounted.')
             console.log(this.post)
+            console.log(this.index)
         },
         created() {
-/*            const reg = /[1-9][0-9]*!/g;
-            let pathname = window.location.pathname;
-            let id = pathname.match(reg);
-            let self = this;
-            axios.post('http://www.multiverseinc.com/posts/'+id, {
-                from: 'seekingdawnvr',
-            })
-            .then(function (response) {
-                console.log(response);
-                self.post = response.data
-                console.log(self.post)
-            })
-            .catch(function (error) {
-                console.log(error);
-            });*/
         },
         components: {
-            footerBar,
+            footerBar,comment
         },
-        props:['post'],
+        props:['post','index'],
         data(){
             return {
-                item: eval('('+ this.post+')')
+                item: eval('('+ this.post+')'),
             }
         },
         methods:{
