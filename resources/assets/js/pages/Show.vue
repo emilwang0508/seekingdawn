@@ -6,7 +6,7 @@
         <div class="container-full content">
             <div class="container post-area">
                 <h1 class="title text-center ">{{ item.title }}</h1>
-                <p class="create_at text-center container">{{ item.created_at }}</p>
+                <p class="create_at text-center container">{{ item.enDate }}</p>
               <!--  <div class="cover-area" v-if="item.thumb == null || item.thumb == ''">
                     <div class="cover"><img src="//cdn.multiverseinc.com/images/detail_cover.jpg" alt="cover"></div>
                 </div>
