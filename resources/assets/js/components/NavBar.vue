@@ -2,6 +2,8 @@
     <div id="nav-bar" class="nav-bar"
          v-bind:class="{ active: isActive,'transparent':isTransparent}"
          v-on:click="Menu()"
+         v-on:mouseenter="showMenu()"
+         v-on:mouseleave="hideMenu()"
          :style="style">
         <div class="menu-btn" >
             <img src="/images/multiverse.png" alt="MULTIVERSE" style="width: 100%">
