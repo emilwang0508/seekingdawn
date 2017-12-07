@@ -3,7 +3,7 @@
         <div class="container">
             <div class="social-link">
                 <title-bar msg='JOIN OUR COMMUNITY' came='default'></title-bar>
-                <p class="text-center"><a href="https://www.facebook.com/groups/seekingdawnna/" class="">
+                <p class="text-center" style="margin-bottom: 130px;"><a href="https://www.facebook.com/groups/seekingdawnna/" class="">
                     <img v-lazy='fbImg' alt="facebook"></a>
                 <a href="https://discord.gg/3ECGtyR" class="">
                     <img v-lazy='discordImg' alt="facebook">

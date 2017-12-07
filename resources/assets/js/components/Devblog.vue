@@ -1,14 +1,15 @@
 <template>
-    <div class="dev-blog container-fluid hidden">
+    <div class="dev-blog container-fluid" style="margin-bottom: 130px;" v-if="list.length===3">
         <title-bar msg='THE DEVELOPERS BLOG' came='default'></title-bar>
         <div class="subtitle">
             <p>Every week we plan to release a new developer blog highlighting that weeks development for Seeking Dawn!</p>
             <p>We encourage you to follow our journey through these blogs and let us know your thoughts. </p>
         </div>
         <ul class="blog-list container ">
-            <li v-for="(item, index) in blogData">
+            <li v-for="(item, index) in list">
                 <div class="top">
-                    <img v-lazy="item.thumb" :alt="item.thumb_title" class="thumb">
+                    <img v-lazy="blogCover" :alt="item.thumb_title" class="thumb" v-if="item.thumb==''||item.thumb==null">
+                    <img v-lazy="item.thumb" :alt="item.thumb_title" class="thumb" v-else>
                     <p class="title">{{item.title}}</p>
                     <p class="update-at">{{item.update_at}}</p>
                 </div>
@@ -29,14 +30,28 @@
     export default {
         mounted() {
             console.log('Dev Component mounted.')
+            let _this = this
+            axios.post('posts',{
+                from:'index'
+            })
+                .then(function (response) {
+                    console.log(response);
+                    console.log(response.data)
+//               _this.list = eval('('+response.data+ ')')
+                    _this.list = response.data
+                })
+                .catch(function (error) {
+                    console.log(error);
+                });
+
+        },
+        created(){
+            console.log(this.list)
         },
         data() {
             return {
-                blogData:[
-                    { id:'1',title:'Seeking Dawn  Early Access  The Boss Update 0.4 Now Live!',description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. AeneanLorem ipsum dolor sit amet, consectetur adipiscing elit. AeneanLorem ipsum dolor sit amet, consectetur adipiscing elit. AeneanLorem ipsum dolor sit amet, consectetur adipiscing elit. AeneanLorem ipsum dolor sit amet, consectetur adipiscing elit. AeneanLorem ipsum dolor sit amet, consectetur adipiscing elit. AeneanLorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean',thumb:'images/thumb_1.jpg',link:'#',update_at:'December 7, 2016',thumb_title:'1'},
-                    { id:'2',title:'Seeking Dawn  Early Access  The Boss Update 0.4 Now Live!',description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. AeneanLorem ipsum dolor sit amet, consectetur adipiscing elit. AeneanLorem ipsum dolor sit amet, consectetur adipiscing elit. AeneanLorem ipsum dolor sit amet, consectetur adipiscing elit. AeneanLorem ipsum dolor sit amet, consectetur adipiscing elit. AeneanLorem ipsum dolor sit amet, consectetur adipiscing elit. AeneanLorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean',thumb:'images/thumb_1.jpg',link:'#',update_at:'December 7, 2016',thumb_title:'2'},
-                    { id:'3',title:'Seeking Dawn  Early Access  The Boss Update 0.4 Now Live!',description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. AeneanLorem ipsum dolor sit amet, consectetur adipiscing elit. AeneanLorem ipsum dolor sit amet, consectetur adipiscing elit. AeneanLorem ipsum dolor sit amet, consectetur adipiscing elit. AeneanLorem ipsum dolor sit amet, consectetur adipiscing elit. AeneanLorem ipsum dolor sit amet, consectetur adipiscing elit. AeneanLorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean',thumb:'images/thumb_1.jpg',link:'#',update_at:'December 7, 2016',thumb_title:'3'},
-                ],
+                list:[],
+                blogCover:'/images/thumb_1.jpg'
             }
         },
         components: {

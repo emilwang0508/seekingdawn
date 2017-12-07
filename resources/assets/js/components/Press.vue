@@ -1,6 +1,6 @@
 <template>
     <div class="press container-fluid">
-        <title-bar :msg='title' came='default'></title-bar>
+        <title-bar :msg='title' came='default' style="margin-top: 240px;"></title-bar>
         <div class="container">
         <div v-for="list in $t('presslist')" class="col-xs-12 col-sm-12 col-md-6 col-lg-4 press-content">
             <div><img :src="list.thumb" alt=""></div>

@@ -2,11 +2,11 @@
     <div class="index">
         <nav-bar></nav-bar>
         <banner></banner>
-        <intro></intro>
+        <!--<dev-blog v-if="list.length==3"></dev-blog>-->
+        <dev-blog></dev-blog>
         <art></art>
         <press></press>
         <screen-shot></screen-shot>
-        <dev-blog></dev-blog>
         <subscribe v-if="isShow"></subscribe>
         <footer-bar></footer-bar>
         <pop-page v-if="isShowPopPage"></pop-page>
@@ -25,6 +25,9 @@
     import footerBar from '../components/FooterBar'
     import popPage from '../components/PopPage'
     export default {
+        mounted() {
+
+        },
         created() {
             this.locale = localStorage.getItem('language') // 从 localStorage 中获取语言状态
             this.$i18n.locale = localStorage.getItem('language')
@@ -35,7 +38,8 @@
         data(){
             return {
                 isShowPopPage: false,
-                isShow: true
+                isShow: true,
+                list:''
             }
         },
         methods:{

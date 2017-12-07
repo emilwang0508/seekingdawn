@@ -115,21 +115,26 @@ body{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  .monster{
-    position: absolute;
-    top: 160px;
-    left: 0;
-  }
   .banner_logo{
     position: absolute;
-    left: 960px;
-    top: 48%;
+    left: 980px;
+    top: 20%;
     z-index: 9;
+  }
+  .seekingdawn_des{
+    color: #ffffff;
+    width: 33%;
+    max-width: 600px;
+    position: absolute;
+    left: 980px;
+    font-size: 14px;
+    top: 45%;
+    text-align: left;
   }
   .btn_group{
     position: absolute;
-    left: 986px;
-    top: 77%;
+    left: 980px;
+    top: 65%;
     line-height: 58px;
     color: #fff;
     font-size: 20px;

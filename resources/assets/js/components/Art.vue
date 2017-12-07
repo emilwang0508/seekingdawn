@@ -7,7 +7,7 @@
 
         <ul class="art-list container">
             <i class="fa fa-angle-left white fa-2x" @click="leftChangeShowList()"></i>
-            <li v-for="(item, index) in artList"  v-show="isActive(index)"><img v-lazy="item.src" :alt="item.alt" ></li>
+            <li v-for="(item, index) in artList"  v-show="isActive(index)"><img :src="item.src" :alt="item.alt" ></li>
             <i class="fa fa-angle-right white fa-2x" @click="rightChangeShowList()"></i>
         </ul>
 

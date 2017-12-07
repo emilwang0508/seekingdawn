@@ -1,0 +1,50 @@
+// Variables
+@import "variables";
+.nav-bar{
+  position: fixed;
+  display: table;
+  background: rgba(0,0,0,.9);
+  height: 25px;
+  width: 27px;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  color: #ffffff;
+  text-align: center;
+  cursor: pointer;
+  padding: 12.5px 12px;
+  transition: all 0.5s ;
+  .nav-icon{
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .nav-link{
+    display: none;
+  }
+}
+.nav-bar.active{
+  position: fixed;
+  height: 190px;
+  width: 215px;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  padding: 12.5px 12px;
+  transition: all 0s ;
+  .nav-link {
+    display: block;
+    font-size: 20px;
+    text-align: left;
+    line-height: 2.29em;
+    margin-top: 20px;
+    a,a:visited,a:hover{
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 20px;
+      display: block;
+    }
+    a:hover{
+      color: #9a9a9a;
+    }
+  }
+}

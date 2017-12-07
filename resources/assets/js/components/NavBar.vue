@@ -1,29 +1,28 @@
 <template>
-    <div class="nav-bar" v-bind:class="{ active: isActive}" v-on:mouseenter="showMenu()" v-on:mouseleave="hideMenu()" v-on:click="Menu()">
-        <div class="menu-btn">
-            <svg xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink"
-                    width="27px" height="25px"  v-show="!isActive" class="nav-icon">
-                <path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
-                      d="M-0.000,9.152 L26.357,9.152 L26.357,12.949 L-0.000,12.949 L-0.000,9.152 ZM-0.000,0.291 L26.357,0.291 L26.357,4.088 L-0.000,4.088 L-0.000,0.291 ZM16.071,21.810 L-0.000,21.810 L-0.000,18.013 L16.071,18.013 L16.071,21.810 ZM20.086,24.334 L19.925,15.477 L26.359,19.720 L20.086,24.334 Z"/>
-            </svg>
-            <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink"
-                    width="27px" height="25px" v-show="isActive" class="nav-icon">
-                <path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
-                      d="M-0.000,9.152 L26.357,9.152 L26.357,12.949 L-0.000,12.949 L-0.000,9.152 ZM-0.000,0.291 L26.357,0.291 L26.357,4.088 L-0.000,4.088 L-0.000,0.291 ZM16.071,21.810 L-0.000,21.810 L-0.000,18.013 L16.071,18.013 L16.071,21.810 ZM22.689,23.014 L18.010,17.139 L26.992,16.989 L22.689,23.014 Z"/>
-            </svg>
+    <div id="nav-bar" class="nav-bar"
+         v-bind:class="{ active: isActive,'transparent':isTransparent}"
+         v-on:click="Menu()"
+         :style="style">
+        <div class="menu-btn" >
+            <img src="/images/multiverse.png" alt="MULTIVERSE" style="width: 100%">
+            <img src="/images/seekingdawn_logo_white.png" alt="Seeking Dawn VR" style="width: 100%;margin-top: 25px;">
         </div>
         <div class="nav-link">
+            <a href="/posts/" class="" v-if="$t('nav.isShow')=='true'">DevBlog</a>
             <a href="http://user.multiverseinc.com/ambassador" class="" v-if="$t('nav.isShow')=='true'">Ambassador</a>
-            <a href="//seekingdawnvr.com/posts/" class="" v-if="$t('nav.isShow')=='true'">DevBlog</a>
-            <a href="//seekingdawnvr.com/presskit" class="" v-if="$t('nav.isShow')=='true'">Presskit Download</a>
-            <a href="//seekingdawnvr.com/presskit?lang=zh_CN" class="" v-if="$t('nav.isShow')=='false'">Presskit Download</a>
+            <a href="/presskit" class="" v-if="$t('nav.isShow')=='true'">Presskit</a>
+            <a href="/presskit?lang=zh_CN" class="" v-if="$t('nav.isShow')=='false'">Presskit</a>
             <a href="https://www.multiverseinc.com" class="">Multiverse</a>
-            <a v-on:click="switchLang('en-US')" class="" v-if="lang==='zh-CN'">EN</a>
-            <a v-on:click="switchLang('zh-CN')" class="" v-if="lang==='en-US'">中文</a>
+            <div  v-on:mouseenter="showLang()" style="position: fixed;bottom: 100px;width: 136px"  v-on:mouseleave="hideLang()">
+                LANGUAGE <span class="triangle"></span>
+                <div class="languageArea" v-show="isChangeLang" >
+                    <a v-on:click="switchLang('en-US')" class="">EN</a>
+                    <a v-on:click="switchLang('zh-CN')" class="">中文</a>
+                </div>
+            </div>
+
         </div>
+
     </div>
 </template>
 
@@ -32,22 +31,42 @@
         mounted() {
             console.log('NavBar Component mounted.')
             console.log(this.$i18n.locale)
+            let height = screen.availHeight
+            this.height = height
+            this.style = 'height: '+this.height+'px;'
+            window.addEventListener('scroll', this.handleScroll);
         },
         data() {
             return {
-                isActive: false,
-                lang: 'en-US'
+                isActive: true,
+                height:'135',
+                lang: 'en-US',
+                isChangeLang: false,
+                isTransparent:false,
+                style:''
             }
+        },
+        computed:{
+
         },
         methods:{
             showMenu(){
                 this.isActive = true;
+                this.style = 'height: '+this.height+'px;'
             },
             hideMenu(){
                 this.isActive = false;
+                this.style = ''
             },
             Menu(){
-                this.isActive ? this.isActive = false : this.isActive=true;
+                if(this.isActive){
+                    this.style = 'height: 0px;'
+                    this.isActive = false
+                } else{
+                    this.style = 'height: '+this.height+'px;'
+                    this.isActive = true;
+
+                }
             },
             switchLang(e){
                 let lang = this.$parent.locale
@@ -61,7 +80,32 @@
                     localStorage.setItem('language', 'zh-CN')
                     this.lang = 'zh-CN'
                 }
+            },
+            showLang(){
+                 console.log(this.isChangeLang )
+                this.isChangeLang = true
+            },
+            hideLang(){
+                this.isChangeLang = false
+            },
+            handleScroll(){
+                if(this.isScrollTop()===true){
+                    this.isTransparent = false
+                }else {
+                    this.isTransparent = true
+                }
+            },
+            isScrollTop(){
+                let a = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+                let b = document.documentElement.scrollTop==0? document.body.scrollTop : document.documentElement.scrollTop;
+                let c = document.documentElement.scrollTop==0? document.body.scrollHeight : document.documentElement.scrollHeight;
+                if(document.body.scrollTop==0&&document.documentElement.scrollTop==0){
+                    return true
+                }else {
+                    return false
+                }
             }
         }
     }
+
 </script>

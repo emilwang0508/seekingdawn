@@ -1,20 +1,20 @@
 <template>
     <div class="banner container-fluid"  v-lazy:background-image="bannerBg">
-        <img v-lazy="monsterSrc" alt="monster" class="monster">
+        <!--<img v-lazy="monsterSrc" alt="monster" class="monster">
 
 
-            <img v-lazy="logoSrc" alt="seeking dawn" class="banner_logo">
-
+          -->
+        <img v-lazy="logoSrc" alt="seeking dawn" class="banner_logo">
+        <div class="seekingdawn_des">
+            Seeking Dawn is a large scale survival-exploration FPS/RPG VR game from Multiverse.
+            It puts the player into an immersive alien "death world" full of interesting creatures,
+            unknown dangers and wonderful delights, complete with an epic story and characters with vivid personality.
+            The game will feature more than 10 hours of content for the average player on the first play-through. Harder challenges and
+            the lure of better loot ensure subsequent play-throughs remain fun and attractive.
+        </div>
         <div class="btn_group">
             <div style="float: left;font-size: 33px"><i class="play_btn" v-on:click="playVideo()"></i>
             <span style="padding-left: 70px;">{{ $t("banner.playName") }}</span></div>
-            <a href="http://user.multiverseinc.com/ambassador" v-if='$t("banner.isShow")=="true"'>
-                <img v-lazy="socialSrc" alt="" class="social">
-                <span>Ambassador</span>
-            </a>
-            <a :href="$t('banner.presslink')" target="_blank">
-                <img v-lazy="downloadSrc" alt="" class="social"><span>{{ $t("banner.pressName") }}</span>
-            </a>
         </div>
         <div class="mask" style="opacity: 0.2;"></div>
     </div>
@@ -33,8 +33,8 @@
         },
         data() {
             return {
-                bannerBg: '/images/desert.png',
-                logoSrc: '/images/seekingdawn_banner_logo.png',
+                bannerBg: '/images/banner_bg.jpg',
+                logoSrc: '/images/banner_logo.png',
                 monsterSrc: '/images/monster.png',
                 socialSrc: '/images/social_icon.png',
                 downloadSrc: '/images/download_icon.png',
