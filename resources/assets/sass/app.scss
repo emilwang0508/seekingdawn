@@ -143,15 +143,6 @@ body{
       padding-left: 70px;
       position: relative;
     }
-    .btn_content:after{
-      content: '';
-      position: absolute;
-      right: -80px;
-      height: 1px;
-      width: 60px;
-      top: 25px;
-      background-color: red;
-    }
     a{
       line-height: 55px;
       display: table;
