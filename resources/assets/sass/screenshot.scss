@@ -34,8 +34,11 @@
   height: 100%;
   background: rgba(0,0,0,0.5);
 }
-.screenshot-list>li:nth-of-type(5),.screenshot-list>li:nth-of-type(9){
-  width: 12.25%;
+.screenshot-list>li:nth-of-type(5){
+  width: 13%;
+}
+.screenshot-list>li:nth-of-type(9){
+  width: 12%;
 }
 .screenshot-list>li:hover {
   transform: scale(1.4);

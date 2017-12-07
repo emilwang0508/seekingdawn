@@ -10,7 +10,7 @@
             <img src="/images/seekingdawn_logo_white.png" alt="Seeking Dawn VR" style="width: 100%;margin-top: 25px;">
         </div>
         <div class="nav-link">
-            <a href="/posts/" class="" v-if="$t('nav.isShow')=='true'">DevBlog</a>
+            <a href="/posts/" class="" v-if="$t('nav.isShow')=='true'">Dev Blog</a>
             <a href="http://user.multiverseinc.com/ambassador" class="" v-if="$t('nav.isShow')=='true'">Ambassador</a>
             <a href="/presskit" class="" v-if="$t('nav.isShow')=='true'">Presskit</a>
             <a href="/presskit?lang=zh_CN" class="" v-if="$t('nav.isShow')=='false'">Presskit</a>

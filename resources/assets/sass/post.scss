@@ -114,14 +114,17 @@ nav ul.media-link>li{
   text-align: center;
 }
 .post-area {
-  padding: 80px 50px;
+  padding: 10px 50px;
   font-size: 0.14rem;
   .title {
     padding: 0 5%;
     font-size: 50px;
+    margin: 0.3em 0!important;
   }
   .create_at{
     font-size: 18px;
+    text-align: right;
+    padding: 0 90px;
   }
   .cover-area {
     text-align: center;
@@ -139,9 +142,7 @@ nav ul.media-link>li{
     }
   }
   .details{
-    //background: #000000;
-    //color: #ffffff;
-    padding: 50px;
+    padding: 0px 50px;
   }
   .fb-page{
     text-align: center;
@@ -151,8 +152,7 @@ nav ul.media-link>li{
 }
 .blog-banner{
   text-align: center;
-  padding: 100px 0 50px;
-  //margin-top: 170px;
+  padding: 50px 0 50px;
   .title {
     font-size: 50px;
   }
@@ -187,9 +187,11 @@ nav ul.media-link>li{
       color: #ffffff;
       margin-top: -50px;
       overflow: hidden;
+      font-weight: bold;
       p{
         display: table-cell;
         vertical-align: middle;
+
       }
     }
     .create_at{
@@ -219,6 +221,7 @@ nav ul.media-link>li{
       p{
         display: table-cell;
         vertical-align: middle;
+        text-align: left;
       }
     }
     .link-href{
@@ -230,5 +233,22 @@ nav ul.media-link>li{
       color: #ffffff;
       text-align: center;
     }
+  }
+}
+.crumbs{
+  padding-left: 70px!important;
+  padding-top: 50px;
+  >*{
+    float: left;
+  }
+  a{
+    color:#000000;
+  }
+  a:hover{
+    color: red;
+    text-decoration: none;
+  }
+  .active{
+    color: red;
   }
 }

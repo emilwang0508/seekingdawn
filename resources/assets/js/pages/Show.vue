@@ -3,16 +3,13 @@
         <div class="post-header">
             <a href="/" class="logo"><img src="/images/header_logo.png" alt="SeekingDawn Logo"></a>
         </div>
+        <div class="container crumbs">
+            <span><a href="/">Index</a></span><span>  &gt;  </span><span><a href="/posts/">Dev blog</a>  &gt;  </span><span class="active">details</span>
+        </div>
         <div class="container-full content">
             <div class="container post-area">
-                <h1 class="title text-center ">{{ item.title }}</h1>
-                <p class="create_at text-center container">{{ item.enDate }}</p>
-              <!--  <div class="cover-area" v-if="item.thumb == null || item.thumb == ''">
-                    <div class="cover"><img src="//cdn.multiverseinc.com/images/detail_cover.jpg" alt="cover"></div>
-                </div>
-                <div class="cover-area" v-else>
-                    <div class="cover"><img :src="item.thumb" alt="cover"></div>
-                </div>-->
+                <h1 class="title  ">{{ item.title }}</h1>
+                <p class="create_at  container">{{ item.enDate }}</p>
                 <div class="details" v-html="item.content">
 
                 </div>

@@ -14,7 +14,7 @@
         </div>
         <div class="btn_group">
             <div style="float: left;font-size: 33px"><i class="play_btn" v-on:click="playVideo()"></i>
-            <span style="padding-left: 70px;">{{ $t("banner.playName") }}</span></div>
+            <span class="btn_content">{{ $t("banner.playName") }}</span></div>
         </div>
         <div class="mask" style="opacity: 0.2;"></div>
     </div>

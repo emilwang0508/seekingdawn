@@ -16,14 +16,23 @@ class PostController extends Controller
         if($request->isMethod('post')){
             if ($request->from=='index'){
                 $posts = Post::where('status',1)->where('system_cate_id',2)->orderBy('created_at', 'desc')->take(3)->get();
+                foreach ($posts as $post){
+                    $post->enDate = date('d\t\h M Y',strtotime($post->created_at));
+                }
             }else{
                 $posts = Post::where('status',1)->where('system_cate_id',2)->get();
+                foreach ($posts as $post){
+                    $post->enDate = date('d\t\h M Y',strtotime($post->created_at));
+                }
             }
 
             return $posts;
         }
         if($request->isMethod('get')){
             $posts = Post::where('status',1)->where('system_cate_id',2)->orderBy('created_at', 'desc')->get();
+            foreach ($posts as $post){
+                $post->enDate = date('d\t\h M Y',strtotime($post->created_at));
+            }
             return view('posts',compact('posts'));
         }
 

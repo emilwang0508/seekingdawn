@@ -139,6 +139,19 @@ body{
     color: #fff;
     font-size: 20px;
     z-index: 9;
+    .btn_content{
+      padding-left: 70px;
+      position: relative;
+    }
+    .btn_content:after{
+      content: '';
+      position: absolute;
+      right: -80px;
+      height: 1px;
+      width: 60px;
+      top: 25px;
+      background-color: red;
+    }
     a{
       line-height: 55px;
       display: table;
@@ -173,6 +186,7 @@ body{
   transition: all 1s;
   z-index: 9;
   margin-right: 80px;
+
 }
 
 .play_btn:hover{
