@@ -5,7 +5,7 @@
         </div>
         <div class="blog-banner">
             <div class="container">
-                <title-bar msg='THE DEVELOPERS BLOG' came='default'></title-bar>
+                <p class="title">THE DEVELOPERS BLOG</p>
                 <P class="des">We will continue to update the blog, welcome enthusiasts and we interact</P>
             </div>
         </div>
@@ -19,7 +19,7 @@
                     </div>
                     <div class="schema">
                         <div class="des"><p>{{ post.description }}</p></div>
-                        <a :href="'/posts/' + post.id" class="link-href">Read More</a>
+                        <a :href="'/posts/' + post.id" class="link-href">More</a>
                     </div>
                 </div>
             </div>
